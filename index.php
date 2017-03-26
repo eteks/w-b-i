@@ -1,3 +1,6 @@
+<?php
+   include('session.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,22 +37,22 @@
                 <div class="navbar-header">
                     <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="navbar_custom">
                         <span class="sr-only">Toggle navigation</span>
-                        <a class="navbar_custom"><img src="images/User.svg" alt="ezi" /></a>
+                        <a class="navbar_custom"><img src="images/user.svg" alt="ezi" /></a>
                     </button>
                     <a href="index.html"><img class="header_logo" src="images/ezi_logo.png" alt="ezi" /></a>
                 </div>
                 <div class="navbar-collapse collapse navbar_custom">
                     <!-- <ul class="nav navbar-nav navbar-right">
-                    <img src="images/User.svg" alt="ezi" />
+                    <img src="images/user.svg" alt="ezi" />
                         <a href="" class="navbar_custom">Username<span class="caret"></span></a>
                     </ul> -->
                     <ul>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle navbar_custom" data-toggle="dropdown"><img src="images/User.svg" alt="ezi" />Username<span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle navbar_custom" data-toggle="dropdown"><img src="images/user.svg" alt="ezi" />Welcome <?php if(isset($login_username)) echo $login_username; ?><span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#"> Profile</a></li>
-                                <li><a href="#"> Settings</a></li>
-                                <li><a href="#"> Logout</a></li>
+                               <!--  <li><a href="#"> Profile</a></li>
+                                <li><a href="#"> Settings</a></li> -->
+                                <li><a href="logout.php"> Logout</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -65,7 +68,7 @@
                 <div class="col-md-6">
                     <div class="row sub-log-title">
                         <div class="ezi_tool col-md-12 col-sm-4 col-xs-4">
-                            <a href="#"><img src="images/Tools.svg" alt="ezi" /></a>
+                            <a href="#"><img src="images/tools.svg" alt="ezi" /></a>
                         </div>
                         <div class="col-md-12 col-sm-8 col-xs-8">
                             <h1><a href="#">EziKey Tools and Drivers</a></h1>
@@ -199,15 +202,15 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216229"><img alt="ezi" src="images/Select.svg"> Ezikey_Empty_Admin_1.1.2.0 </a>
+                                            <a href="https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216229"><img alt="ezi" src="images/select.svg"> Ezikey_Empty_Admin_1.1.2.0 </a>
                                         </li>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_0(For Windows 7 Professional SP1 32 bit)/Sql/Task15.sql"><img alt="ezi" src="images/Select.svg"> Task15.sql</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_0(For Windows 7 Professional SP1 32 bit)/Sql/Task15.sql"><img alt="ezi" src="images/select.svg"> Task15.sql</a>
                                         </li>
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_0(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.0.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_0(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.0.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_0(For Windows 7 Professional SP1 32 bit)/UserMannual/Ezikey Touch Application 1.2.3.0.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -229,7 +232,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_1(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.1.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_1(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.1.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_1(For Windows 7 Professional SP1 32 bit)/UserMannual/Ezikey Touch Application 1.2.3.1.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -248,15 +251,15 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_10(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle -20150921.zip"><img alt="ezi" src="images/Select.svg"> Loan Vehicle -20150921.zip </a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_10(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle -20150921.zip"><img alt="ezi" src="images/select.svg"> Loan Vehicle -20150921.zip </a>
                                         </li>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_10(For Windows 7 Professional SP1 32 bit)/Sql/Test Drive - 20150921.zip"><img alt="ezi" src="images/Select.svg"> Test Drive - 20150921.zip</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_10(For Windows 7 Professional SP1 32 bit)/Sql/Test Drive - 20150921.zip"><img alt="ezi" src="images/select.svg"> Test Drive - 20150921.zip</a>
                                         </li>
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_10(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Screen 1.2.3.10.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_10(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Screen 1.2.3.10.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_10(For Windows 7 Professional SP1 32 bit)/UserMannual/Ezikey Touch Application 1.2.3.10.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -279,7 +282,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_2(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.2.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_2(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.2.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_2(For Windows 7 Professional SP1 32 bit)/UserMannual/Ezikey Touch Application 1.2.3.2.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -302,7 +305,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_3(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.3.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_3(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.3.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_3(For Windows 7 Professional SP1 32 bit)/UserMannual/Ezikey Touch Application 1.2.3.3.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -321,15 +324,15 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_4(For Windows 7 Professional SP1 32 bit)/Sql/18_ezikey admin tool Release SQL.sql"><img alt="ezi" src="images/Select.svg"> 18_ezikey admin tool Release SQL.sql</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_4(For Windows 7 Professional SP1 32 bit)/Sql/18_ezikey admin tool Release SQL.sql"><img alt="ezi" src="images/select.svg"> 18_ezikey admin tool Release SQL.sql</a>
                                         </li>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_4(For Windows 7 Professional SP1 32 bit)/Sql/18_ezikey admin tool Release SQL.sql"><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty no 578 1.1.2.4</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_4(For Windows 7 Professional SP1 32 bit)/Sql/18_ezikey admin tool Release SQL.sql"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.4</a>
                                         </li>
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_4(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.4.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_4(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.4.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_4(For Windows 7 Professional SP1 32 bit)/UserMannual/Ezikey Touch Application 1.2.3.4.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -352,7 +355,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_5(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.5.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_5(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.5.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_5(For Windows 7 Professional SP1 32 bit)/UserMannual/Ezikey Touch Application 1.2.3.5.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -372,12 +375,12 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219429"><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty no 578 1.1.2.4 </a>
+                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219429"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.4 </a>
                                         </li>
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_6(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.6.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_6(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.6.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_6(For Windows 7 Professional SP1 32 bit)/UserMannual/Ezikey Touch Application 1.2.3.6.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -397,12 +400,12 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219429"><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty no 578 1.1.2.4 </a>
+                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219429"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.4 </a>
                                         </li>
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_7(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.7.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_7(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.7.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_7(For Windows 7 Professional SP1 32 bit)/UserMannual/Ezikey Touch Application 1.2.3.7.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -421,15 +424,15 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110730"><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty no 578 1.1.2.6</a>
+                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110730"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.6</a>
                                         </li>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_8(For Windows 7 Professional SP1 32 bit)/Sql/ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql"><img alt="ezi" src="images/Select.svg"> ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_8(For Windows 7 Professional SP1 32 bit)/Sql/ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql"><img alt="ezi" src="images/select.svg"> ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql</a>
                                         </li>
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_8(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.8.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_8(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.8.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_8(For Windows 7 Professional SP1 32 bit)/UserMannual/Ezikey Touch Application 1.2.3.8.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -449,15 +452,15 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110848"><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty no 578 1.1.2.7</a>
+                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110848"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.7</a>
                                         </li>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_9(For Windows 7 Professional SP1 32 bit)/Sql/task 75.sql"><img alt="ezi" src="images/Select.svg"> task 75.sql</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_9(For Windows 7 Professional SP1 32 bit)/Sql/task 75.sql"><img alt="ezi" src="images/select.svg"> task 75.sql</a>
                                         </li>
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_9(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.9.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_9(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.9.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_9(For Windows 7 Professional SP1 32 bit)/UserMannual/Ezikey Touch Application 1.2.3.9.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -477,21 +480,21 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216230"><img alt="ezi" src="images/Select.svg"> Ezikey_Empty_Admin_has578_1.2.1.0</a>
+                                            <a href="https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216230"><img alt="ezi" src="images/select.svg"> Ezikey_Empty_Admin_has578_1.2.1.0</a>
                                         </li>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_0(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle.zip"><img alt="ezi" src="images/Select.svg"> Loan Vehicle.zip</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_0(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle.zip"><img alt="ezi" src="images/select.svg"> Loan Vehicle.zip</a>
                                         </li>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_0(For Windows 7 Professional SP1 32 bit)/Sql/Task15.sql"><img alt="ezi" src="images/Select.svg"> Task15.sql</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_0(For Windows 7 Professional SP1 32 bit)/Sql/Task15.sql"><img alt="ezi" src="images/select.svg"> Task15.sql</a>
                                         </li>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_0(For Windows 7 Professional SP1 32 bit)/Sql/Test Drive.zip"><img alt="ezi" src="images/Select.svg"> Test Drive.zip</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_0(For Windows 7 Professional SP1 32 bit)/Sql/Test Drive.zip"><img alt="ezi" src="images/select.svg"> Test Drive.zip</a>
                                         </li>
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_0(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.0.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_0(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.0.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_0(For Windows 7 Professional SP1 32 bit)/UserMannual/Ezikey Touch Application 1.3.1.0.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -514,7 +517,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_1(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.1.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_1(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.1.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_1(For Windows 7 Professional SP1 32 bit)/UserMannual/Ezikey Touch Application 1.3.1.1.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -534,15 +537,15 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_10(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle.zip"><img alt="ezi" src="images/Select.svg"> Loan Vehicle.zip</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_10(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle.zip"><img alt="ezi" src="images/select.svg"> Loan Vehicle.zip</a>
                                         </li>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_10(For Windows 7 Professional SP1 32 bit)/Sql/Test Drive.zip"><img alt="ezi" src="images/Select.svg"> Test Drive.zip</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_10(For Windows 7 Professional SP1 32 bit)/Sql/Test Drive.zip"><img alt="ezi" src="images/select.svg"> Test Drive.zip</a>
                                         </li>
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_10(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Screen 1.3.1.10.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_10(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Screen 1.3.1.10.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_10(For Windows 7 Professional SP1 32 bit)/UserMannual/Ezikey Touch Application 1.3.1.10.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -565,7 +568,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_2(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.2.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_2(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.2.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_2(For Windows 7 Professional SP1 32 bit)/UserMannual/Ezikey Touch Application 1.3.1.2.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -588,7 +591,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_3(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.3.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_3(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.3.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_3(For Windows 7 Professional SP1 32 bit)/UserMannual/Ezikey Touch Application 1.3.1.3.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -608,21 +611,21 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_4(For Windows 7 Professional SP1 32 bit)/Sql/18_ezikey admin tool Release SQL.sql"><img alt="ezi" src="images/Select.svg"> 18_ezikey admin tool Release SQL.sql</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_4(For Windows 7 Professional SP1 32 bit)/Sql/18_ezikey admin tool Release SQL.sql"><img alt="ezi" src="images/select.svg"> 18_ezikey admin tool Release SQL.sql</a>
                                         </li>
                                         <li>
-                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217998"><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty has 578 1.2.1.4</a>
+                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217998"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.4</a>
                                         </li>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_4(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle.zip"><img alt="ezi" src="images/Select.svg"> Loan Vehicle.zip</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_4(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle.zip"><img alt="ezi" src="images/select.svg"> Loan Vehicle.zip</a>
                                         </li>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_4(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle.zip"><img alt="ezi" src="images/Select.svg"> Test Drive.zip</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_4(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle.zip"><img alt="ezi" src="images/select.svg"> Test Drive.zip</a>
                                         </li>
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_4(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.4.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_4(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.4.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_4(For Windows 7 Professional SP1 32 bit)/UserMannual/Ezikey Touch Application 1.3.1.4.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -645,7 +648,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_5(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.5.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_5(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.5.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_5(For Windows 7 Professional SP1 32 bit)/UserMannual/Ezikey Touch Application 1.3.1.5.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -665,13 +668,13 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219431"><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty has 578 1.2.1.4</a>
+                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219431"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.4</a>
                                         </li>
 
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_6(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.6.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_6(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.6.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_6(For Windows 7 Professional SP1 32 bit)/UserMannual/Ezikey Touch Application 1.3.1.6.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -691,16 +694,16 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219431"><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty has 578 1.2.1.4</a>
+                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219431"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.4</a>
                                         </li>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_7(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle Agreement template April 2012_BMW V7.docx"><img alt="ezi" src="images/Select.svg"> Loan Vehicle Agreement template April 2012_BMW V7.docx</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_7(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle Agreement template April 2012_BMW V7.docx"><img alt="ezi" src="images/select.svg"> Loan Vehicle Agreement template April 2012_BMW V7.docx</a>
                                         </li>
 
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_7(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.7.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_7(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.7.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_7(For Windows 7 Professional SP1 32 bit)/UserMannual/Ezikey Touch Application 1.3.1.7.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -720,21 +723,21 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110728"><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty has 578 1.2.1.6</a>
+                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110728"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.6</a>
                                         </li>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_8(For Windows 7 Professional SP1 32 bit)/Sql/ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql"><img alt="ezi" src="images/Select.svg"> ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_8(For Windows 7 Professional SP1 32 bit)/Sql/ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql"><img alt="ezi" src="images/select.svg"> ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql</a>
                                         </li>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_8(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle.zip"><img alt="ezi" src="images/Select.svg"> Loan Vehicle.zip</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_8(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle.zip"><img alt="ezi" src="images/select.svg"> Loan Vehicle.zip</a>
                                         </li>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_8(For Windows 7 Professional SP1 32 bit)/Sql/Test Drive.zip"><img alt="ezi" src="images/Select.svg"> Test Drive.zip</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_8(For Windows 7 Professional SP1 32 bit)/Sql/Test Drive.zip"><img alt="ezi" src="images/select.svg"> Test Drive.zip</a>
                                         </li>
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_8(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.8.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_8(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.8.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_8(For Windows 7 Professional SP1 32 bit)/UserMannual/Ezikey Touch Application 1.3.1.8.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -754,21 +757,21 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110849"><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty has 578 1.2.1.7</a>
+                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110849"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.7</a>
                                         </li>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_9(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle.zip"><img alt="ezi" src="images/Select.svg"> Loan Vehicle.zip</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_9(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle.zip"><img alt="ezi" src="images/select.svg"> Loan Vehicle.zip</a>
                                         </li>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_9(For Windows 7 Professional SP1 32 bit)/Sql/task 75.sql"><img alt="ezi" src="images/Select.svg"> task 75.sql</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_9(For Windows 7 Professional SP1 32 bit)/Sql/task 75.sql"><img alt="ezi" src="images/select.svg"> task 75.sql</a>
                                         </li>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_9(For Windows 7 Professional SP1 32 bit)/Sql/Test Drive.zip"><img alt="ezi" src="images/Select.svg"> Test Drive.zip</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_9(For Windows 7 Professional SP1 32 bit)/Sql/Test Drive.zip"><img alt="ezi" src="images/select.svg"> Test Drive.zip</a>
                                         </li>
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_9(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.9.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_9(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.9.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_9(For Windows 7 Professional SP1 32 bit)/UserMannual/Ezikey Touch Application 1.3.1.9.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -795,14 +798,14 @@
                                 <tr>
                                     <td><a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_0(For Windows 7 Professional SP1 32 bit)/App/EziKeyTouchAplication_1.2.3.0.zip'>EziKey_Touch_Application_1_2_3_0(For Windows 7 Professional SP1 32 bit)</a></td>
                                     <td>
-                                        <img src="images/Select.svg" alt="ezi" />
+                                        <img src="images/select.svg" alt="ezi" />
                                         <a href='https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216229'>Ezikey_Empty_Admin_1.1.2.0</a>
                                         <br/>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_0(For Windows 7 Professional SP1 32 bit)/Sql/Task15.sql'><img src="images/Select.svg" alt="ezi" />Task15.sql</a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_0(For Windows 7 Professional SP1 32 bit)/Sql/Task15.sql'><img src="images/select.svg" alt="ezi" />Task15.sql</a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
-                                        <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_0(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.0.txt"><img src="images/Notes.svg" alt="ezi" /></a>
+                                        <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_0(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.0.txt"><img src="images/notes.svg" alt="ezi" /></a>
                                         </i>
                                     </td>
                                     <td class="text-center">
@@ -819,7 +822,7 @@
 
                                     </td>
                                     <td class="text-center">
-                                        <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_1(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.1.txt"><img src="images/Notes.svg" alt="ezi" /></a>
+                                        <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_1(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.1.txt"><img src="images/notes.svg" alt="ezi" /></a>
                                         </i>
                                     </td>
                                     <td class="text-center">
@@ -833,13 +836,13 @@
                                         <br/>
                                     </td>
                                     <td>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_10(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle -20150921.zip'><img src="images/Select.svg" alt="ezi" />Loan Vehicle -20150921.zip</a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_10(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle -20150921.zip'><img src="images/select.svg" alt="ezi" />Loan Vehicle -20150921.zip</a>
                                         <br/>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_10(For Windows 7 Professional SP1 32 bit)/Sql/Test Drive - 20150921.zip'><img src="images/Select.svg" alt="ezi" />Test Drive - 20150921.zip</a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_10(For Windows 7 Professional SP1 32 bit)/Sql/Test Drive - 20150921.zip'><img src="images/select.svg" alt="ezi" />Test Drive - 20150921.zip</a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
-                                        <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_10(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Screen 1.2.3.10.txt"><img src="images/Notes.svg" alt="ezi" /></a>
+                                        <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_10(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Screen 1.2.3.10.txt"><img src="images/notes.svg" alt="ezi" /></a>
                                         </i>
                                     </td>
                                     <td class="text-center">
@@ -854,7 +857,7 @@
                                     </td>
                                     <td></td>
                                     <td class="text-center">
-                                        <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_2(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.2.txt"><img src="images/Notes.svg" alt="ezi" /></a>
+                                        <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_2(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.2.txt"><img src="images/notes.svg" alt="ezi" /></a>
                                         </i>
                                     </td>
                                     <td class="text-center">
@@ -869,7 +872,7 @@
                                     <td>
                                     </td>
                                     <td class="text-center">
-                                        <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_3(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.3.txt"><img src="images/Notes.svg" alt="ezi" /></a>
+                                        <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_3(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.3.txt"><img src="images/notes.svg" alt="ezi" /></a>
                                     </td>
                                     <td class="text-center">
                                         <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_3(For Windows 7 Professional SP1 32 bit)/UserMannual/Ezikey Touch Application 1.2.3.3.pdf"><img src="images/pdf.svg" alt="ezi" /></a>
@@ -883,12 +886,12 @@
                                     </td>
 
                                     <td>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_4(For Windows 7 Professional SP1 32 bit)/Sql/18_ezikey admin tool Release SQL.sql'><img alt="ezi" src="images/Select.svg"> 18_ezikey admin tool Release SQL.sql</a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_4(For Windows 7 Professional SP1 32 bit)/Sql/18_ezikey admin tool Release SQL.sql'><img alt="ezi" src="images/select.svg"> 18_ezikey admin tool Release SQL.sql</a>
                                         <br/>
-                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216229#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997'><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty no 578 1.1.2.4</a>
+                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216229#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.4</a>
                                         <br/>
                                     </td>
-                                    <td class="text-center"><a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_4(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.4.txt' <img src="images/Notes.svg" alt="ezi" /></a>
+                                    <td class="text-center"><a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_4(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.4.txt' <img src="images/notes.svg" alt="ezi" /></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -905,7 +908,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_5(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.5.txt'><img src="images/Notes.svg" alt="ezi" /></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_5(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.5.txt'><img src="images/notes.svg" alt="ezi" /></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -920,11 +923,11 @@
                                     </td>
 
                                     <td>
-                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219429'><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty no 578 1.1.2.4</a>
+                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219429'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.4</a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_6(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.6.txt'><img src="images/Notes.svg" alt="ezi" /></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_6(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.6.txt'><img src="images/notes.svg" alt="ezi" /></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -939,11 +942,11 @@
                                     </td>
 
                                     <td>
-                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219429'><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty no 578 1.1.2.4</a>
+                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219429'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.4</a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_7(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.7.txt'><img src="images/Notes.svg" alt="ezi" /></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_7(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.7.txt'><img src="images/notes.svg" alt="ezi" /></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -958,13 +961,13 @@
                                     </td>
 
                                     <td>
-                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110730'><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty no 578 1.1.2.6</a>
+                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110730'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.6</a>
                                         <br/>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_8(For Windows 7 Professional SP1 32 bit)/Sql/ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql'><img alt="ezi" src="images/Select.svg"> ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql</a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_8(For Windows 7 Professional SP1 32 bit)/Sql/ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql'><img alt="ezi" src="images/select.svg"> ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql</a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_8(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.8.txt'><img src="images/Notes.svg" alt="ezi" /></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_8(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.8.txt'><img src="images/notes.svg" alt="ezi" /></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -979,13 +982,13 @@
                                     </td>
 
                                     <td>
-                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110848'><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty no 578 1.1.2.7</a>
+                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110848'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.7</a>
                                         <br/>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_9(For Windows 7 Professional SP1 32 bit)/Sql/task 75.sql'><img alt="ezi" src="images/Select.svg"> task 75.sql</a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_9(For Windows 7 Professional SP1 32 bit)/Sql/task 75.sql'><img alt="ezi" src="images/select.svg"> task 75.sql</a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_9(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.9.txt'><img src="images/Notes.svg" alt="ezi" /></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_9(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.9.txt'><img src="images/notes.svg" alt="ezi" /></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -1000,17 +1003,17 @@
                                     </td>
 
                                     <td>
-                                        <a href='https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216230'><img alt="ezi" src="images/Select.svg"> Ezikey_Empty_Admin_has578_1.2.1.0</a>
+                                        <a href='https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216230'><img alt="ezi" src="images/select.svg"> Ezikey_Empty_Admin_has578_1.2.1.0</a>
                                         <br/>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_0(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle.zip'><img alt="ezi" src="images/Select.svg"> Loan Vehicle.zip</a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_0(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle.zip'><img alt="ezi" src="images/select.svg"> Loan Vehicle.zip</a>
                                         <br/>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_0(For Windows 7 Professional SP1 32 bit)/Sql/Task15.sql'><img alt="ezi" src="images/Select.svg"> Task15.sql</a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_0(For Windows 7 Professional SP1 32 bit)/Sql/Task15.sql'><img alt="ezi" src="images/select.svg"> Task15.sql</a>
                                         <br/>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_0(For Windows 7 Professional SP1 32 bit)/Sql/Test Drive.zip'><img alt="ezi" src="images/Select.svg"> Test Drive.zip</a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_0(For Windows 7 Professional SP1 32 bit)/Sql/Test Drive.zip'><img alt="ezi" src="images/select.svg"> Test Drive.zip</a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_0(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.0.txt'><img src="images/Notes.svg" alt="ezi" /></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_0(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.0.txt'><img src="images/notes.svg" alt="ezi" /></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -1026,7 +1029,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_1(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.1.txt'><img src="images/Notes.svg" alt="ezi" /></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_1(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.1.txt'><img src="images/notes.svg" alt="ezi" /></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -1041,13 +1044,13 @@
                                     </td>
 
                                     <td>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_10(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle.zip'><img alt="ezi" src="images/Select.svg"> Loan Vehicle.zip</a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_10(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle.zip'><img alt="ezi" src="images/select.svg"> Loan Vehicle.zip</a>
                                         <br/>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_10(For Windows 7 Professional SP1 32 bit)/Sql/Test Drive.zip'><img alt="ezi" src="images/Select.svg"> Test Drive.zip</a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_10(For Windows 7 Professional SP1 32 bit)/Sql/Test Drive.zip'><img alt="ezi" src="images/select.svg"> Test Drive.zip</a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_10(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Screen 1.3.1.10.txt'><img src="images/Notes.svg" alt="ezi" /></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_10(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Screen 1.3.1.10.txt'><img src="images/notes.svg" alt="ezi" /></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -1063,7 +1066,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_2(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.2.txt'><img src="images/Notes.svg" alt="ezi" /></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_2(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.2.txt'><img src="images/notes.svg" alt="ezi" /></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -1079,7 +1082,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_3(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.3.txt'><img src="images/Notes.svg" alt="ezi" /></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_3(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.3.txt'><img src="images/notes.svg" alt="ezi" /></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -1094,17 +1097,17 @@
                                     </td>
 
                                     <td>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_4(For Windows 7 Professional SP1 32 bit)/Sql/18_ezikey admin tool Release SQL.sql'><img alt="ezi" src="images/Select.svg"> 18_ezikey admin tool Release SQL.sql</a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_4(For Windows 7 Professional SP1 32 bit)/Sql/18_ezikey admin tool Release SQL.sql'><img alt="ezi" src="images/select.svg"> 18_ezikey admin tool Release SQL.sql</a>
                                         <br/>
-                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217998'><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty has 578 1.2.1.4</a>
+                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217998'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.4</a>
                                         <br/>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_4(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle.zip'><img alt="ezi" src="images/Select.svg"> Loan Vehicle.zip</a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_4(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle.zip'><img alt="ezi" src="images/select.svg"> Loan Vehicle.zip</a>
                                         <br/>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_4(For Windows 7 Professional SP1 32 bit)/Sql/Test Drive.zip'><img alt="ezi" src="images/Select.svg"> Test Drive.zip</a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_4(For Windows 7 Professional SP1 32 bit)/Sql/Test Drive.zip'><img alt="ezi" src="images/select.svg"> Test Drive.zip</a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_4(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.4.txt'><img src="images/Notes.svg" alt="ezi" /></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_4(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.4.txt'><img src="images/notes.svg" alt="ezi" /></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -1120,7 +1123,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_5(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.5.txt'><img src="images/Notes.svg" alt="ezi" /></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_5(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.5.txt'><img src="images/notes.svg" alt="ezi" /></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -1135,11 +1138,11 @@
                                     </td>
 
                                     <td>
-                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219431'><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty has 578 1.2.1.4</a>
+                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219431'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.4</a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_6(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.6.txt'><img src="images/Notes.svg" alt="ezi" /></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_6(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.6.txt'><img src="images/notes.svg" alt="ezi" /></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -1154,13 +1157,13 @@
                                     </td>
 
                                     <td>
-                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219431'><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty has 578 1.2.1.4</a>
+                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219431'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.4</a>
                                         <br/>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_7(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle Agreement template April 2012_BMW V7.docx'><img alt="ezi" src="images/Select.svg"> Loan Vehicle Agreement template April 2012_BMW V7.docx</a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_7(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle Agreement template April 2012_BMW V7.docx'><img alt="ezi" src="images/select.svg"> Loan Vehicle Agreement template April 2012_BMW V7.docx</a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_7(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.7.txt'><img src="images/Notes.svg" alt="ezi" /></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_7(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.7.txt'><img src="images/notes.svg" alt="ezi" /></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -1175,17 +1178,17 @@
                                     </td>
 
                                     <td>
-                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110728'><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty has 578 1.2.1.6</a>
+                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110728'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.6</a>
                                         <br/>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_8(For Windows 7 Professional SP1 32 bit)/Sql/ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql'><img alt="ezi" src="images/Select.svg"> ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql</a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_8(For Windows 7 Professional SP1 32 bit)/Sql/ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql'><img alt="ezi" src="images/select.svg"> ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql</a>
                                         <br/>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_8(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle.zip'><img alt="ezi" src="images/Select.svg"> Loan Vehicle.zip</a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_8(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle.zip'><img alt="ezi" src="images/select.svg"> Loan Vehicle.zip</a>
                                         <br/>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_8(For Windows 7 Professional SP1 32 bit)/Sql/Test Drive.zip'><img alt="ezi" src="images/Select.svg"> Test Drive.zip</a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_8(For Windows 7 Professional SP1 32 bit)/Sql/Test Drive.zip'><img alt="ezi" src="images/select.svg"> Test Drive.zip</a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_8(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.8.txt'><img src="images/Notes.svg" alt="ezi" /></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_8(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.8.txt'><img src="images/notes.svg" alt="ezi" /></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -1199,15 +1202,15 @@
                                         <br/>
                                     </td>
 
-                                    <td><a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110849'><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty has 578 1.s2.1.7</a>
-                                        <br/><a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_9(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle.zip'><img alt="ezi" src="images/Select.svg"> Loan Vehicle.zip</a>
+                                    <td><a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110849'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.s2.1.7</a>
+                                        <br/><a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_9(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle.zip'><img alt="ezi" src="images/select.svg"> Loan Vehicle.zip</a>
                                         <br/>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_9(For Windows 7 Professional SP1 32 bit)/Sql/task 75.sql'><img alt="ezi" src="images/Select.svg"> task 75.sql</a>
-                                        <br/><a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_9(For Windows 7 Professional SP1 32 bit)/Sql/Test Drive.zip'><img alt="ezi" src="images/Select.svg"> Test Drive.zip</a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_9(For Windows 7 Professional SP1 32 bit)/Sql/task 75.sql'><img alt="ezi" src="images/select.svg"> task 75.sql</a>
+                                        <br/><a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_9(For Windows 7 Professional SP1 32 bit)/Sql/Test Drive.zip'><img alt="ezi" src="images/select.svg"> Test Drive.zip</a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_9(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.9.txt'><img src="images/Notes.svg" alt="ezi" /></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_9(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.9.txt'><img src="images/notes.svg" alt="ezi" /></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -1261,15 +1264,15 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216224"><img alt="ezi" src="images/Select.svg"> Ezikey_Empty_Admin_1.1.2.0</a>
+                                            <a href="https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216224"><img alt="ezi" src="images/select.svg"> Ezikey_Empty_Admin_1.1.2.0</a>
                                         </li>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_0/Sql/Task15.sql"><img alt="ezi" src="images/Select.svg"> Task15.sql</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_0/Sql/Task15.sql"><img alt="ezi" src="images/select.svg"> Task15.sql</a>
                                         </li>
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_0/Release Notes/Ezikey Admin Tool 1.1.2.0.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_0/Release Notes/Ezikey Admin Tool 1.1.2.0.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_0/UserMannual/EziKey Admin Tool 1.1.2.0.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1291,7 +1294,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_1/Release Notes/Ezikey Admin Tool 1.1.2.1.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_1/Release Notes/Ezikey Admin Tool 1.1.2.1.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_1/UserMannual/EziKey Admin Tool 1.1.2.1.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1313,7 +1316,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_2/Release Notes/Ezikey Admin Tool 1.1.2.2.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_2/Release Notes/Ezikey Admin Tool 1.1.2.2.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_2/UserMannual/EziKey Admin Tool 1.1.2.2.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1335,7 +1338,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_3/Release Notes/Ezikey Admin Tool 1.1.2.3.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_3/Release Notes/Ezikey Admin Tool 1.1.2.3.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_3/UserMannual/EziKey Admin Tool 1.1.2.3.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1355,15 +1358,15 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_4/Sql/18_ezikey admin tool Release SQL.sql"><img alt="ezi" src="images/Select.svg"> 18_ezikey admin tool Release SQL.sql</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_4/Sql/18_ezikey admin tool Release SQL.sql"><img alt="ezi" src="images/select.svg"> 18_ezikey admin tool Release SQL.sql</a>
                                         </li>
                                         <li>
-                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216229#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997"><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty no 578 1.1.2.4</a>
+                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216229#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.4</a>
                                         </li>
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_4/Release Notes/Ezikey Admin Tool 1.1.2.4.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_4/Release Notes/Ezikey Admin Tool 1.1.2.4.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_4/UserMannual/EziKey Admin Tool 1.1.2.4.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1383,12 +1386,12 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219429"><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty no 578 1.1.2.5</a>
+                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219429"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.5</a>
                                         </li>
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_5/Release Notes/Ezikey Admin Tool 1.1.2.5.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_5/Release Notes/Ezikey Admin Tool 1.1.2.5.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_5/UserMannual/EziKey Admin Tool 1.1.2.5.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1407,15 +1410,15 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110730"><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty no 578 1.1.2.6</a>
+                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110730"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.6</a>
                                         </li>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_6/Sql/ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql"><img alt="ezi" src="images/Select.svg"> ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql</a>
+                                        <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_6/Sql/ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql"><img alt="ezi" src="images/select.svg"> ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql</a>
                                         </li>
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="Ezikey Admin Tool 1.1.2.6.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="Ezikey Admin Tool 1.1.2.6.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_6/UserMannual/EziKey Admin Tool 1.1.2.6.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1434,15 +1437,15 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110848"><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty no 578 1.1.2.7 </a>
+                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110848"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.7 </a>
                                         </li>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_7/Sql/task 75.sql"><img alt="ezi" src="images/Select.svg"> task 75.sql</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_7/Sql/task 75.sql"><img alt="ezi" src="images/select.svg"> task 75.sql</a>
                                         </li>
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_7/Release Notes/Ezikey Admin Tool 1.1.2.7.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_7/Release Notes/Ezikey Admin Tool 1.1.2.7.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_7/UserMannual/EziKey Admin Tool 1.1.2.7.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1461,15 +1464,15 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216225"><img alt="ezi" src="images/Select.svg"> Ezikey_Empty_Admin_has578_1.2.1.0</a>
+                                            <a href="https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216225"><img alt="ezi" src="images/select.svg"> Ezikey_Empty_Admin_has578_1.2.1.0</a>
                                         </li>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_0/Sql/Task15.sql"><img alt="ezi" src="images/Select.svg"> Task15.sql</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_0/Sql/Task15.sql"><img alt="ezi" src="images/select.svg"> Task15.sql</a>
                                         </li>
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_0/Release Notes/Ezikey Admin Tool 1.2.1.0.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_0/Release Notes/Ezikey Admin Tool 1.2.1.0.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_0/UserMannual/EziKey Admin Tool 1.2.1.0.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1491,7 +1494,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_1/Release Notes/Ezikey Admin Tool 1.2.1.1.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_1/Release Notes/Ezikey Admin Tool 1.2.1.1.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_1/UserMannual/EziKey Admin Tool 1.2.1.1.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1513,7 +1516,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_2/Release Notes/Ezikey Admin Tool 1.2.1.2.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_2/Release Notes/Ezikey Admin Tool 1.2.1.2.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_2/UserMannual/EziKey Admin Tool 1.2.1.2.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1535,7 +1538,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_3/Release Notes/Ezikey Admin Tool 1.2.1.3.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_3/Release Notes/Ezikey Admin Tool 1.2.1.3.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_3/UserMannual/EziKey Admin Tool 1.2.1.3.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1554,15 +1557,15 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_4/Sql/18_ezikey admin tool Release SQL.sql"><img alt="ezi" src="images/Select.svg"> 18_ezikey admin tool Release SQL.sql</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_4/Sql/18_ezikey admin tool Release SQL.sql"><img alt="ezi" src="images/select.svg"> 18_ezikey admin tool Release SQL.sql</a>
                                         </li>
                                         <li>
-                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217998"><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty has 578 1.2.1.4</a>
+                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217998"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.4</a>
                                         </li>
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_4/Release Notes/Ezikey Admin Tool 1.2.1.4.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_4/Release Notes/Ezikey Admin Tool 1.2.1.4.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_4/UserMannual/EziKey Admin Tool 1.2.1.4.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1582,15 +1585,15 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219431"><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty has 578 1.2.1.5</a>
+                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219431"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.5</a>
                                         </li>
                                         <li>
-                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110728"><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty has 578 1.2.1.6</a>
+                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110728"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.6</a>
                                         </li>
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_5/Release Notes/Ezikey Admin Tool 1.2.1.5.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_5/Release Notes/Ezikey Admin Tool 1.2.1.5.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_5/UserMannual/EziKey Admin Tool 1.2.1.5.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1609,15 +1612,15 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110728"><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty has 578 1.2.1.6</a>
+                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110728"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.6</a>
                                         </li>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_6/Sql/ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql"><img alt="ezi" src="images/Select.svg"> ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_6/Sql/ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql"><img alt="ezi" src="images/select.svg"> ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql</a>
                                         </li>
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_6/Release Notes/Ezikey Admin Tool 1.2.1.6.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_6/Release Notes/Ezikey Admin Tool 1.2.1.6.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_6/UserMannual/EziKey Admin Tool 1.2.1.6.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1636,15 +1639,15 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110849"><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty has 578 1.2.1.7</a>
+                                            <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110849"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.7</a>
                                         </li>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_7/Sql/task 75.sql"><img alt="ezi" src="images/Select.svg"> task 75.sql</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_7/Sql/task 75.sql"><img alt="ezi" src="images/select.svg"> task 75.sql</a>
                                         </li>
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_7/Release Notes/Ezikey Admin Tool 1.2.1.7.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_7/Release Notes/Ezikey Admin Tool 1.2.1.7.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_7/UserMannual/EziKey Admin Tool 1.2.1.7.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1673,15 +1676,15 @@
                                     </td>
 
                                     <td>
-                                        <a href='https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216224'><img alt="ezi" src="images/Select.svg"> Ezikey_Empty_Admin_1.1.2.0
+                                        <a href='https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216224'><img alt="ezi" src="images/select.svg"> Ezikey_Empty_Admin_1.1.2.0
                                         </a>
                                         <br/>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_0/Sql/Task15.sql'><img alt="ezi" src="images/Select.svg"> Task15.sql
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_0/Sql/Task15.sql'><img alt="ezi" src="images/select.svg"> Task15.sql
                                         </a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_0/Release Notes/Ezikey Admin Tool 1.1.2.0.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_0/Release Notes/Ezikey Admin Tool 1.1.2.0.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -1697,7 +1700,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_1/Release Notes/Ezikey Admin Tool 1.1.2.1.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_1/Release Notes/Ezikey Admin Tool 1.1.2.1.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -1713,7 +1716,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_2/Release Notes/Ezikey Admin Tool 1.1.2.2.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_2/Release Notes/Ezikey Admin Tool 1.1.2.2.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -1729,7 +1732,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_3/Release Notes/Ezikey Admin Tool 1.1.2.3.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_3/Release Notes/Ezikey Admin Tool 1.1.2.3.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -1744,13 +1747,13 @@
                                     </td>
 
                                     <td>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_4/Sql/18_ezikey admin tool Release SQL.sql'><img alt="ezi" src="images/Select.svg"> 18_ezikey admin tool Release SQL.sql</a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_4/Sql/18_ezikey admin tool Release SQL.sql'><img alt="ezi" src="images/select.svg"> 18_ezikey admin tool Release SQL.sql</a>
                                         <br/>
-                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216229#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997'><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty no 578 1.1.2.4</a>
+                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216229#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.4</a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_4/Release Notes/Ezikey Admin Tool 1.1.2.4.txt' <img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_4/Release Notes/Ezikey Admin Tool 1.1.2.4.txt' <img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -1765,11 +1768,11 @@
                                     </td>
 
                                     <td>
-                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219429'><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty no 578 1.1.2.5</a>
+                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219429'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.5</a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_5/Release Notes/Ezikey Admin Tool 1.1.2.5.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_5/Release Notes/Ezikey Admin Tool 1.1.2.5.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -1784,13 +1787,13 @@
                                     </td>
 
                                     <td>
-                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110730'><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty no 578 1.1.2.6</a>
+                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110730'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.6</a>
                                         <br/>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_6/Sql/ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql'><img alt="ezi" src="images/Select.svg"> ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql</a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_6/Sql/ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql'><img alt="ezi" src="images/select.svg"> ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql</a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_6/Release Notes/Ezikey Admin Tool 1.1.2.6.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_6/Release Notes/Ezikey Admin Tool 1.1.2.6.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -1805,13 +1808,13 @@
                                     </td>
 
                                     <td>
-                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110848'><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty no 578 1.1.2.7</a>
+                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110848'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.7</a>
                                         <br/>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_7/Sql/task 75.sql'><img alt="ezi" src="images/Select.svg"> task 75.sql</a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_7/Sql/task 75.sql'><img alt="ezi" src="images/select.svg"> task 75.sql</a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_7/Release Notes/Ezikey Admin Tool 1.1.2.7.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_7/Release Notes/Ezikey Admin Tool 1.1.2.7.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -1826,13 +1829,13 @@
                                     </td>
 
                                     <td>
-                                        <a href='https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216225'><img alt="ezi" src="images/Select.svg"> Ezikey_Empty_Admin_has578_1.2.1.0</a>
+                                        <a href='https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216225'><img alt="ezi" src="images/select.svg"> Ezikey_Empty_Admin_has578_1.2.1.0</a>
                                         <br/>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_0/Sql/Task15.sql'><img alt="ezi" src="images/Select.svg"> Task15.sql</a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_0/Sql/Task15.sql'><img alt="ezi" src="images/select.svg"> Task15.sql</a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_0/Release Notes/Ezikey Admin Tool 1.2.1.0.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_0/Release Notes/Ezikey Admin Tool 1.2.1.0.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -1848,7 +1851,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_1/Release Notes/Ezikey Admin Tool 1.2.1.1.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_1/Release Notes/Ezikey Admin Tool 1.2.1.1.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -1864,7 +1867,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_2/Release Notes/Ezikey Admin Tool 1.2.1.2.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_2/Release Notes/Ezikey Admin Tool 1.2.1.2.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -1880,7 +1883,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_3/Release Notes/Ezikey Admin Tool 1.2.1.3.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_3/Release Notes/Ezikey Admin Tool 1.2.1.3.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -1894,14 +1897,14 @@
                                         <br/>
 
                                         <td>
-                                            <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_4/Sql/18_ezikey admin tool Release SQL.sql'><img alt="ezi" src="images/Select.svg"> 18_ezikey admin tool Release SQL.sql</a>
+                                            <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_4/Sql/18_ezikey admin tool Release SQL.sql'><img alt="ezi" src="images/select.svg"> 18_ezikey admin tool Release SQL.sql</a>
                                             <br/>
-                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217998'><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty has 578 1.2.1.4</a>
+                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217998'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.4</a>
                                             <br/>
                                         </td>
                                     </td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_4/Release Notes/Ezikey Admin Tool 1.2.1.4.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_4/Release Notes/Ezikey Admin Tool 1.2.1.4.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -1916,11 +1919,11 @@
                                     </td>
 
                                     <td>
-                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219431'><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty has 578 1.2.1.5</a>
+                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219431'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.5</a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_5/Release Notes/Ezikey Admin Tool 1.2.1.5.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_5/Release Notes/Ezikey Admin Tool 1.2.1.5.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -1935,13 +1938,13 @@
                                     </td>
 
                                     <td>
-                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110728'><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty has 578 1.2.1.6</a>
+                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110728'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.6</a>
                                         <br/>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_6/Sql/ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql'><img alt="ezi" src="images/Select.svg"> ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql</a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_6/Sql/ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql'><img alt="ezi" src="images/select.svg"> ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql</a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_6/Release Notes/Ezikey Admin Tool 1.2.1.6.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_6/Release Notes/Ezikey Admin Tool 1.2.1.6.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -1956,13 +1959,13 @@
                                     </td>
 
                                     <td>
-                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110849'><img alt="ezi" src="images/Select.svg"> Ezikey Admin Empty has 578 1.2.1.7</a>
+                                        <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110849'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.7</a>
                                         <br/>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_7/Sql/task 75.sql'><img alt="ezi" src="images/Select.svg"> task 75.sql</a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_7/Sql/task 75.sql'><img alt="ezi" src="images/select.svg"> task 75.sql</a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_7/Release Notes/Ezikey Admin Tool 1.2.1.7.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_7/Release Notes/Ezikey Admin Tool 1.2.1.7.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -2006,12 +2009,12 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Report_Service/EziKey Report Service_1_0_4_0/Sql/Task15.sql"><img alt="ezi" src="images/Select.svg"> Task15.sql</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Report_Service/EziKey Report Service_1_0_4_0/Sql/Task15.sql"><img alt="ezi" src="images/select.svg"> Task15.sql</a>
                                         </li>
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Report_Service/EziKey Report Service_1_0_4_0/Release Notes/Ezikey Report Service 1.0.4.0.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Report_Service/EziKey Report Service_1_0_4_0/Release Notes/Ezikey Report Service 1.0.4.0.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Report_Service/EziKey Report Service_1_0_4_0/UserMannual/Report Service.docx"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2033,7 +2036,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Report_Service/EziKey Report Service_1_0_5_0/Release Notes/Ezikey Report Service 1.0.5.0.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Report_Service/EziKey Report Service_1_0_5_0/Release Notes/Ezikey Report Service 1.0.5.0.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Report_Service/EziKey Report Service_1_0_5_0/UserMannual/Report Service.docx"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2063,11 +2066,11 @@
                                     </td>
 
                                     <td>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Report_Service/EziKey Report Service_1_0_4_0/Sql/Task15.sql'><img alt="ezi" src="images/Select.svg"> Task15.sql
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Report_Service/EziKey Report Service_1_0_4_0/Sql/Task15.sql'><img alt="ezi" src="images/select.svg"> Task15.sql
                                         </a>
                                     </td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Report_Service/EziKey Report Service_1_0_4_0/Release Notes/Ezikey Report Service 1.0.4.0.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Report_Service/EziKey Report Service_1_0_4_0/Release Notes/Ezikey Report Service 1.0.4.0.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -2083,7 +2086,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Report_Service/EziKey Report Service_1_0_5_0/Release Notes/Ezikey Report Service 1.0.5.0.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Report_Service/EziKey Report Service_1_0_5_0/Release Notes/Ezikey Report Service 1.0.5.0.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -2130,7 +2133,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_4/Release Notes/Ezikey Schedule Service 1.0.1.4.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_4/Release Notes/Ezikey Schedule Service 1.0.1.4.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2152,7 +2155,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_5/Release Notes/Ezikey Schedul Service 1.0.1.5.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_5/Release Notes/Ezikey Schedul Service 1.0.1.5.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2174,7 +2177,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_6/Release Notes/Ezikey Schedul Service 1.0.1.6.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_6/Release Notes/Ezikey Schedul Service 1.0.1.6.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2196,7 +2199,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_7/Release Notes/Ezikey Schedul Service 1.0.1.7.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_7/Release Notes/Ezikey Schedul Service 1.0.1.7.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2218,7 +2221,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_8/Release Notes/Ezikey Schedul Service 1.0.1.8.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_8/Release Notes/Ezikey Schedul Service 1.0.1.8.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2240,7 +2243,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_9/Release Notes/Ezikey Schedul Service 1.0.1.9.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_9/Release Notes/Ezikey Schedul Service 1.0.1.9.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href=""><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2271,7 +2274,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_4/Release Notes/Ezikey Schedule Service 1.0.1.4.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_4/Release Notes/Ezikey Schedule Service 1.0.1.4.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -2284,7 +2287,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_5/Release Notes/Ezikey Schedul Service 1.0.1.5.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_5/Release Notes/Ezikey Schedul Service 1.0.1.5.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -2297,7 +2300,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_6/Release Notes/Ezikey Schedul Service 1.0.1.6.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_6/Release Notes/Ezikey Schedul Service 1.0.1.6.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -2310,7 +2313,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_7/Release Notes/Ezikey Schedul Service 1.0.1.7.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_7/Release Notes/Ezikey Schedul Service 1.0.1.7.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -2323,7 +2326,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_8/Release Notes/Ezikey Schedul Service 1.0.1.8.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_8/Release Notes/Ezikey Schedul Service 1.0.1.8.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -2336,7 +2339,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_9/Release Notes/Ezikey Schedul Service 1.0.1.9.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_9/Release Notes/Ezikey Schedul Service 1.0.1.9.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -2380,7 +2383,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_2_6_2/Release Notes/Release Note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_2_6_2/Release Notes/Release Note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href=""><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2402,7 +2405,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_2_7_0/Release Notes/Release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_2_7_0/Release Notes/Release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href=""><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2424,7 +2427,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_2_7_1/Release Notes/release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_2_7_1/Release Notes/release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href=""><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2446,7 +2449,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_3_0_0/Release Notes/release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_3_0_0/Release Notes/release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href=""><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2468,7 +2471,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_3_1_0/Release Notes/release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_3_1_0/Release Notes/release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_9/Release Notes/Ezikey Schedul Service 1.0.1.9.txt"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2490,7 +2493,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_4_0_1/Release Notes/release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_4_0_1/Release Notes/release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_9/Release Notes/Ezikey Schedul Service 1.0.1.9.txt"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2512,7 +2515,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_5_0_0/Release Notes/release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_5_0_0/Release Notes/release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_9/Release Notes/Ezikey Schedul Service 1.0.1.9.txt"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2534,7 +2537,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_6_0_0/Release Notes/release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_6_0_0/Release Notes/release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_9/Release Notes/Ezikey Schedul Service 1.0.1.9.txt"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2556,7 +2559,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_8_0_0/Release Notes/release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_8_0_0/Release Notes/release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_9/Release Notes/Ezikey Schedul Service 1.0.1.9.txt"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2578,7 +2581,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_8_0_1/Release Notes/release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_8_0_1/Release Notes/release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_9/Release Notes/Ezikey Schedul Service 1.0.1.9.txt"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2600,7 +2603,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_8_0_3/Release Notes/release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_8_0_3/Release Notes/release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_9/Release Notes/Ezikey Schedul Service 1.0.1.9.txt"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2622,7 +2625,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_8_0_4/Release Notes/release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_8_0_4/Release Notes/release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_9/Release Notes/Ezikey Schedul Service 1.0.1.9.txt"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2644,7 +2647,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_8_0_5/Release Notes/release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_8_0_5/Release Notes/release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_9/Release Notes/Ezikey Schedul Service 1.0.1.9.txt"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2676,7 +2679,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_2_6_2/Release Notes/Release Note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_2_6_2/Release Notes/Release Note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -2689,7 +2692,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_2_7_0/Release Notes/Release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_2_7_0/Release Notes/Release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -2702,7 +2705,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_2_7_1/Release Notes/release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_2_7_1/Release Notes/release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -2715,7 +2718,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_3_0_0/Release Notes/release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_3_0_0/Release Notes/release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -2728,7 +2731,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_3_1_0/Release Notes/release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_3_1_0/Release Notes/release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -2741,7 +2744,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_4_0_1/Release Notes/release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_4_0_1/Release Notes/release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -2754,7 +2757,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_5_0_0/Release Notes/release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_5_0_0/Release Notes/release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -2767,7 +2770,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_6_0_0/Release Notes/release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_6_0_0/Release Notes/release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -2780,7 +2783,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_8_0_0/Release Notes/release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_8_0_0/Release Notes/release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -2793,7 +2796,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_8_0_1/Release Notes/release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_8_0_1/Release Notes/release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -2806,7 +2809,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_8_0_3/Release Notes/release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_8_0_3/Release Notes/release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -2819,7 +2822,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_8_0_4/Release Notes/release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_8_0_4/Release Notes/release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -2832,7 +2835,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_8_0_5/Release Notes/release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_8_0_5/Release Notes/release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -2873,15 +2876,15 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <!--                                         <li>
-                                            <a href="#"><img alt="ezi" src="images/Select.svg"> Ezikey_Empty_Admin_1.1.2.0 </a>
+                                            <a href="#"><img alt="ezi" src="images/select.svg"> Ezikey_Empty_Admin_1.1.2.0 </a>
                                         </li>
                                         <li>
-                                            <a href="#"><img alt="ezi" src="images/Select.svg"> Task15.sql</a>
+                                            <a href="#"><img alt="ezi" src="images/select.svg"> Task15.sql</a>
                                         </li> -->
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/WebfleetKeyBox_1_2_6_1/Release Notes/Release Note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/WebfleetKeyBox_1_2_6_1/Release Notes/Release Note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href=""><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2903,7 +2906,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/WebfleetKeyBox_1_2_6_2 BETA/Release Notes/Release Note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/WebfleetKeyBox_1_2_6_2 BETA/Release Notes/Release Note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2925,7 +2928,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/WebfleetKeyBox_1_2_7_0/Release Notes/Release Note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/WebfleetKeyBox_1_2_7_0/Release Notes/Release Note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2947,7 +2950,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/WebfleetKeyBox_1_2_7_1/Release Notes/Release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/WebfleetKeyBox_1_2_7_1/Release Notes/Release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2969,7 +2972,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/WebfleetKeyBox_1_2_7_3/Release Notes/Release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/WebfleetKeyBox_1_2_7_3/Release Notes/Release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2991,7 +2994,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/WebfleetKeyBox_1_2_7_4/Release Notes/release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/WebfleetKeyBox_1_2_7_4/Release Notes/release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3013,7 +3016,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_2_8_0/Release Notes/Release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_2_8_0/Release Notes/Release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3035,7 +3038,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_3_0_0/Release Notes/Release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_3_0_0/Release Notes/Release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3057,7 +3060,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_3_0_1/Release Notes/Release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_3_0_1/Release Notes/Release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3079,7 +3082,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_3_0_2/Release Notes/Release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_3_0_2/Release Notes/Release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3101,7 +3104,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_3_0_3/Release Notes/Release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_3_0_3/Release Notes/Release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3123,7 +3126,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_3_1_0/Release Notes/Release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_3_1_0/Release Notes/Release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3145,7 +3148,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_4_0_1/Release Notes/Release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_4_0_1/Release Notes/Release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3167,7 +3170,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_5_0_0/Release Notes/Release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_5_0_0/Release Notes/Release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3189,7 +3192,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_6_0_0/Release Notes/Release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_6_0_0/Release Notes/Release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3211,7 +3214,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_6_0_1/Release Notes/Release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_6_0_1/Release Notes/Release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3233,7 +3236,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_7_0_0/Release Notes/Release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_7_0_0/Release Notes/Release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3255,7 +3258,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_8_0_0/Release Notes/Release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_8_0_0/Release Notes/Release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3277,7 +3280,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_8_0_1/Release Notes/Release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_8_0_1/Release Notes/Release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3299,7 +3302,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_8_0_2/Release Notes/Release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_8_0_2/Release Notes/Release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3321,7 +3324,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_8_0_3/Release Notes/Release note.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_8_0_3/Release Notes/Release note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3351,7 +3354,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/WebfleetKeyBox_1_2_6_1/Release Notes/Release Note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/WebfleetKeyBox_1_2_6_1/Release Notes/Release Note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -3364,7 +3367,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/WebfleetKeyBox_1_2_6_2 BETA/Release Notes/Release Note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/WebfleetKeyBox_1_2_6_2 BETA/Release Notes/Release Note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -3377,7 +3380,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/WebfleetKeyBox_1_2_7_0/Release Notes/Release Note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/WebfleetKeyBox_1_2_7_0/Release Notes/Release Note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -3392,7 +3395,7 @@
                                     </td>
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/WebfleetKeyBox_1_2_7_1/Release Notes/Release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/WebfleetKeyBox_1_2_7_1/Release Notes/Release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <td>&nbsp;</td>
                                         <td>10/08/2012</td>
                                 </tr>
@@ -3403,7 +3406,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/WebfleetKeyBox_1_2_7_3/Release Notes/Release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/WebfleetKeyBox_1_2_7_3/Release Notes/Release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -3416,7 +3419,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/WebfleetKeyBox_1_2_7_4/Release Notes/release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/WebfleetKeyBox_1_2_7_4/Release Notes/release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -3429,7 +3432,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_2_8_0/Release Notes/Release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_2_8_0/Release Notes/Release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -3442,7 +3445,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_3_0_0/Release Notes/Release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_3_0_0/Release Notes/Release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -3455,7 +3458,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_3_0_1/Release Notes/Release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_3_0_1/Release Notes/Release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -3468,7 +3471,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_3_0_2/Release Notes/Release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_3_0_2/Release Notes/Release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -3481,7 +3484,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_3_0_3/Release Notes/Release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_3_0_3/Release Notes/Release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -3494,7 +3497,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_3_1_0/Release Notes/Release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_3_1_0/Release Notes/Release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -3507,7 +3510,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_4_0_1/Release Notes/Release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_4_0_1/Release Notes/Release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -3520,7 +3523,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_5_0_0/Release Notes/Release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_5_0_0/Release Notes/Release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -3533,7 +3536,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_6_0_0/Release Notes/Release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_6_0_0/Release Notes/Release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -3546,7 +3549,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_6_0_1/Release Notes/Release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_6_0_1/Release Notes/Release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -3559,7 +3562,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_7_0_0/Release Notes/Release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_7_0_0/Release Notes/Release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -3572,7 +3575,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_8_0_0/Release Notes/Release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_8_0_0/Release Notes/Release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -3585,7 +3588,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_8_0_1/Release Notes/Release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_8_0_1/Release Notes/Release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -3598,7 +3601,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_8_0_2/Release Notes/Release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_8_0_2/Release Notes/Release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -3611,7 +3614,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_8_0_3/Release Notes/Release note.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/Webfleetkeybox_1_8_0_3/Release Notes/Release note.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -3655,7 +3658,7 @@
                                     </ul>
                                     <!-- <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="#"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="#"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3674,12 +3677,12 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="/WebEzi Tools/Property Key/Property Key Admin Tool/Property Key Admin Tool 1.0.1.0/Sql/552.sql"><img alt="ezi" src="images/Select.svg"> 552.sql</a>
+                                            <a href="/WebEzi Tools/Property Key/Property Key Admin Tool/Property Key Admin Tool 1.0.1.0/Sql/552.sql"><img alt="ezi" src="images/select.svg"> 552.sql</a>
                                         </li>
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Property Key/Property Key Admin Tool/Property Key Admin Tool 1.0.1.0/Release Notes/Property Key Admin Tool1.0.1.0-note.xlsx"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Property Key/Property Key Admin Tool/Property Key Admin Tool 1.0.1.0/Release Notes/Property Key Admin Tool1.0.1.0-note.xlsx"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/Property Key/Property Key Admin Tool/Property Key Admin Tool 1.0.1.0/UserMannual/Property Key Admin Tool 1.0.1.0.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3705,11 +3708,11 @@
                                 <tr>
                                     <td><a href="/WebEzi Tools/Property Key/Property Key Admin Tool/Property Key Admin Tool 1.0.0.0/App/Property Key Admin Tool 1.0.0.0.zip">Property Key Admin Tool 1.0.0.0</a></td>
                                     <td>
-                                        <img src="images/Select.svg" alt="ezi" /><a href="/WebEzi Tools/Property Key/Property Key Admin Tool/Property Key Admin Tool 1.0.1.0/Sql/552.sql">552.sql</a>
+                                        <img src="images/select.svg" alt="ezi" /><a href="/WebEzi Tools/Property Key/Property Key Admin Tool/Property Key Admin Tool 1.0.1.0/Sql/552.sql">552.sql</a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
-                                        <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_0(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.0.txt"><img src="images/Notes.svg" alt="ezi" /></a>
+                                        <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_0(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.0.txt"><img src="images/notes.svg" alt="ezi" /></a>
                                         </i>
                                     </td>
                                     <td class="text-center">
@@ -3726,7 +3729,7 @@
 
                                     </td>
                                     <td class="text-center">
-                                        <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_1(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.1.txt"><img src="images/Notes.svg" alt="ezi" /></a>
+                                        <a href="/WebEzi Tools/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_1(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.2.3.1.txt"><img src="images/notes.svg" alt="ezi" /></a>
                                         </i>
                                     </td>
                                     <td class="text-center">
@@ -3771,7 +3774,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Property Key/Property Key Management/Property Key Management 1.0.0.0/Release Notes/Readme.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Property Key/Property Key Management/Property Key Management 1.0.0.0/Release Notes/Readme.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <!-- <li class="box" role="">
                                             <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3790,12 +3793,12 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="/WebEzi Tools/Property Key/Property Key Management/Property Key Management 1.0.1.0/Sql/552.sql"><img alt="ezi" src="images/Select.svg"> 552.sql</a>
+                                            <a href="/WebEzi Tools/Property Key/Property Key Management/Property Key Management 1.0.1.0/Sql/552.sql"><img alt="ezi" src="images/select.svg"> 552.sql</a>
                                         </li>
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Property Key/Property Key Management/Property Key Management 1.0.1.0/Release Notes/Property Key Management1.0.1.0-note.xlsx"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Property Key/Property Key Management/Property Key Management 1.0.1.0/Release Notes/Property Key Management1.0.1.0-note.xlsx"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/Property Key/Property Key Management/Property Key Management 1.0.1.0/UserMannual/Property Key Management 1.0.1.0.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3817,7 +3820,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/Property Key/Property Key Management/Property Key Management 1.1.0.0/Release Notes/Property Key Management 1.1.0.0.txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/Property Key/Property Key Management/Property Key Management 1.1.0.0/Release Notes/Property Key Management 1.1.0.0.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/Property Key/Property Key Management/Property Key Management 1.1.0.0/UserMannual/Property Key Management 1.1.0.0.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3847,7 +3850,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Property Key/Property Key Management/Property Key Management 1.0.0.0/Release Notes/Readme.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Property Key/Property Key Management/Property Key Management 1.0.0.0/Release Notes/Readme.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td>&nbsp;</td>
@@ -3859,11 +3862,11 @@
                                     </td>
 
                                     <td>
-                                        <a href='/WebEzi Tools/Property Key/Property Key Management/Property Key Management 1.0.1.0/Sql/552.sql'><img alt="ezi" src="images/Select.svg"> 552.sql</a>
+                                        <a href='/WebEzi Tools/Property Key/Property Key Management/Property Key Management 1.0.1.0/Sql/552.sql'><img alt="ezi" src="images/select.svg"> 552.sql</a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Property Key/Property Key Management/Property Key Management 1.0.1.0/Release Notes/Property Key Management1.0.1.0-note.xlsx'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Property Key/Property Key Management/Property Key Management 1.0.1.0/Release Notes/Property Key Management1.0.1.0-note.xlsx'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -3879,7 +3882,7 @@
 
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/Property Key/Property Key Management/Property Key Management 1.1.0.0/Release Notes/Property Key Management 1.1.0.0.txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/Property Key/Property Key Management/Property Key Management 1.1.0.0/Release Notes/Property Key Management 1.1.0.0.txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -3923,18 +3926,18 @@
                                     <h4>Sql</h4>
                                     <ul>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_0/Sql/607.sql"><img alt="ezi" src="images/Select.svg"> 607.sql</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_0/Sql/607.sql"><img alt="ezi" src="images/select.svg"> 607.sql</a>
                                         </li>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_0/Sql/Web-EzikeyEmpty_1.3.0.3.zip"><img alt="ezi" src="images/Select.svg"> Web-EzikeyEmpty_1.3.0.3.zip</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_0/Sql/Web-EzikeyEmpty_1.3.0.3.zip"><img alt="ezi" src="images/select.svg"> Web-EzikeyEmpty_1.3.0.3.zip</a>
                                         </li>
                                         <li>
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_0/Sql/Web-EzikeyEmpty_has578_1.3.0.3.zip"><img alt="ezi" src="images/Select.svg"> Web-EzikeyEmpty_has578_1.3.0.3.zip</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_0/Sql/Web-EzikeyEmpty_has578_1.3.0.3.zip"><img alt="ezi" src="images/select.svg"> Web-EzikeyEmpty_has578_1.3.0.3.zip</a>
                                         </li>
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_0/Release Notes/EziKey Admin Tool .txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_0/Release Notes/EziKey Admin Tool .txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_0/UserMannual/Ezikey-Web Admin Tool_1.0.0.0.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3956,7 +3959,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_1/Release Notes/EziKey Admin Tool_1.0.0.1 .txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_1/Release Notes/EziKey Admin Tool_1.0.0.1 .txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_1/UserMannual/Ezikey-Web Admin Tool_1.0.0.1.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3978,7 +3981,7 @@
                                     </ul>
                                     <ul role="tablist" class="nav nav-pills">
                                         <li class="box" role="">
-                                            <a href="/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_2/Release Notes/EziKey Admin Tool_1.0.0.2 .txt"><img alt="ezi" src="images/Notes.svg"> Release Notes</a>
+                                            <a href="/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_2/Release Notes/EziKey Admin Tool_1.0.0.2 .txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                         </li>
                                         <li class="box" role="">
                                             <a href="/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_2/UserMannual/Ezikey-Web Admin Tool_1.0.0.2.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -4006,17 +4009,17 @@
                                         <br/>
                                     </td>
                                     <td>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_0/Sql/607.sql'><img alt="ezi" src="images/Select.svg"> 607.sql
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_0/Sql/607.sql'><img alt="ezi" src="images/select.svg"> 607.sql
                                         </a>
                                         <br/>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_0/Sql/Web-EzikeyEmpty_1.3.0.3.zip'><img alt="ezi" src="images/Select.svg"> Web-EzikeyEmpty_1.3.0.3.zip
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_0/Sql/Web-EzikeyEmpty_1.3.0.3.zip'><img alt="ezi" src="images/select.svg"> Web-EzikeyEmpty_1.3.0.3.zip
                                         </a>
                                         <br/>
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_0/Sql/Web-EzikeyEmpty_has578_1.3.0.3.zip'><img alt="ezi" src="images/Select.svg"> Web-EzikeyEmpty_has578_1.3.0.3.zip</a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_0/Sql/Web-EzikeyEmpty_has578_1.3.0.3.zip'><img alt="ezi" src="images/select.svg"> Web-EzikeyEmpty_has578_1.3.0.3.zip</a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_0/Release Notes/EziKey Admin Tool .txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_0/Release Notes/EziKey Admin Tool .txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -4031,7 +4034,7 @@
                                     </td>
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_1/Release Notes/EziKey Admin Tool_1.0.0.1 .txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_1/Release Notes/EziKey Admin Tool_1.0.0.1 .txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -4046,7 +4049,7 @@
                                     </td>
                                     <td>&nbsp;</td>
                                     <td class="text-center">
-                                        <a href='/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_2/Release Notes/EziKey Admin Tool_1.0.0.2 .txt'><img alt="ezi" src="images/Notes.svg"></a>
+                                        <a href='/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_2/Release Notes/EziKey Admin Tool_1.0.0.2 .txt'><img alt="ezi" src="images/notes.svg"></a>
                                         <br/>
                                     </td>
                                     <td class="text-center">
@@ -4064,7 +4067,7 @@
         </div>
     </section>
 </body>
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
 
 </html>

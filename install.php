@@ -1,3 +1,6 @@
+<?php
+   include('session.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,18 +37,18 @@
                 <div class="navbar-header">
                     <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="navbar_custom">
                         <span class="sr-only">Toggle navigation</span>
-                        <a class="navbar_custom"><img src="images/User.svg" alt="ezi" /></a>
+                        <a class="navbar_custom"><img src="images/user.svg" alt="ezi" /></a>
                     </button>
                     <a href="index.html"><img class="header_logo" src="images/ezi_logo.png" alt="ezi" /></a>
                 </div>
                 <div class="navbar-collapse collapse navbar_custom">
                     <!-- <ul class="nav navbar-nav navbar-right">
-                    <img src="images/User.svg" alt="ezi" />
+                    <img src="images/user.svg" alt="ezi" />
                         <a href="" class="navbar_custom">Username<span class="caret"></span></a>
                     </ul> -->
                     <ul>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle navbar_custom" data-toggle="dropdown"><img src="images/User.svg" alt="ezi" />Username<span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle navbar_custom" data-toggle="dropdown"><img src="images/user.svg" alt="ezi" />Username<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#"> Profile</a></li>
                                 <li><a href="#"> Settings</a></li>
@@ -89,10 +92,10 @@
                         </p>
                         <ul>
                             <li>
-                                <img src="images/Select.svg" alt="ezi" /><span>Windows Installer 3.1</span>
+                                <img src="images/select.svg" alt="ezi" /><span>Windows Installer 3.1</span>
                             </li>
                             <li>
-                                <img src="images/Select.svg" alt="ezi" /><span>Microsoft .NET Framework 4 Client Profile(x86 and x64)</span>
+                                <img src="images/select.svg" alt="ezi" /><span>Microsoft .NET Framework 4 Client Profile(x86 and x64)</span>
                             </li>
                         </ul>
                         <p>

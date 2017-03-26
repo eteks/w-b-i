@@ -1,3 +1,62 @@
+<?php
+  include("config.php");
+  include("telstrasms.php");
+  session_start();
+  if(!empty($_SESSION['login_status']) && $_SESSION['login_status']==1) 
+    header("Location: welcome.php");
+  
+  if($_SERVER["REQUEST_METHOD"] == "POST") {
+    // username and password sent from form 
+    $myusername = $_POST['username'];
+    $password = $_POST['password'];
+    $mypassword = md5($_POST['password']);
+
+    // Check validation
+    if($myusername != '' && $password != '') {
+      $sql = mysql_query("SELECT * FROM ezikey_users WHERE user_name = '$myusername' and user_password = '$mypassword' and user_status=1");
+      $count = mysql_num_rows($sql);
+
+      if ($count == 1) {
+        $user_array = mysql_fetch_array($sql);
+        $_SESSION['user_id'] = $user_array['user_id'];
+        $_SESSION['user_name'] = $user_array['user_name'];
+        $_SESSION['login_status'] = 1;
+        $error = "success";
+        header("location: index.php");
+      }
+      else {
+        $already_query = mysql_query("SELECT * FROM ezikey_users WHERE user_name = '$myusername'");
+        $already_count = mysql_num_rows($already_query);
+        if ($already_count == 1) {
+          $error = "Already exists.";
+        }
+        else {
+          // 61418136693 - fake 
+          // 61404550076 - sathis
+          // $msg = "The+".$myusername."+is+registered+with+us.+Please+approve+the+user+very+soon.";
+          $msg = "Once you received the message. just reply ok for testing purpose.By Etekchnoservices";
+          $sms = new TelstraSMS(); // Construct new SMS object
+          $response = $sms->telstra_sms('61404550076',$msg);
+          if($response) {
+            $decode = json_decode($response,true);
+            $message_id = $decode['messageId'];
+            $token = $decode['token'];
+            $_SESSION['approval_status'] = 1;
+            $error = "Approval process";
+            mysql_query("INSERT INTO ezikey_users (user_name,user_password,message_id,user_token,user_status) VALUES ('$myusername','$mypassword','$message_id','$token',0)");
+            header("location: approval.php");   
+          }
+          else {
+            $error = "Login process failed";
+          } 
+        }
+      }
+    }
+    else {
+      $error = "Please enter correct details";
+    }  
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,7 +89,7 @@
                 <div class="navbar-header">
                     <!-- <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="navbar_custom">
                         <span class="sr-only">Toggle navigation</span>
-                        <a class="navbar_custom"><img src="images/User.svg" alt="ezi" /></a>
+                        <a class="navbar_custom"><img src="images/user.svg" alt="ezi" /></a>
                     </button> -->
                     <a href="#"><img class="header_logo" src="images/ezi_logo.png" alt="ezi" /></a>
                 </div>
@@ -47,15 +106,16 @@
             <div class="middle">
                 <h2 class="login_form">Login</h2>
                     <div class="col-lg-6 col-lg-offset-4">
-                            <form class="form-horizontal min">
+                              <div style="color: rgb(204, 0, 0); margin: 10px; font-size: 16px; text-align: center;"><?php if(isset($error)) echo $error; ?></div>
+                            <form class="form-horizontal min" action="#" method="post">
                                 <div class="form-group">
 
-                                    <input type="text" class="form-control login_field" placeholder="Username" required autofocus>
+                                    <input type="text" class="form-control login_field" name="username" placeholder="Username" required autofocus>
 
                                 </div>
                                 <div class="form-group">
 
-                                    <input type="password" class="form-control login_field" placeholder="Password" required autofocus>
+                                    <input type="password" class="form-control login_field" name="password" placeholder="Password" required autofocus>
 
                                 </div>
                                 <div class="form-group">
@@ -71,9 +131,9 @@
                                     <button type="submit" class="btn btn-default btn-block subbutton">LOG IN</button>
 
                                 </div>
-                                <a href="#" class="forgot-password">Forgot password?</a><br>
+                                <!-- <a href="#" class="forgot-password">Forgot password?</a><br> -->
                                 <div class="form-group">
-                                <a href="https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1#identifier" class="btn btn-block btn-social btn-google"><img src="images/gmail.svg" alt="ezi" />SIGN IN WITH GMAIL</a>
+                                <!-- <a href="https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1#identifier" class="btn btn-block btn-social btn-google"><img src="images/gmail.svg" alt="ezi" />SIGN IN WITH GMAIL</a> -->
                             </div>
                             </form>
                     </div>
