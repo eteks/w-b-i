@@ -12,7 +12,7 @@ if(!isset($_SESSION['approval_status']))
 		if($count == 1) {
 			$user_array = mysql_fetch_array($sql);
 			if($user_array['user_approval_status'] == 0) {
-				$message = "Waiting for approval. We will contact you very soon.";
+				$message = "Registration waiting for approval. We will contact you very soon.";
 			}
 			else if($user_array['user_approval_status'] == 1) {
 				$message = "Approved";
@@ -22,7 +22,7 @@ if(!isset($_SESSION['approval_status']))
 	            header("location: index.php");
 			}
 			else if($user_array['user_approval_status'] == 2) {
-				$message = "Your request was rejected by admin.";
+				$message = "Registration approval was denied.";
 			}
 		}
 		else {

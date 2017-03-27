@@ -34,30 +34,33 @@
                 header("location: approval.php");
             }
             else {
-              // 61418136693 - fake 
-              // 61404550076 - sathis
-              // $msg = "The+".$myusername."+is+registered+with+us.+Please+approve+the+user+very+soon.";
-              $msg = "Once you received the message. just reply ok for testing purpose.By Etekchnoservices";
-              $sms = new TelstraSMS(); // Construct new SMS object
-              $response = $sms->telstra_sms('61418136693',$msg);
-              if($response) {
-                $decode = json_decode($response,true);
-                $message_id = $decode['messageId'];
-                $token = $decode['token'];
-                $_SESSION['approval_status'] = 1;
-                 $_SESSION['user_name'] = $myusername;
-                $error = "Approval process";
-                mysql_query("INSERT INTO ezikey_users (user_name,user_password,message_id,user_token,user_status) VALUES ('$myusername','$mypassword','$message_id','$token',0)");
-                header("location: approval.php");   
-              }
-              else {
-                $error = "Login process failed";
-              } 
+                /*
+                    61418136693 - fake 
+                    61404550076 - sathis
+                    Ok - approved, otherwise not approved.
+                */
+                $msg = "Hello.+A+new+user+is+registered+with+us+by+".$myusername.".+Please+send+approval+status+to+the+user+very+soon.";
+                $msg = "Once you received the message. just reply ok for testing purpose.By Etekchnoservices";
+                $sms = new TelstraSMS(); // Construct new SMS object
+                $response = $sms->telstra_sms('61418136693',$msg);
+                if($response) {
+                    $decode = json_decode($response,true);
+                    $message_id = $decode['messageId'];
+                    $token = $decode['token'];
+                    $_SESSION['approval_status'] = 1;
+                    $_SESSION['user_name'] = $myusername;
+                    $error = "Approval process";
+                    mysql_query("INSERT INTO ezikey_users (user_name,user_password,message_id,user_token,user_status) VALUES ('$myusername','$mypassword','$message_id','$token',0)");
+                    header("location: approval.php");   
+                }
+                else {
+                    $error = "Login process failed";
+                } 
             }
         }
     }
     else {
-      $error = "Please enter correct details";
+        $error = "Please enter valid credentials.";
     }  
   }
 ?>
