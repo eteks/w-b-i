@@ -39,7 +39,7 @@
                         <span class="sr-only">Toggle navigation</span>
                         <a class="navbar_custom"><img src="images/user.svg" alt="ezi" /></a>
                     </button>
-                    <a href="index.html"><img class="header_logo" src="images/ezi_logo.png" alt="ezi" /></a>
+                    <a href="index.php"><img class="header_logo" src="images/ezi_logo.png" alt="ezi" /></a>
                 </div>
                 <div class="navbar-collapse collapse navbar_custom">
                     <!-- <ul class="nav navbar-nav navbar-right">
@@ -48,11 +48,11 @@
                     </ul> -->
                     <ul>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle navbar_custom" data-toggle="dropdown"><img src="images/user.svg" alt="ezi" />Username<span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle navbar_custom" data-toggle="dropdown"><img src="images/user.svg" alt="ezi" />Welcome <?php if(isset($login_username)) echo $login_username; ?><span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#"> Profile</a></li>
-                                <li><a href="#"> Settings</a></li>
-                                <li><a href="#"> Logout</a></li>
+                               <!--  <li><a href="#"> Profile</a></li>
+                                <li><a href="#"> Settings</a></li> -->
+                                <li><a href="logout.php"> Logout</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -116,6 +116,6 @@
         </div><!--container-->
     </section>
 </body>
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
 </html>

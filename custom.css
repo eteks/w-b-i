@@ -396,3 +396,22 @@ p {
 table a{
     color: #333333;
 }
+/* Added by siva */
+.mobile_country_section {
+    position: relative;
+}
+.mobile_number_p {
+    padding-left: 14%; 
+}
+.country_code {
+    background: #e8560d none repeat scroll 0 0;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    height: 100%;
+    padding: 2% 1%;
+    position: absolute;
+    top: 0;
+    width: 12%;
+}

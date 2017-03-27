@@ -104,49 +104,49 @@
                     <div class="panel panel-success">
                         <div class="panel-heading panel_custom_2">
                             <h3 class="panel-title">
-                    <a target="_blank" href="install.html">Webfleet.Sync.Test.Toolkit <img class="arrw_svg" src="images/arrow.svg" alt="ezi" /></a> 
+                    <a target="_blank" href="install.php">Webfleet.Sync.Test.Toolkit <img class="arrw_svg" src="images/arrow.svg" alt="ezi" /></a> 
                 </h3>
                         </div>
                     </div>
                     <div class="panel panel-success">
                         <div class="panel-heading panel_custom_2">
                             <h3 class="panel-title">
-                    <a target="_blank" href="install.html">EziKey Test Tools<img class="arrw_svg" src="images/arrow.svg" alt="ezi" /></a>
+                    <a target="_blank" href="install.php">EziKey Test Tools<img class="arrw_svg" src="images/arrow.svg" alt="ezi" /></a>
                 </h3>
                         </div>
                     </div>
                     <div class="panel panel-success">
                         <div class="panel-heading panel_custom_2">
                             <h3 class="panel-title">
-                    <a target="_blank" href="install.html">Sql Server Compact View<img class="arrw_svg" src="images/arrow.svg" alt="ezi" /></a> 
+                    <a target="_blank" href="install.php">Sql Server Compact View<img class="arrw_svg" src="images/arrow.svg" alt="ezi" /></a> 
                 </h3>
                         </div>
                     </div>
                     <div class="panel panel-success">
                         <div class="panel-heading panel_custom_2">
                             <h3 class="panel-title">
-                    <a target="_blank" href="install.html">Ezikey Virtual Key Box<img class="arrw_svg" src="images/arrow.svg" alt="ezi" /></a> 
+                    <a target="_blank" href="install.php">Ezikey Virtual Key Box<img class="arrw_svg" src="images/arrow.svg" alt="ezi" /></a> 
                 </h3>
                         </div>
                     </div>
                     <div class="panel panel-success">
                         <div class="panel-heading panel_custom_2">
                             <h3 class="panel-title">
-                    <a target="_blank" href="install.html">WebEzi Database Deploy Tools<img class="arrw_svg" src="images/arrow.svg" alt="ezi" /></a> 
+                    <a target="_blank" href="install.php">WebEzi Database Deploy Tools<img class="arrw_svg" src="images/arrow.svg" alt="ezi" /></a> 
                 </h3>
                         </div>
                     </div>
                     <div class="panel panel-success">
                         <div class="panel-heading panel_custom_2">
                             <h3 class="panel-title">
-                    <a target="_blank" href="install.html">WebEziScheduleWatchDog2.0<img class="arrw_svg" src="images/arrow.svg" alt="ezi" /></a> 
+                    <a target="_blank" href="install.php">WebEziScheduleWatchDog2.0<img class="arrw_svg" src="images/arrow.svg" alt="ezi" /></a> 
                 </h3>
                         </div>
                     </div>
                     <div class="panel panel-success">
                         <div class="panel-heading panel_custom_2">
                             <h3 class="panel-title">
-                    <a target="_blank" href="install.html">EziKey Upgrade Packing<img class="arrw_svg" src="images/arrow.svg" alt="ezi" /></a> 
+                    <a target="_blank" href="install.php">EziKey Upgrade Packing<img class="arrw_svg" src="images/arrow.svg" alt="ezi" /></a> 
                 </h3>
                         </div>
                     </div>

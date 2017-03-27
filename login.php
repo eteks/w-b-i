@@ -2,12 +2,13 @@
   include("config.php");
   include("telstrasms.php");
   session_start();
+  unset($_SESSION['approval_status']);
   if(!empty($_SESSION['login_status']) && $_SESSION['login_status']==1) 
-    header("Location: welcome.php");
+    header("location: index.php");
   
   if($_SERVER["REQUEST_METHOD"] == "POST") {
     // username and password sent from form 
-    $myusername = $_POST['username'];
+    $myusername = "61".$_POST['username'];
     $password = $_POST['password'];
     $mypassword = md5($_POST['password']);
 
@@ -16,41 +17,44 @@
       $sql = mysql_query("SELECT * FROM ezikey_users WHERE user_name = '$myusername' and user_password = '$mypassword' and user_status=1");
       $count = mysql_num_rows($sql);
 
-      if ($count == 1) {
-        $user_array = mysql_fetch_array($sql);
-        $_SESSION['user_id'] = $user_array['user_id'];
-        $_SESSION['user_name'] = $user_array['user_name'];
-        $_SESSION['login_status'] = 1;
-        $error = "success";
-        header("location: index.php");
-      }
-      else {
-        $already_query = mysql_query("SELECT * FROM ezikey_users WHERE user_name = '$myusername'");
-        $already_count = mysql_num_rows($already_query);
-        if ($already_count == 1) {
-          $error = "Already exists.";
+        if ($count == 1) {
+            $user_array = mysql_fetch_array($sql);
+            $_SESSION['user_id'] = $user_array['user_id'];
+            $_SESSION['user_name'] = $user_array['user_name'];
+            $_SESSION['login_status'] = 1;
+            $error = "success";
+            header("location: index.php");
         }
         else {
-          // 61418136693 - fake 
-          // 61404550076 - sathis
-          // $msg = "The+".$myusername."+is+registered+with+us.+Please+approve+the+user+very+soon.";
-          $msg = "Once you received the message. just reply ok for testing purpose.By Etekchnoservices";
-          $sms = new TelstraSMS(); // Construct new SMS object
-          $response = $sms->telstra_sms('61404550076',$msg);
-          if($response) {
-            $decode = json_decode($response,true);
-            $message_id = $decode['messageId'];
-            $token = $decode['token'];
-            $_SESSION['approval_status'] = 1;
-            $error = "Approval process";
-            mysql_query("INSERT INTO ezikey_users (user_name,user_password,message_id,user_token,user_status) VALUES ('$myusername','$mypassword','$message_id','$token',0)");
-            header("location: approval.php");   
-          }
-          else {
-            $error = "Login process failed";
-          } 
+            $already_query = mysql_query("SELECT * FROM ezikey_users WHERE user_name = '$myusername'");
+            $already_count = mysql_num_rows($already_query);
+            if ($already_count == 1) {
+                $_SESSION['approval_status'] = 1;
+                $_SESSION['user_name'] = $myusername;
+                header("location: approval.php");
+            }
+            else {
+              // 61418136693 - fake 
+              // 61404550076 - sathis
+              // $msg = "The+".$myusername."+is+registered+with+us.+Please+approve+the+user+very+soon.";
+              $msg = "Once you received the message. just reply ok for testing purpose.By Etekchnoservices";
+              $sms = new TelstraSMS(); // Construct new SMS object
+              $response = $sms->telstra_sms('61418136693',$msg);
+              if($response) {
+                $decode = json_decode($response,true);
+                $message_id = $decode['messageId'];
+                $token = $decode['token'];
+                $_SESSION['approval_status'] = 1;
+                 $_SESSION['user_name'] = $myusername;
+                $error = "Approval process";
+                mysql_query("INSERT INTO ezikey_users (user_name,user_password,message_id,user_token,user_status) VALUES ('$myusername','$mypassword','$message_id','$token',0)");
+                header("location: approval.php");   
+              }
+              else {
+                $error = "Login process failed";
+              } 
+            }
         }
-      }
     }
     else {
       $error = "Please enter correct details";
@@ -108,14 +112,14 @@
                     <div class="col-lg-6 col-lg-offset-4">
                               <div style="color: rgb(204, 0, 0); margin: 10px; font-size: 16px; text-align: center;"><?php if(isset($error)) echo $error; ?></div>
                             <form class="form-horizontal min" action="#" method="post">
-                                <div class="form-group">
-
-                                    <input type="text" class="form-control login_field" name="username" placeholder="Username" required autofocus>
+                                <div class="form-group mobile_country_section">
+                                    <input type="text" class="form-control login_field mobile_number_p" name="username" id="username" placeholder="Mobile Number" maxlength="20" autocomplete="off" required />
+                                    <span class="country_code"> +61 </span>
 
                                 </div>
                                 <div class="form-group">
 
-                                    <input type="password" class="form-control login_field" name="password" placeholder="Password" required autofocus>
+                                    <input type="password" class="form-control login_field" name="password" placeholder="Password" maxlength="20" autocomplete="off" required />
 
                                 </div>
                                 <div class="form-group">
@@ -164,7 +168,23 @@
         <!--container-->
     </section>
 </body>
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        // Key controls
+        $('#username').on('keypress',function (e) {
+            if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+                // $("#error_test").html("Digits Only").show().fadeOut("slow");
+                return false;
+            }   
+        });
+        // To prevent cut copy paste event
+        $('body').bind("cut copy paste",function(e) {
+            e.preventDefault();
+        });
+    }); // End
+
+</script>
 
 </html>

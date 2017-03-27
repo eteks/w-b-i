@@ -1,7 +1,35 @@
 <?php
+include("config.php");
 session_start();
 if(!isset($_SESSION['approval_status']))
 	header("Location:login.php")
+?>
+<?php
+	if(!empty($_SESSION['user_name'])) {
+		$myusername = $_SESSION['user_name'];
+		$sql = mysql_query("SELECT * FROM ezikey_users WHERE user_name = '$myusername'") or die(mysql_error());
+		$count = mysql_num_rows($sql);
+		if($count == 1) {
+			$user_array = mysql_fetch_array($sql);
+			if($user_array['user_approval_status'] == 0) {
+				$message = "Waiting for approval. We will contact you very soon.";
+			}
+			else if($user_array['user_approval_status'] == 1) {
+				$message = "Approved";
+	           	$_SESSION['user_id'] = $user_array['user_id'];
+           		$_SESSION['user_name'] = $user_array['user_name'];
+        		$_SESSION['login_status'] = 1;
+	            header("location: index.php");
+			}
+			else if($user_array['user_approval_status'] == 2) {
+				$message = "Your request was rejected by admin.";
+			}
+		}
+		else {
+			$message = "error.";
+			header("location: login.php");
+		}
+	}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -42,7 +70,7 @@ if(!isset($_SESSION['approval_status']))
 	        <div class="container">
 		        <div class="row">
                 	<h2 class="login_form">Welcome</h2>
-                	<h3 style="color:#a6a6a6;text-align: center;">Waiting for approval. We will contact you very soon.</h3> 
+                	<h3 style="color:#a6a6a6;text-align: center;"> <?php if(isset($message)) echo $message; ?></h3> 
                 	<a href="login.php"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back to home</a> 
             	</div> <!--middle-->
 	    	</div> <!--container-->
@@ -50,5 +78,5 @@ if(!isset($_SESSION['approval_status']))
 	</body>
 </html>
 <?php
-unset($_SESSION['approval_status']);
+// unset($_SESSION['approval_status']);
 ?>
