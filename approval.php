@@ -5,16 +5,16 @@ if(!isset($_SESSION['approval_status']))
 	header("Location:login.php")
 ?>
 <?php
-	if(!empty($_SESSION['user_name'])) {
-		$myusername = $_SESSION['user_name'];
-		$sql = mysql_query("SELECT * FROM ezikey_users WHERE user_name = '$myusername'") or die(mysql_error());
+	if(!empty($_SESSION['user_id'])) {
+		$user_id = $_SESSION['user_id'];
+		$sql = mysql_query("SELECT * FROM ezikey_users WHERE user_id = '$user_id'") or die(mysql_error());
 		$count = mysql_num_rows($sql);
+		$user_array = mysql_fetch_array($sql);
 		if($count == 1) {
-			$user_array = mysql_fetch_array($sql);
 			if($user_array['user_approval_status'] == 0) {
 				$message = "Registration waiting for approval. We will contact you very soon.";
 			}
-			else if($user_array['user_approval_status'] == 1) {
+			else if($user_array['user_approval_status'] == 1 && $user_array['user_status'] == 1) {
 				$message = "Approved";
 	           	$_SESSION['user_id'] = $user_array['user_id'];
            		$_SESSION['user_name'] = $user_array['user_name'];
@@ -23,6 +23,9 @@ if(!isset($_SESSION['approval_status']))
 			}
 			else if($user_array['user_approval_status'] == 2) {
 				$message = "Registration approval was denied.";
+			}
+			else {
+				$message = "User is inactive.";
 			}
 		}
 		else {
@@ -69,12 +72,34 @@ if(!isset($_SESSION['approval_status']))
     	<section>
 	        <div class="container">
 		        <div class="row">
-                	<h2 class="login_form">Welcome</h2>
+                	<h2 class="login_form">Welcome <?php if(!empty($user_array['user_name'])) echo $user_array['user_name']; ?>,</h2>
                 	<h3 style="color:#a6a6a6;text-align: center;"> <?php if(isset($message)) echo $message; ?></h3> 
                 	<a href="login.php"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back to home</a> 
             	</div> <!--middle-->
 	    	</div> <!--container-->
     	</section>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    	<script>
+    		function approve_req() {
+    	    	$.ajax({
+        			type : "POST",
+					url  : "approval_process.php",
+					data : { user : "<?php echo $user_id; ?>" },
+					success : function(data) {
+						if(data == "true") {
+							location.reload();
+						}
+					},
+					complete : function(){
+        				setTimeout(function(){ approve_req(); }, 10000);
+    				}
+		   		});
+		   	}
+
+    		$(document).ready(function () {
+				setTimeout(function(){ approve_req(); }, 10000);
+    		}); // End
+    	</script>
 	</body>
 </html>
 <?php

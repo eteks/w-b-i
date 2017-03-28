@@ -82,12 +82,12 @@ thead tr {
 }
 .middle .login_form{
     margin-right: 182px;
-    text-align: center;
+    text-align: left;
   }
   /* On small screens, set height to 'auto' for sidenav and grid */
   @media only screen and (min-width: 1025px) and (max-width: 1920px) {
 .middle{
-width:65%;
+/*width:65%;*/
 margin:150px auto;
 }
 .min{
@@ -99,7 +99,7 @@ padding-left:60px;
   }
  @media only screen and (max-width:1024px) and (min-width:300px) and (max-width:1920px) and (orientation:portrait){
  .middle{
-width:80%;
+/*width:80%;*/
 margin:30px 30px;
 }
  }   
@@ -399,6 +399,7 @@ table a{
 /* Added by siva */
 .mobile_country_section {
     position: relative;
+    margin-top: 26px;
 }
 .mobile_number_p {
     padding-left: 14%; 
@@ -410,8 +411,35 @@ table a{
     font-size: 16px;
     font-weight: bold;
     height: 100%;
-    padding: 2% 1%;
+    padding: 3% 1%;
     position: absolute;
     top: 0;
-    width: 12%;
+    width: 13%;
+}
+
+/* Added by siva */
+.form-control {
+    width: 90%;
+}
+
+.margin_section::before {
+    background: #000 none repeat scroll 0 0;
+    content: " ";
+    display: block;
+    height: 100%;
+    position: absolute;
+    right: 10px;
+    top: -10px;
+    width: 2px;
+}
+.cb {
+    clear: both;
+}
+@media(max-width: 767px) {
+    .margin_section::before {
+        display: none;
+    }
+    .form-control {
+        width: 100%;
+    }
 }

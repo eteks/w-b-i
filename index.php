@@ -5,7 +5,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,7 +28,7 @@
 
 </head>
 
-<body>
+<body onload="StartTimers();" onmousemove="ResetTimers();" onkeyup="ResetTimers();">
     <!-- Navigation -->
     <header class="header-tp">
         <nav class="navbar navbar-inverse navbar-static-top example6">
@@ -4066,8 +4065,39 @@
             </div>
         </div>
     </section>
-</body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    // var timoutWarning = 1800000 ; // Display warning in 14 Mins.
+    var timoutEnd = 3600000; // Timeout in 1 hr.
+    var logoutUrl = 'logout.php'; // URL to logout page.
 
+    // var warningTimer;
+    var timeoutTimer;
+
+    // Start timers.
+    function StartTimers() {
+        // warningTimer = setTimeout("IdleWarning()", timoutWarning);
+        timeoutTimer = setTimeout("IdleTimeout()", timoutEnd);
+    }
+
+    // Reset timers.
+    function ResetTimers() {
+        // clearTimeout(warningTimer);
+        clearTimeout(timeoutTimer);
+        StartTimers();
+    }
+
+    // Show idle timeout warning dialog.
+    // function IdleWarning() {
+    //     alert("System Ideal!");
+    // }
+
+    // Logout the user.
+    function IdleTimeout() {
+        window.location = logoutUrl;
+    }
+
+    </script>
+</body>
 </html>
