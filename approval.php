@@ -14,7 +14,7 @@ if(!isset($_SESSION['approval_status']))
 			if($user_array['user_approval_status'] == 0) {
 				$message = "Registration waiting for approval. We will contact you very soon.";
 			}
-			else if($user_array['user_approval_status'] == 1) {
+			else if($user_array['user_approval_status'] == 1 && $user_array['user_status'] == 1) {
 				$message = "Approved";
 	           	$_SESSION['user_id'] = $user_array['user_id'];
            		$_SESSION['user_name'] = $user_array['user_name'];
