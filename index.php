@@ -131,14 +131,14 @@
                     <div class="panel panel-success">
                         <div class="panel-heading panel_custom_2">
                             <h3 class="panel-title">
-                    <a target="_blank" href="install.php">WebEzi Database Deploy Tools<img class="arrw_svg" src="images/arrow.svg" alt="ezi" /></a> 
+                    <a target="_blank" href="install.php">Ezikey Database Deploy Tools<img class="arrw_svg" src="images/arrow.svg" alt="ezi" /></a> 
                 </h3>
                         </div>
                     </div>
                     <div class="panel panel-success">
                         <div class="panel-heading panel_custom_2">
                             <h3 class="panel-title">
-                    <a target="_blank" href="install.php">WebEziScheduleWatchDog2.0<img class="arrw_svg" src="images/arrow.svg" alt="ezi" /></a> 
+                    <a target="_blank" href="install.php">EzikeyScheduleWatchDog2.0<img class="arrw_svg" src="images/arrow.svg" alt="ezi" /></a> 
                 </h3>
                         </div>
                     </div>
