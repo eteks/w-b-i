@@ -131,7 +131,7 @@ else {
         <link href="css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Theme CSS -->
-        <link href="custom.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
 
         <!-- Custom Fonts -->
         <!-- <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
