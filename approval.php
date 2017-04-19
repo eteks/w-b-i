@@ -5,6 +5,7 @@ if(!isset($_SESSION['approval_status']))
 	header("Location:login.php")
 ?>
 <?php
+	$invalid = 0;
 	if(!empty($_SESSION['user_id'])) {
 		$user_id = $_SESSION['user_id'];
 		$sql = mysql_query("SELECT * FROM ezikey_users WHERE user_id = '$user_id'") or die(mysql_error());
@@ -22,9 +23,11 @@ if(!isset($_SESSION['approval_status']))
 	            header("location: index.php");
 			}
 			else if($user_array['user_approval_status'] == 2) {
+				$invalid = 1;
 				$message = "Registration approval was denied.";
 			}
 			else {
+				$invalid = 1;
 				$message = "User is inactive.";
 			}
 		}
@@ -97,7 +100,10 @@ if(!isset($_SESSION['approval_status']))
 		   	}
 
     		$(document).ready(function () {
-				setTimeout(function(){ approve_req(); }, 10000);
+    			var invalid = "<?php echo $invalid; ?>";
+    			if(invalid != 1) {
+    				setTimeout(function(){ approve_req(); }, 10000);
+    			}
     		}); // End
     	</script>
 	</body>

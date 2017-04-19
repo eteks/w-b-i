@@ -4,7 +4,7 @@
 	if(strcasecmp($_SERVER['REQUEST_METHOD'], 'POST') == 0){
 		$data = json_decode(file_get_contents('php://input'), true);
 		// Approved
-		if(!empty($data) && !empty($data['content']) && strtolower($data['content']) == "ok") {
+		if(!empty($data) && !empty($data['content']) && strtolower($data['content']) == "approved") {
 			$messageid = $data['messageId'];
 			$ack = date('Y-m-d',strtotime($data['acknowledgedTimestamp']));
 			$current_dt = date('Y-m-d H:i:s');
