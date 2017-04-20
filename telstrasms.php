@@ -8,6 +8,7 @@ class TelstraSMS {
         $ch = curl_init($url);
         curl_setopt($ch, CURLOPT_HEADER, 0);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        // curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
         $response = curl_exec($ch);
         curl_close($ch);
         $token = json_decode($response, true);
@@ -28,6 +29,7 @@ class TelstraSMS {
             curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($msg));
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
             curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+            // curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
             $response = curl_exec($ch);
             curl_close($ch);
             $response = json_decode($response, true);
