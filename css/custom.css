@@ -74,13 +74,14 @@ thead tr {
 }
 .dwnld_svg {
     float: right;
-    height: 27px;
-    width: 22px;
+    height: 35px;
+    width: 30px;
+    padding: 0 0 15px;
 }
 .arrw_svg {
     float: right;
-    height: 9px;
-    width: 25px;
+    /*height: 9px;
+    width: 25px;*/
 }
 .middle .login_form{
     margin-right: 182px;
@@ -116,7 +117,7 @@ margin:30px 30px;
 .forgot-password{color: #616161;margin-left: -15px;}
 .row .social_icon{height: 39px;}
 .info {
-    background-color: #9DE1FF !important;
+    background-color: #d9edf7 !important;
 }
 tr td {
     border-top: 1px solid #ddd;
@@ -458,7 +459,8 @@ table a{
 .release_notes{width: 10%;}
 .release_date{width: 10%;}
 tbody {
-    height: 150px;
+    min-height: 100px;
+    max-height:150px;
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -484,5 +486,24 @@ tbody tr td:nth-child(5) {
     display: -webkit-flex; /* Safari */
 }
 .touch_system {
-    margin: 80px 0;
+    margin: 80px 50px;
 }
+.last_section{
+    margin:0 50px;
+}
+.morelink, .less {
+    color: #29aafe;
+    float: right;
+    font-style: italic;
+    font-weight: bold;
+}
+.morelink:hover, .morelink:focus, .less:hover, .less:focus  {
+    color: #29aafe;
+}
+.dropdown a:hover, .dropdown a:focus {
+    color: #e7560b;
+}
+.ellip{
+    display: none;
+}
+/*Ended*/

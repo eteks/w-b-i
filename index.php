@@ -1,5 +1,5 @@
 <?php
-   include('session.php');
+  include('session.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,7 +11,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>EZI KEY</title>
+    <title>eziKey</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -67,10 +67,10 @@
                 <div class="col-md-6">
                     <div class="row sub-log-title">
                         <div class="ezi_tool col-md-12 col-sm-4 col-xs-4">
-                            <a href="#"><img src="images/tools.svg" alt="ezi" /></a>
+                            <img src="images/tools.svg" alt="ezi" />
                         </div>
                         <div class="col-md-12 col-sm-8 col-xs-8">
-                            <h1><a href="#">EziKey Tools and Drivers</a></h1>
+                            <h1>EziKey Tools and Drivers</h1>
                         </div>
                     </div>
                     <!--row end-->
@@ -103,7 +103,7 @@
                     <div class="panel panel-success">
                         <div class="panel-heading panel_custom_2">
                             <h3 class="panel-title">
-                    <a target="_blank" href="install.php">Webfleet.Sync.Test.Toolkit <img class="arrw_svg" src="images/arrow.svg" alt="ezi" /></a> 
+                    <a target="_blank" href="install.php">Webfleet Sync Test Toolkit <img class="arrw_svg" src="images/arrow.svg" alt="ezi" /></a> 
                 </h3>
                         </div>
                     </div>
@@ -124,21 +124,21 @@
                     <div class="panel panel-success">
                         <div class="panel-heading panel_custom_2">
                             <h3 class="panel-title">
-                    <a target="_blank" href="install.php">Ezikey Virtual Key Box<img class="arrw_svg" src="images/arrow.svg" alt="ezi" /></a> 
+                    <a target="_blank" href="install.php">EziKey Virtual Key Box<img class="arrw_svg" src="images/arrow.svg" alt="ezi" /></a> 
                 </h3>
                         </div>
                     </div>
                     <div class="panel panel-success">
                         <div class="panel-heading panel_custom_2">
                             <h3 class="panel-title">
-                    <a target="_blank" href="install.php">Ezikey Database Deploy Tools<img class="arrw_svg" src="images/arrow.svg" alt="ezi" /></a> 
+                    <a target="_blank" href="install.php">EziKey Database Deploy Tools<img class="arrw_svg" src="images/arrow.svg" alt="ezi" /></a> 
                 </h3>
                         </div>
                     </div>
                     <div class="panel panel-success">
                         <div class="panel-heading panel_custom_2">
                             <h3 class="panel-title">
-                    <a target="_blank" href="install.php">EzikeyScheduleWatchDog2.0<img class="arrw_svg" src="images/arrow.svg" alt="ezi" /></a> 
+                    <a target="_blank" href="install.php">EziKey Schedule Watch Dog2.0<img class="arrw_svg" src="images/arrow.svg" alt="ezi" /></a> 
                 </h3>
                         </div>
                     </div>
@@ -161,7 +161,8 @@
         </div>
     </section>
 
-    <section class="touch_system">
+<div class="touch_system">    
+    <section>
         <div class="container container_table">
             <div class="row">
                 <div class="col-xs-12">
@@ -202,7 +203,7 @@
                                         <h4>Sql</h4>
                                         <ul>
                                             <li>
-                                                <a href="https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216229"><img alt="ezi" src="images/select.svg"> Ezikey_Empty_Admin_1.1.2.0 </a>
+                                                <a href="https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216229"><img alt="ezi" src="images/select.svg"> EziKey_Empty_Admin_1.1.2.0 </a>
                                             </li>
                                             <li>
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_0(For Windows 7 Professional SP1 32 bit)/Sql/Task15.sql"><img alt="ezi" src="images/select.svg"> Task15.sql</a>
@@ -317,7 +318,6 @@
                                 <div class="ezi-touch">
                                     <div class="row">
                                         <div class="col-xs-8 link-ver no-padding"><a href="/EZIKEY TOOLS/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_4(For Windows 7 Professional SP1 32 bit)/App/Ezikey Touchscreen System  1.2.3.4.zip">EziKey_Touch_Application_1_2_3_4(For Windows 7 Professional SP1 32 bit)</a></div>
-                                        <div class="col-xs-3 text-right no-padding">25/03/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -375,7 +375,7 @@
                                         <h4>Sql</h4>
                                         <ul>
                                             <li>
-                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219429"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.4 </a>
+                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219429"><img alt="ezi" src="images/select.svg"> EziKey Admin Empty no 578 1.1.2.4 </a>
                                             </li>
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
@@ -400,7 +400,7 @@
                                         <h4>Sql</h4>
                                         <ul>
                                             <li>
-                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219429"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.4 </a>
+                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219429"><img alt="ezi" src="images/select.svg"> EziKey Admin Empty no 578 1.1.2.4 </a>
                                             </li>
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
@@ -424,7 +424,7 @@
                                         <h4>Sql</h4>
                                         <ul>
                                             <li>
-                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110730"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.6</a>
+                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110730"><img alt="ezi" src="images/select.svg"> EziKey Admin Empty no 578 1.1.2.6</a>
                                             </li>
                                             <li>
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_8(For Windows 7 Professional SP1 32 bit)/Sql/ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql"><img alt="ezi" src="images/select.svg"> ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql</a>
@@ -452,7 +452,7 @@
                                         <h4>Sql</h4>
                                         <ul>
                                             <li>
-                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110848"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.7</a>
+                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110848"><img alt="ezi" src="images/select.svg"> EziKey Admin Empty no 578 1.1.2.7</a>
                                             </li>
                                             <li>
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Touch/EziKey_Touch_Application_1_2_3_9(For Windows 7 Professional SP1 32 bit)/Sql/task 75.sql"><img alt="ezi" src="images/select.svg"> task 75.sql</a>
@@ -480,7 +480,7 @@
                                         <h4>Sql</h4>
                                         <ul>
                                             <li>
-                                                <a href="https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216230"><img alt="ezi" src="images/select.svg"> Ezikey_Empty_Admin_has578_1.2.1.0</a>
+                                                <a href="https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216230"><img alt="ezi" src="images/select.svg"> EziKey_Empty_Admin_has578_1.2.1.0</a>
                                             </li>
                                             <li>
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_0(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle.zip"><img alt="ezi" src="images/select.svg"> Loan Vehicle.zip</a>
@@ -596,7 +596,6 @@
                                             <li class="box" role="">
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_3(For Windows 7 Professional SP1 32 bit)/UserMannual/Ezikey Touch Application 1.3.1.3.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
                                             </li>
-
                                         </ul>
                                     </div>
                                 </div>
@@ -614,7 +613,7 @@
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_4(For Windows 7 Professional SP1 32 bit)/Sql/18_ezikey admin tool Release SQL.sql"><img alt="ezi" src="images/select.svg"> 18_ezikey admin tool Release SQL.sql</a>
                                             </li>
                                             <li>
-                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217998"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.4</a>
+                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217998"><img alt="ezi" src="images/select.svg"> EziKey Admin Empty has 578 1.2.1.4</a>
                                             </li>
                                             <li>
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_4(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle.zip"><img alt="ezi" src="images/select.svg"> Loan Vehicle.zip</a>
@@ -653,7 +652,6 @@
                                             <li class="box" role="">
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_5(For Windows 7 Professional SP1 32 bit)/UserMannual/Ezikey Touch Application 1.3.1.5.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
                                             </li>
-
                                         </ul>
                                     </div>
                                 </div>
@@ -668,7 +666,7 @@
                                         <h4>Sql</h4>
                                         <ul>
                                             <li>
-                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219431"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.4</a>
+                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219431"><img alt="ezi" src="images/select.svg"> EziKey Admin Empty has 578 1.2.1.4</a>
                                             </li>
 
                                         </ul>
@@ -694,7 +692,7 @@
                                         <h4>Sql</h4>
                                         <ul>
                                             <li>
-                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219431"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.4</a>
+                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219431"><img alt="ezi" src="images/select.svg"> EziKey Admin Empty has 578 1.2.1.4</a>
                                             </li>
                                             <li>
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_7(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle Agreement template April 2012_BMW V7.docx"><img alt="ezi" src="images/select.svg"> Loan Vehicle Agreement template April 2012_BMW V7.docx</a>
@@ -723,7 +721,7 @@
                                         <h4>Sql</h4>
                                         <ul>
                                             <li>
-                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110728"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.6</a>
+                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110728"><img alt="ezi" src="images/select.svg"> EziKey Admin Empty has 578 1.2.1.6</a>
                                             </li>
                                             <li>
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_8(For Windows 7 Professional SP1 32 bit)/Sql/ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql"><img alt="ezi" src="images/select.svg"> ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql</a>
@@ -742,7 +740,6 @@
                                             <li class="box" role="">
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_8(For Windows 7 Professional SP1 32 bit)/UserMannual/Ezikey Touch Application 1.3.1.8.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
                                             </li>
-
                                         </ul>
                                     </div>
                                 </div>
@@ -757,7 +754,7 @@
                                         <h4>Sql</h4>
                                         <ul>
                                             <li>
-                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110849"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.7</a>
+                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110849"><img alt="ezi" src="images/select.svg"> EziKey Admin Empty has 578 1.2.1.7</a>
                                             </li>
                                             <li>
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_9(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle.zip"><img alt="ezi" src="images/select.svg"> Loan Vehicle.zip</a>
@@ -797,12 +794,12 @@
                                         <th class="release_date">Release Date</th>
                                     </tr>
                                 </thead>
-                                <tbody><div class="stable_height">
+                                <tbody>
                                     <tr>
                                         <td><a href='/EZIKEY TOOLS/Ezikey/Ezikey_Touchsystem/versions/1.2.3.0/EziKeyTouchAplication_1.2.3.0.zip'>EziKey_Touch_Application_1_2_3_0(For Windows 7 Professional SP1 32 bit)</a></td>
                                         <td>
                                             <img src="images/select.svg" alt="ezi" />
-                                            <a href='https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216229'>Ezikey_Empty_Admin_1.1.2.0</a>
+                                            <a href='https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216229'>EziKey_Empty_Admin_1.1.2.0</a>
                                             <br/>
                                             <a href='/EZIKEY TOOLS/Ezikey/Ezikey_Touchsystem/versions/1.2.3.0/Task15.sql'><img src="images/select.svg" alt="ezi" />Task15.sql</a>
                                             <br/>
@@ -819,7 +816,6 @@
                                     <tr class="info">
                                         <td><a href='/EZIKEY TOOLS/Ezikey/Ezikey_Touchsystem/versions/1.2.3.1/EziKeyTouchApplication_1.2.3.1.zip'>EziKey_Touch_Application_1_2_3_1(For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
-
                                         </td>
                                         <td>
 
@@ -891,7 +887,7 @@
                                         <td>
                                             <a href='/EZIKEY TOOLS/Ezikey/Ezikey_Touchsystem/versions/1.2.3.4/18_ezikey admin tool Release SQL.sql'><img alt="ezi" src="images/select.svg"> 18_ezikey admin tool Release SQL.sql</a>
                                             <br/>
-                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216229#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.4</a>
+                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216229#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997'><img alt="ezi" src="images/select.svg"> EziKey Admin Empty no 578 1.1.2.4</a>
                                             <br/>
                                         </td>
                                         <td class="text-center"><a href='/EZIKEY TOOLS/Ezikey/Ezikey_Touchsystem/versions/1.2.3.4/Ezikey Touch Application 1.2.3.4.txt' <img src="images/notes.svg" alt="ezi" /></a>
@@ -926,7 +922,7 @@
                                         </td>
 
                                         <td>
-                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219429'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.4</a>
+                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219429'><img alt="ezi" src="images/select.svg"> EziKey Admin Empty no 578 1.1.2.4</a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -945,7 +941,7 @@
                                         </td>
 
                                         <td>
-                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219429'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.4</a>
+                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219429'><img alt="ezi" src="images/select.svg"> EziKey Admin Empty no 578 1.1.2.4</a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -962,11 +958,10 @@
                                         <td><a href='/EZIKEY TOOLS/Ezikey/Ezikey_Touchsystem/versions/1.2.3.8/Ezikey Touchscreen System V1.2.3.8.zip'>EziKey_Touch_Application_1_2_3_8(For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
-
                                         <td>
                                             <a href='/EZIKEY TOOLS/Ezikey/Ezikey_Touchsystem/versions/1.2.3.8/ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0 (1).sql'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.6</a>
                                             <br/>
-                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110730'><img alt="ezi" src="images/select.svg"> ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql</a>
+                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110730'><img alt="ezi" src="images/select.svg"> EziKey admin tool Release SQL(Task 24 25&31 ) - Release V1.0.sql</a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -985,7 +980,7 @@
                                         </td>
 
                                         <td>
-                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110848'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.7</a>
+                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110848'><img alt="ezi" src="images/select.svg"> EziKey Admin Empty no 578 1.1.2.7</a>
                                             <br/>
                                             <a href='/EZIKEY TOOLS/Ezikey/Ezikey_Touchsystem/versions/1.2.3.9/task 75.sql'><img alt="ezi" src="images/select.svg"> task 75.sql</a>
                                             <br/>
@@ -1006,7 +1001,7 @@
                                         </td>
 
                                         <td>
-                                            <a href='https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216230'><img alt="ezi" src="images/select.svg"> Ezikey_Empty_Admin_has578_1.2.1.0</a>
+                                            <a href='https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216230'><img alt="ezi" src="images/select.svg"> EziKey_Empty_Admin_has578_1.2.1.0</a>
                                             <br/>
                                             <a href='/EZIKEY TOOLS/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_0(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle.zip'><img alt="ezi" src="images/select.svg"> Loan Vehicle.zip</a>
                                             <br/>
@@ -1082,7 +1077,6 @@
                                         <td><a href='/EZIKEY TOOLS/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_3(For Windows 7 Professional SP1 32 bit)/App/EzikeyTouchApplication_1.3.1.3.zip'>EziKey_Touch_Application_1_3_1_3(For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
-
                                         <td>&nbsp;</td>
                                         <td class="text-center">
                                             <a href='/EZIKEY TOOLS/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_3(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.3.txt'><img src="images/notes.svg" alt="ezi" /></a>
@@ -1098,11 +1092,10 @@
                                         <td><a href='/EZIKEY TOOLS/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_4(For Windows 7 Professional SP1 32 bit)/App/Ezikey Touchscreen System 1.3.1.4.zip'>EziKey_Touch_Application_1_3_1_4(For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
-
                                         <td>
                                             <a href='/EZIKEY TOOLS/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_4(For Windows 7 Professional SP1 32 bit)/Sql/18_ezikey admin tool Release SQL.sql'><img alt="ezi" src="images/select.svg"> 18_ezikey admin tool Release SQL.sql</a>
                                             <br/>
-                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217998'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.4</a>
+                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217998'><img alt="ezi" src="images/select.svg"> EziKey Admin Empty has 578 1.2.1.4</a>
                                             <br/>
                                             <a href='/EZIKEY TOOLS/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_4(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle.zip'><img alt="ezi" src="images/select.svg"> Loan Vehicle.zip</a>
                                             <br/>
@@ -1123,7 +1116,6 @@
                                         <td><a href='/EZIKEY TOOLS/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_5(For Windows 7 Professional SP1 32 bit)/App/Ezikey Touchscreen System 1.3.1.5.zip'>EziKey_Touch_Application_1_3_1_5(For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
-
                                         <td>&nbsp;</td>
                                         <td class="text-center">
                                             <a href='/EZIKEY TOOLS/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_5(For Windows 7 Professional SP1 32 bit)/Release Notes/Ezikey Touch Application 1.3.1.5.txt'><img src="images/notes.svg" alt="ezi" /></a>
@@ -1141,7 +1133,7 @@
                                         </td>
 
                                         <td>
-                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219431'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.4</a>
+                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219431'><img alt="ezi" src="images/select.svg"> EziKey Admin Empty has 578 1.2.1.4</a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -1160,7 +1152,7 @@
                                         </td>
 
                                         <td>
-                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219431'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.4</a>
+                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219431'><img alt="ezi" src="images/select.svg"> EziKey Admin Empty has 578 1.2.1.4</a>
                                             <br/>
                                             <a href='/EZIKEY TOOLS/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_7(For Windows 7 Professional SP1 32 bit)/Sql/Loan Vehicle Agreement template April 2012_BMW V7.docx'><img alt="ezi" src="images/select.svg"> Loan Vehicle Agreement template April 2012_BMW V7.docx</a>
                                             <br/>
@@ -1181,7 +1173,7 @@
                                         </td>
 
                                         <td>
-                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110728'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.6</a>
+                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110728'><img alt="ezi" src="images/select.svg"> EziKey Admin Empty has 578 1.2.1.6</a>
                                             <br/>
                                             <a href='/EZIKEY TOOLS/EziKey/EziKey_Touch/EziKey_Touch_Application_1_3_1_8(For Windows 7 Professional SP1 32 bit)/Sql/ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql'><img alt="ezi" src="images/select.svg"> ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql</a>
                                             <br/>
@@ -1222,7 +1214,6 @@
                                         </td>
                                         <td>03/04/2015</td>
                                     </tr>
-                                </div>    
                                 </tbody>
                             </table>
                         </div> <!--.comment-->
@@ -1269,7 +1260,7 @@
                                         <h4>Sql</h4>
                                         <ul>
                                             <li>
-                                                <a href="https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216224"><img alt="ezi" src="images/select.svg"> Ezikey_Empty_Admin_1.1.2.0</a>
+                                                <a href="https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216224"><img alt="ezi" src="images/select.svg"> EziKey_Empty_Admin_1.1.2.0</a>
                                             </li>
                                             <li>
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_0/Sql/Task15.sql"><img alt="ezi" src="images/select.svg"> Task15.sql</a>
@@ -1304,7 +1295,6 @@
                                             <li class="box" role="">
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_1/UserMannual/EziKey Admin Tool 1.1.2.1.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
                                             </li>
-
                                         </ul>
                                     </div>
                                 </div>
@@ -1326,7 +1316,6 @@
                                             <li class="box" role="">
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_2/UserMannual/EziKey Admin Tool 1.1.2.2.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
                                             </li>
-
                                         </ul>
                                     </div>
                                 </div>
@@ -1343,12 +1332,12 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
+
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_3/Release Notes/Ezikey Admin Tool 1.1.2.3.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_3/UserMannual/EziKey Admin Tool 1.1.2.3.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
                                             </li>
-
                                         </ul>
                                     </div>
                                 </div>
@@ -1366,7 +1355,7 @@
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_4/Sql/18_ezikey admin tool Release SQL.sql"><img alt="ezi" src="images/select.svg"> 18_ezikey admin tool Release SQL.sql</a>
                                             </li>
                                             <li>
-                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216229#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.4</a>
+                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216229#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997"><img alt="ezi" src="images/select.svg"> EziKey Admin Empty no 578 1.1.2.4</a>
                                             </li>
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
@@ -1391,7 +1380,7 @@
                                         <h4>Sql</h4>
                                         <ul>
                                             <li>
-                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219429"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.5</a>
+                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219429"><img alt="ezi" src="images/select.svg"> EziKey Admin Empty no 578 1.1.2.5</a>
                                             </li>
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
@@ -1415,7 +1404,7 @@
                                         <h4>Sql</h4>
                                         <ul>
                                             <li>
-                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110730"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.6</a>
+                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110730"><img alt="ezi" src="images/select.svg"> EziKey Admin Empty no 578 1.1.2.6</a>
                                             </li>
                                             <li>
                                             <a href="/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_6/Sql/ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql"><img alt="ezi" src="images/select.svg"> ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql</a>
@@ -1423,7 +1412,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="Ezikey Admin Tool 1.1.2.6.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EziKey Admin Tool 1.1.2.6.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_6/UserMannual/EziKey Admin Tool 1.1.2.6.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1442,7 +1431,7 @@
                                         <h4>Sql</h4>
                                         <ul>
                                             <li>
-                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110848"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.7 </a>
+                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110848"><img alt="ezi" src="images/select.svg"> EziKey Admin Empty no 578 1.1.2.7 </a>
                                             </li>
                                             <li>
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_7/Sql/task 75.sql"><img alt="ezi" src="images/select.svg"> task 75.sql</a>
@@ -1469,7 +1458,7 @@
                                         <h4>Sql</h4>
                                         <ul>
                                             <li>
-                                                <a href="https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216225"><img alt="ezi" src="images/select.svg"> Ezikey_Empty_Admin_has578_1.2.1.0</a>
+                                                <a href="https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216225"><img alt="ezi" src="images/select.svg"> EziKey_Empty_Admin_has578_1.2.1.0</a>
                                             </li>
                                             <li>
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_0/Sql/Task15.sql"><img alt="ezi" src="images/select.svg"> Task15.sql</a>
@@ -1504,7 +1493,6 @@
                                             <li class="box" role="">
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_1/UserMannual/EziKey Admin Tool 1.2.1.1.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
                                             </li>
-
                                         </ul>
                                     </div>
                                 </div>
@@ -1526,7 +1514,6 @@
                                             <li class="box" role="">
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_2/UserMannual/EziKey Admin Tool 1.2.1.2.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
                                             </li>
-
                                         </ul>
                                     </div>
                                 </div>
@@ -1548,7 +1535,6 @@
                                             <li class="box" role="">
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_3/UserMannual/EziKey Admin Tool 1.2.1.3.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
                                             </li>
-
                                         </ul>
                                     </div>
                                 </div>
@@ -1557,7 +1543,6 @@
                                         <div class="col-xs-8 link-ver no-padding"><a href="/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_4/App/Ezikey Admin Tool 1.2.1.4.zip">Ezikey_Admin_Tool_1_2_1_4</a></div>
                                         <div class="col-xs-3 text-right no-padding">25/03/2014</div>
                                     </div>
-
                                     <div class="sql">
                                         <h4>Sql</h4>
                                         <ul>
@@ -1565,7 +1550,7 @@
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_4/Sql/18_ezikey admin tool Release SQL.sql"><img alt="ezi" src="images/select.svg"> 18_ezikey admin tool Release SQL.sql</a>
                                             </li>
                                             <li>
-                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217998"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.4</a>
+                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217998"><img alt="ezi" src="images/select.svg"> EziKey Admin Empty has 578 1.2.1.4</a>
                                             </li>
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
@@ -1575,7 +1560,6 @@
                                             <li class="box" role="">
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_4/UserMannual/EziKey Admin Tool 1.2.1.4.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
                                             </li>
-
                                         </ul>
                                     </div>
                                 </div>
@@ -1590,10 +1574,10 @@
                                         <h4>Sql</h4>
                                         <ul>
                                             <li>
-                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219431"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.5</a>
+                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219431"><img alt="ezi" src="images/select.svg"> EziKey Admin Empty has 578 1.2.1.5</a>
                                             </li>
                                             <li>
-                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110728"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.6</a>
+                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110728"><img alt="ezi" src="images/select.svg"> EziKey Admin Empty has 578 1.2.1.6</a>
                                             </li>
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
@@ -1617,7 +1601,7 @@
                                         <h4>Sql</h4>
                                         <ul>
                                             <li>
-                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110728"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.6</a>
+                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110728"><img alt="ezi" src="images/select.svg"> EziKey Admin Empty has 578 1.2.1.6</a>
                                             </li>
                                             <li>
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_6/Sql/ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql"><img alt="ezi" src="images/select.svg"> ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql</a>
@@ -1630,7 +1614,6 @@
                                             <li class="box" role="">
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_6/UserMannual/EziKey Admin Tool 1.2.1.6.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
                                             </li>
-
                                         </ul>
                                     </div>
                                 </div>
@@ -1644,7 +1627,7 @@
                                         <h4>Sql</h4>
                                         <ul>
                                             <li>
-                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110849"><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.7</a>
+                                                <a href="https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110849"><img alt="ezi" src="images/select.svg"> EziKey Admin Empty has 578 1.2.1.7</a>
                                             </li>
                                             <li>
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_7/Sql/task 75.sql"><img alt="ezi" src="images/select.svg"> task 75.sql</a>
@@ -1657,7 +1640,6 @@
                                             <li class="box" role="">
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_7/UserMannual/EziKey Admin Tool 1.2.1.7.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
                                             </li>
-
                                         </ul>
                                     </div>
                                 </div>
@@ -1685,7 +1667,7 @@
                                         </td>
 
                                         <td>
-                                            <a href='https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216224'><img alt="ezi" src="images/select.svg"> Ezikey_Empty_Admin_1.1.2.0
+                                            <a href='https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216224'><img alt="ezi" src="images/select.svg"> EziKey_Empty_Admin_1.1.2.0
                                             </a>
                                             <br/>
                                             <a href='/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_0/Sql/Task15.sql'><img alt="ezi" src="images/select.svg"> Task15.sql
@@ -1754,11 +1736,10 @@
                                         <td><a href='/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_4/App/Ezikey Admin Tool 1.1.2.4.zip'>Ezikey_Admin_Tool_1_1_2_4</a>
                                             <br/>
                                         </td>
-
                                         <td>
                                             <a href='/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_4/Sql/18_ezikey admin tool Release SQL.sql'><img alt="ezi" src="images/select.svg"> 18_ezikey admin tool Release SQL.sql</a>
                                             <br/>
-                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216229#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.4</a>
+                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216229#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997'><img alt="ezi" src="images/select.svg"> EziKey Admin Empty no 578 1.1.2.4</a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -1777,7 +1758,7 @@
                                         </td>
 
                                         <td>
-                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219429'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.5</a>
+                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219429'><img alt="ezi" src="images/select.svg"> EziKey Admin Empty no 578 1.1.2.5</a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -1796,7 +1777,7 @@
                                         </td>
 
                                         <td>
-                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110730'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.6</a>
+                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110730'><img alt="ezi" src="images/select.svg"> EziKey Admin Empty no 578 1.1.2.6</a>
                                             <br/>
                                             <a href='/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_6/Sql/ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql'><img alt="ezi" src="images/select.svg"> ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql</a>
                                             <br/>
@@ -1817,7 +1798,7 @@
                                         </td>
 
                                         <td>
-                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110848'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty no 578 1.1.2.7</a>
+                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110848'><img alt="ezi" src="images/select.svg"> EziKey Admin Empty no 578 1.1.2.7</a>
                                             <br/>
                                             <a href='/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_1_2_7/Sql/task 75.sql'><img alt="ezi" src="images/select.svg"> task 75.sql</a>
                                             <br/>
@@ -1838,7 +1819,7 @@
                                         </td>
 
                                         <td>
-                                            <a href='https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216225'><img alt="ezi" src="images/select.svg"> Ezikey_Empty_Admin_has578_1.2.1.0</a>
+                                            <a href='https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216225'><img alt="ezi" src="images/select.svg"> EziKey_Empty_Admin_has578_1.2.1.0</a>
                                             <br/>
                                             <a href='/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_0/Sql/Task15.sql'><img alt="ezi" src="images/select.svg"> Task15.sql</a>
                                             <br/>
@@ -1904,11 +1885,10 @@
                                     <tr style="background-color:#EFF3FB;">
                                         <td><a href='/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_4/App/Ezikey Admin Tool 1.2.1.4.zip'>Ezikey_Admin_Tool_1_2_1_4</a>
                                             <br/>
-
                                             <td>
                                                 <a href='/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_4/Sql/18_ezikey admin tool Release SQL.sql'><img alt="ezi" src="images/select.svg"> 18_ezikey admin tool Release SQL.sql</a>
                                                 <br/>
-                                                <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217998'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.4</a>
+                                                <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217998'><img alt="ezi" src="images/select.svg"> EziKey Admin Empty has 578 1.2.1.4</a>
                                                 <br/>
                                             </td>
                                         </td>
@@ -1928,7 +1908,7 @@
                                         </td>
 
                                         <td>
-                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219431'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.5</a>
+                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%219431'><img alt="ezi" src="images/select.svg"> EziKey Admin Empty has 578 1.2.1.5</a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -1947,7 +1927,7 @@
                                         </td>
 
                                         <td>
-                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110728'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.6</a>
+                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%2110728'><img alt="ezi" src="images/select.svg"> EziKey Admin Empty has 578 1.2.1.6</a>
                                             <br/>
                                             <a href='/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_6/Sql/ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql'><img alt="ezi" src="images/select.svg"> ezikey admin tool Release SQL(task 24 25&31 ) - Release V1.0.sql</a>
                                             <br/>
@@ -1968,7 +1948,7 @@
                                         </td>
 
                                         <td>
-                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110849'><img alt="ezi" src="images/select.svg"> Ezikey Admin Empty has 578 1.2.1.7</a>
+                                            <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7a50ab693c5268a9%2110849'><img alt="ezi" src="images/select.svg"> EziKey Admin Empty has 578 1.2.1.7</a>
                                             <br/>
                                             <a href='/EZIKEY TOOLS/EziKey/EziKey_Management/Ezikey_Admin_Tool_1_2_1_7/Sql/task 75.sql'><img alt="ezi" src="images/select.svg"> task 75.sql</a>
                                             <br/>
@@ -2562,8 +2542,7 @@
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_9/Release Notes/Ezikey Schedul Service 1.0.1.9.txt"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
-                                            </li>
-     -->
+                                            </li> -->
                                         </ul>
                                     </div>
                                 </div>
@@ -2695,7 +2674,6 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-
                                     <tr style="background-color:#EFF3FB;">
                                         <td><a href='/EZIKEY TOOLS/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_2_6_2/App/WebfleetKeyBoxSync_1_2_6_2.zip'>WebfleetKeyBoxSync_1_2_6_2</a>
                                             <br/>
@@ -2711,7 +2689,7 @@
                                     </tr>
                                     <tr style="background-color:White;">
                                         <td><a href='/EZIKEY TOOLS/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_2_7_0/App/Webfleet Key Box Sync 1.2.7.0.zip'>WebfleetKeyBoxSync_1_2_7_0</a>
-                                            <br/>
+                                           <br/>
                                         </td>
 
                                         <td>&nbsp;</td>
@@ -2902,7 +2880,7 @@
                                         <h4>Sql</h4>
                                         <ul>
                                             <!--                                         <li>
-                                                <a href="#"><img alt="ezi" src="images/select.svg"> Ezikey_Empty_Admin_1.1.2.0 </a>
+                                                <a href="#"><img alt="ezi" src="images/select.svg"> EziKey_Empty_Admin_1.1.2.0 </a>
                                             </li>
                                             <li>
                                                 <a href="#"><img alt="ezi" src="images/select.svg"> Task15.sql</a>
@@ -3939,7 +3917,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="last_section">
         <div class="container container_table">
             <div class="row">
                 <div class="col-xs-12">
@@ -4111,6 +4089,7 @@
             </div>
         </div>
     </section>
+</div>    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
     <script src="js/jquery.shorten.js" type="text/javascript"></script>
@@ -4151,48 +4130,48 @@
         $(".show_touchsystem").shorten({
 
             "showChars" : 2060,
-            "moreText"  : "Show More",
-            "lessText"  : "Show Less",
+            "moreText"  : "Show more",
+            "lessText"  : "Show less",
 
         });
         
         $(".show_mgmt_tools").shorten({
 
-            "showChars" : 1800,
-            "moreText"  : "Show More",
-            "lessText"  : "Show Less",
+            "showChars" : 2065,
+            "moreText"  : "Show more",
+            "lessText"  : "Show less",
 
         });
 
         $(".show_report_service").shorten({
 
             "showChars" : 2055,
-            "moreText"  : "Show More",
-            "lessText"  : "Show Less",
+            "moreText"  : "Show more",
+            "lessText"  : "Show less",
 
         });
 
         $(".show_schedule_service").shorten({
 
-            "showChars" : 1350,
-            "moreText"  : "Show More",
-            "lessText"  : "Show Less",
+            "showChars" : 1687,
+            "moreText"  : "Show more",
+            "lessText"  : "Show less",
 
         });
 
         $(".show_webfleet_keybox_sync").shorten({
 
-            "showChars" : 1550,
-            "moreText"  : "Show More",
-            "lessText"  : "Show Less",
+            "showChars" : 1500,
+            "moreText"  : "Show more",
+            "lessText"  : "Show less",
 
         });
 
         $(".show_webfleet_keybox").shorten({
 
-            "showChars" : 1405,
-            "moreText"  : "Show More",
-            "lessText"  : "Show Less",
+            "showChars" : 1500,
+            "moreText"  : "Show more",
+            "lessText"  : "Show less",
 
         });
         
@@ -4200,33 +4179,33 @@
         $(".show_property_key_admin_tool").shorten({
 
             "showChars" : 2055,
-            "moreText"  : "Show More",
-            "lessText"  : "Show Less",
+            "moreText"  : "Show more",
+            "lessText"  : "Show less",
 
         });
 
         $(".show_property_key_mgmt").shorten({
 
             "showChars" : 1550,
-            "moreText"  : "Show More",
-            "lessText"  : "Show Less",
+            "moreText"  : "Show more",
+            "lessText"  : "Show less",
 
         });
 
         $(".show_web_admin_tool").shorten({
 
-            "showChars" : 2000,
-            "moreText"  : "Show More",
-            "lessText"  : "Show Less",
-
+            "showChars" : 2200,
+            "moreText"  : "Show more",
+            "lessText"  : "Show less",
+            
         });
         
         //for mobile
         $(".comment_mob").shorten({
 
             "showChars" : 2000,
-            "moreText"  : "Show More",
-            "lessText"  : "Show Less",
+            "moreText"  : "Show more",
+            "lessText"  : "Show less",
 
         });
     
