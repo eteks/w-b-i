@@ -1,5 +1,5 @@
 <?php
-  include('session.php');
+    include('session.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -77,25 +77,25 @@
                     <div class="panel panel-success">
                         <div class="panel-heading panel_custom">
                             <h3 class="panel-title">
-                            <a href="#">LogMein<img class="dwnld_svg" src="images/download.svg" alt="ezi" /></a></h3>
+                            <a href="/EZIKEY TOOLS/EziKey/Tools/LogMeIn.msi">LogMein<img class="dwnld_svg" src="images/download.svg" alt="ezi" /></a></h3>
                         </div>
                     </div>
                     <div class="panel panel-success">
                         <div class="panel-heading panel_custom">
                             <h3 class="panel-title">
-                            <a href="#">LINQ PAD 4<img class="dwnld_svg" src="images/download.svg" alt="ezi" /></a></h3>
+                            <a href="/EZIKEY TOOLS/EziKey/Tools/LINQPad4.zip">LINQ PAD 4<img class="dwnld_svg" src="images/download.svg" alt="ezi" /></a></h3>
                         </div>
                     </div>
                     <div class="panel panel-success">
                         <div class="panel-heading panel_custom">
                             <h3 class="panel-title">
-                            <a href="#">Property Key Empty Database<img class="dwnld_svg" src="images/download.svg" alt="ezi" /></a></h3>
+                            <a href="/EZIKEY TOOLS/EziKey/Tools/Property Key Empty DB.zip">Property Key Empty Database<img class="dwnld_svg" src="images/download.svg" alt="ezi" /></a></h3>
                         </div>
                     </div>
                     <div class="panel panel-success">
                         <div class="panel-heading panel_custom">
                             <h3 class="panel-title">
-                            <a href="#">Webfleet Key Box Util Tools<img class="dwnld_svg" src="images/download.svg" alt="ezi" /></a></h3>
+                            <a href="/EZIKEY TOOLS/EziKey/Tools/Webfleet Key Box Util Tools.zip">Webfleet Key Box Util Tools<img class="dwnld_svg" src="images/download.svg" alt="ezi" /></a></h3>
                         </div>
                     </div>
                 </div>
