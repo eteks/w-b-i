@@ -8,8 +8,8 @@
 // In local
 define('DB_SERVER','localhost');
 define('DB_USERNAME','root');
-define('DB_PASSWORD','');
-define('DB_NAME', 'ezikey');
+define('DB_PASSWORD','root');
+define('DB_NAME', 'tools_ezikey');
 
 $con = mysql_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD) or die(mysql_error());
 mysql_select_db(DB_NAME);
