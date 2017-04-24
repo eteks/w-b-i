@@ -1657,7 +1657,7 @@
                                     </tr>
                                 </thead>
                                 <tbody class="mCustomScrollbar" data-mcs-theme="dark">
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.0/EziKeyAdminTool_1.1.2.0.zip">Ezikey_Admin_Tool_1_1_2_0</a>
                                             <br/>
                                         </td>
@@ -1680,7 +1680,7 @@
                                         </td>
                                         <td>14/10/2013</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.1/EziKeyAdminTool_1.1.2.1.zip">Ezikey_Admin_Tool_1_1_2_1</a>
                                             <br/>
                                         </td>
@@ -1696,7 +1696,7 @@
                                         </td>
                                         <td>24/10/2013</td>
                                     </tr>
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.2/EziKeyAdminTool_1.1.2.2.zip">Ezikey_Admin_Tool_1_1_2_2</a>
                                             <br/>
                                         </td>
@@ -1712,7 +1712,7 @@
                                         </td>
                                         <td>07/11/2013</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.3/EziKeyAdminTool_1.1.2.3.zip">Ezikey_Admin_Tool_1_1_2_3</a>
                                             <br/>
                                         </td>
@@ -1728,7 +1728,7 @@
                                         </td>
                                         <td>14/11/2013</td>
                                     </tr>
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.4/Ezikey Admin Tool 1.1.2.4.zip">Ezikey_Admin_Tool_1_1_2_4</a>
                                             <br/>
                                         </td>
@@ -1748,7 +1748,7 @@
                                         </td>
                                         <td>25/03/2014</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.5/Ezikey Admin Tool 1.1.2.5.zip">Ezikey_Admin_Tool_1_1_2_5</a>
                                             <br/>
                                         </td>
@@ -1767,7 +1767,7 @@
                                         </td>
                                         <td>23/06/2014</td>
                                     </tr>
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.6/Ezikey Admin Tool  V1.1.2.6.zip">Ezikey_Admin_Tool_1_1_2_6</a>
                                             <br/>
                                         </td>
@@ -1788,7 +1788,7 @@
                                         </td>
                                         <td>05/03/2015</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.7/Ezikey Admin Tool V1.1.2.7.zip">Ezikey_Admin_Tool_1_1_2_7</a>
                                             <br/>
                                         </td>
@@ -1809,7 +1809,7 @@
                                         </td>
                                         <td>03/04/2015</td>
                                     </tr>
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.0/EziKeyAdminTool_1.2.1.0.zip">Ezikey_Admin_Tool_1_2_1_0</a>
                                             <br/>
                                         </td>
@@ -1830,7 +1830,7 @@
                                         </td>
                                         <td>14/10/2013</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.1/EziKeyAdminTool_1.2.1.1.zip">Ezikey_Admin_Tool_1_2_1_1</a>
                                             <br/>
                                         </td>
@@ -1846,7 +1846,7 @@
                                         </td>
                                         <td>24/10/2013</td>
                                     </tr>
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.2/EziKeyAdminTool_1.2.1.2.zip">Ezikey_Admin_Tool_1_2_1_2</a>
                                             <br/>
                                         </td>
@@ -1862,7 +1862,7 @@
                                         </td>
                                         <td>07/11/2013</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.3/EziKeyAdminTool_1.2.1.3.zip">Ezikey_Admin_Tool_1_2_1_3</a>
                                             <br/>
                                         </td>
@@ -1878,7 +1878,7 @@
                                         </td>
                                         <td>14/11/2013</td>
                                     </tr>
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.4/Ezikey Admin Tool 1.2.1.4.zip">Ezikey_Admin_Tool_1_2_1_4</a>
                                             <br/>
                                             <td>
@@ -1898,7 +1898,7 @@
                                         </td>
                                         <td>25/03/2014</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.5/Ezikey Admin Tool 1.2.1.5.zip">Ezikey_Admin_Tool_1_2_1_5</a>
                                             <br/>
                                         </td>
@@ -1917,7 +1917,7 @@
                                         </td>
                                         <td>23/06/2014</td>
                                     </tr>
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.6/Ezikey Admin Tool  1.2.1.6.zip">Ezikey_Admin_Tool_1_2_1_6</a>
                                             <br/>
                                         </td>
@@ -1938,7 +1938,7 @@
                                         </td>
                                         <td>05/03/2015</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.7/Ezikey Admin Tool V1.2.1.7.zip">Ezikey_Admin_Tool_1_2_1_7</a>
                                             <br/>
                                         </td>
@@ -2048,7 +2048,7 @@
                                     </tr>
                                 </thead>
                                 <tbody class="mCustomScrollbar" data-mcs-theme="dark">
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/ReportService/Version/1.0.4.0/KeyReportService_1.0.4.0.zip">EziKey Report Service_1_0_4_0</a>
                                             <br/>
                                         </td>
@@ -2067,7 +2067,7 @@
                                         </td>
                                         <td>14/10/2013</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/ReportService/Version/1.0.5.0/EziKeyReportService_1.0.5.0.zip">EziKey Report Service_1_0_5_0</a>
                                             <br/>
                                         </td>
@@ -2258,7 +2258,7 @@
                                     </tr>
                                 </thead>
                                 <tbody class="mCustomScrollbar" data-mcs-theme="dark">
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.4/EziKeyScheduleService_1.0.1.4.zip">EziKey_Schedule_Service_1_0_1_4</a>
                                             <br/>
                                         </td>
@@ -2271,7 +2271,7 @@
                                         <td>&nbsp;</td>
                                         <td>25/09/2013</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.5/Ezikey Schedule Service 1.0.1.5.zip">EziKey_Schedule_Service_1_0_1_5</a>
                                             <br/>
                                         </td>
@@ -2284,7 +2284,7 @@
                                         <td>&nbsp;</td>
                                         <td>23/06/2014</td>
                                     </tr>
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.6/Ezikey Schedule Service  V1.0.1.6.zip">EziKey_Schedule_Service_1_0_1_6</a>
                                             <br/>
                                         </td>
@@ -2297,7 +2297,7 @@
                                         <td>&nbsp;</td>
                                         <td>05/03/2015</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.7/Ezikey Schedule Service V1.0.1.7.zip">EziKey_Schedule_Service_1_0_1_7</a>
                                             <br/>
                                         </td>
@@ -2310,7 +2310,7 @@
                                         <td>&nbsp;</td>
                                         <td>08/06/2015</td>
                                     </tr>
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.8/Ezikey Schedule Service Test V1.0.1.8.zip">EziKey_Schedule_Service_1_0_1_8</a>
                                             <br/>
                                         </td>
@@ -2323,7 +2323,7 @@
                                         <td>&nbsp;</td>
                                         <td>28/08/2015</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.9/Ezikey Schedule Service Test V1.0.1.9.zip">EziKey_Schedule_Service_1_0_1_9</a>
                                             <br/>
                                         </td>
@@ -2665,7 +2665,7 @@
                                     </tr>
                                 </thead>
                                 <tbody class="mCustomScrollbar" data-mcs-theme="dark">
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href"EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.2.6.2/WebfleetKeyBoxSync_1_2_6_2.zip">WebfleetKeyBoxSync_1_2_6_2</a>
                                             <br/>
                                         </td>
@@ -2678,7 +2678,7 @@
                                         <td>&nbsp;</td>
                                         <td>&nbsp;</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.2.7.0/Webfleet Key Box Sync 1.2.7.0.zip">WebfleetKeyBoxSync_1_2_7_0</a>
                                            <br/>
                                         </td>
@@ -2691,7 +2691,7 @@
                                         <td>&nbsp;</td>
                                         <td>28/06/2013</td>
                                     </tr>
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.2.7.1/WebfleetKeyBoxSync_1_2_7_1.zip">WebfleetKeyBoxSync_1_2_7_1</a>
                                             <br/>
                                         </td>
@@ -2704,7 +2704,7 @@
                                         <td>&nbsp;</td>
                                         <td>&nbsp;</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.3.0.0/WebfleetKeyBoxSync_1.3.0.0.zip">WebfleetKeyBoxSync_1_3_0_0</a>
                                             <br/>
                                         </td>
@@ -2717,7 +2717,7 @@
                                         <td>&nbsp;</td>
                                         <td>&nbsp;</td>
                                     </tr>
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.3.1.0/WebfleetKeyBoxSync Release V1.3.1.0.zip">WebfleetKeyBoxSync_1_3_1_0</a>
                                             <br/>
                                         </td>
@@ -2730,7 +2730,7 @@
                                         <td>&nbsp;</td>
                                         <td>03/03/2014</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.4.0.1/WebfleetKeyBoxSync Release V1.4.0.1.zip">WebfleetKeyBoxSync_1_4_0_1</a>
                                             <br/>
                                         </td>
@@ -2743,7 +2743,7 @@
                                         <td>&nbsp;</td>
                                         <td>18/04/2014</td>
                                     </tr>
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.5.0.0/WebfleetKeyBoxSync TestV1.5.0.0-06131422.zip">WebfleetKeyBoxSync_1_5_0_0</a>
                                             <br/>
                                         </td>
@@ -2756,7 +2756,7 @@
                                         <td>&nbsp;</td>
                                         <td>20/06/2014</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.6.0.0/WebfleetKeyBoxSync TestV1.6.0.0-07241049.zip">WebfleetKeyBoxSync_1_6_0_0</a>
                                             <br/>
                                         </td>
@@ -2769,7 +2769,7 @@
                                         <td>&nbsp;</td>
                                         <td>29/07/2014</td>
                                     </tr>
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.0/WebfleetKeyBoxSync V1.8.0.0-10291551.zip">WebfleetKeyBoxSync_1_8_0_0</a>
                                             <br/>
                                         </td>
@@ -2782,7 +2782,7 @@
                                         <td>&nbsp;</td>
                                         <td>07/11/2014</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.1/WebfleetKeyBoxSync V1.8.0.1-11191334.zip">WebfleetKeyBoxSync_1_8_0_1</a>
                                             <br/>
                                         </td>
@@ -2795,7 +2795,7 @@
                                         <td>&nbsp;</td>
                                         <td>19/11/2014</td>
                                     </tr>
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.3/WebfleetKeyBoxSync V1.8.0.3-03201237.zip">WebfleetKeyBoxSync_1_8_0_3</a>
                                             <br/>
                                         </td>
@@ -2808,7 +2808,7 @@
                                         <td>&nbsp;</td>
                                         <td>20/03/2015</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.4/WebfleetKeyBoxSync V1.8.0.4-03311541.zip">WebfleetKeyBoxSync_1_8_0_4</a>
                                             <br/>
                                         </td>
@@ -2821,7 +2821,7 @@
                                         <td>&nbsp;</td>
                                         <td>01/04/2015</td>
                                     </tr>                                    
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.5/WebfleetKeyBoxSync V1.8.0.5-05051115.zip">WebfleetKeyBoxSync_1_8_0_5</a>
                                             <br/>
                                         </td>
@@ -3345,7 +3345,7 @@
                                     </tr>
                                 </thead>
                                 <tbody class="mCustomScrollbar" data-mcs-theme="dark">
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.6.1/WebfleetKeyBox_1_2_6_1.zip">WebfleetKeyBox_1_2_6_1</a>
                                             <br/>
                                         </td>
@@ -3358,7 +3358,7 @@
                                         <td>&nbsp;</td>
                                         <td>&nbsp;</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.6.2Beta/WebfleetKeyBox 1.2.6.2 BETA.zip">WebfleetKeyBox_1_2_6_2 BETA</a>
                                             <br/>
                                         </td>
@@ -3371,7 +3371,7 @@
                                         <td>&nbsp;</td>
                                         <td>08/02/2012</td>
                                     </tr>
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.0/Webfleet Key Box 1.2.7.0.zip">WebfleetKeyBox_1_2_7_0</a>
                                             <br/>
                                         </td>
@@ -3384,7 +3384,7 @@
                                         <td>&nbsp;</td>
                                         <td>26/07/2012</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.1/Webfleet Keybox 1.2.7.1.zip">WebfleetKeyBox_1_2_7_1</a>
                                             <br/>
                                         </td>
@@ -3397,7 +3397,7 @@
                                             <td>&nbsp;</td>
                                             <td>10/08/2012</td>
                                     </tr>
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.3/WebfleetKeyBox 1.2.7.3.zip">WebfleetKeyBox_1_2_7_3</a>
                                             <br/>
                                         </td>
@@ -3410,7 +3410,7 @@
                                         <td>&nbsp;</td>
                                         <td>27/09/2013</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.4/WebfleetKeyBox_1_2_7_4.zip">WebfleetKeyBox_1_2_7_4</a>
                                             <br/>
                                         </td>
@@ -3423,7 +3423,7 @@
                                         <td>&nbsp;</td>
                                         <td>&nbsp;</td>
                                     </tr>
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.8.0/Smart Fleet Key Box 1.2.8.0.zip">Webfleetkeybox_1_2_8_0</a>
                                             <br/>
                                         </td>
@@ -3436,7 +3436,7 @@
                                         <td>&nbsp;</td>
                                         <td>&nbsp;</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.0/SmartFleetKeyBox_1.3.0.0.zip">Webfleetkeybox_1_3_0_0</a>
                                             <br/>
                                         </td>
@@ -3449,7 +3449,7 @@
                                         <td>&nbsp;</td>
                                         <td>&nbsp;</td>
                                     </tr>
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.1/SmartFleetKeyBox_1.3.0.1.zip">Webfleetkeybox_1_3_0_1</a>
                                             <br/>
                                         </td>
@@ -3462,7 +3462,7 @@
                                         <td>&nbsp;</td>
                                         <td>&nbsp;</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.2/Smartfleet Keybox V1.3.0.2.zip">Webfleetkeybox_1_3_0_2</a>
                                             <br/>
                                         </td>
@@ -3475,7 +3475,7 @@
                                         <td>&nbsp;</td>
                                         <td>&nbsp;</td>
                                     </tr>
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.3/Smartfleet Keybox V1.3.0.3.zip">Webfleetkeybox_1_3_0_3</a>
                                             <br/>
                                         </td>
@@ -3488,7 +3488,7 @@
                                         <td>&nbsp;</td>
                                         <td>&nbsp;</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.1.0/Smartfleet Keybox Release V1.3.1.0.zip">Webfleetkeybox_1_3_1_0</a>
                                             <br/>
                                         </td>
@@ -3501,7 +3501,7 @@
                                         <td>&nbsp;</td>
                                         <td>03/03/2014</td>
                                     </tr>
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.4.0.1/Smartfleet Keybox Release V1.4.0.1.zip">Webfleetkeybox_1_4_0_1</a>
                                             <br/>
                                         </td>
@@ -3514,7 +3514,7 @@
                                         <td>&nbsp;</td>
                                         <td>18/04/2014</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.5.0.0/Smartfleet Keybox TestV1.5.0.0-06161444.zip">Webfleetkeybox_1_5_0_0</a>
                                             <br/>
                                         </td>
@@ -3527,7 +3527,7 @@
                                         <td>&nbsp;</td>
                                         <td>20/06/2014</td>
                                     </tr>
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.6.0.0/Smartfleet Keybox TestV1.6.0.0-07290946.zip">Webfleetkeybox_1_6_0_0</a>
                                             <br/>
                                         </td>
@@ -3540,7 +3540,7 @@
                                         <td>&nbsp;</td>
                                         <td>29/07/2014</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.6.0.1/Smartfleet Keybox V1.6.0.1-08051247.zip">Webfleetkeybox_1_6_0_1</a>
                                             <br/>
                                         </td>
@@ -3553,7 +3553,7 @@
                                         <td>&nbsp;</td>
                                         <td>21/08/2014</td>
                                     </tr>
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.7.0.0/Smartfleet Keybox TestV1.7.0.0-09091714.zip">Webfleetkeybox_1_7_0_0</a>
                                             <br/>
                                         </td>
@@ -3566,7 +3566,7 @@
                                         <td>&nbsp;</td>
                                         <td>09/09/2014</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.0/Smartfleet Keybox V1.8.0.0-10291552.zip">Webfleetkeybox_1_8_0_0</a>
                                             <br/>
                                         </td>
@@ -3579,7 +3579,7 @@
                                         <td>&nbsp;</td>
                                         <td>07/11/2014</td>
                                     </tr>
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.1/Smartfleet Keybox V1.8.0.1-11191334.zip">Webfleetkeybox_1_8_0_1</a>
                                             <br/>
                                         </td>
@@ -3592,7 +3592,7 @@
                                         <td>&nbsp;</td>
                                         <td>19/11/2014</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.2/Smartfleet Keybox V1.8.0.2-12181541.zip">Webfleetkeybox_1_8_0_2</a>
                                             <br/>
                                         </td>
@@ -3605,7 +3605,7 @@
                                         <td>&nbsp;</td>
                                         <td>19/12/2014</td>
                                     </tr>
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.3/Smartfleet Keybox V1.8.0.3-20160509.zip">Webfleetkeybox_1_8_0_3</a>
                                             <br/>
                                         </td>
@@ -3842,7 +3842,7 @@
                                     </tr>
                                 </thead>
                                 <tbody class="mCustomScrollbar" data-mcs-theme="dark">
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Property_Key_Management/1.0.0.0/Property Key Management 1.0.0.0.zip">Property Key Management 1.0.0.0</a>
                                             <br/>
                                         </td>
@@ -3855,7 +3855,7 @@
                                         <td>&nbsp;</td>
                                         <td>&nbsp;</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/Property_Key_Management/1.0.1.0/Property Key Management 1.0.1.0.zip">Property Key Management 1.0.1.0</a>
                                             <br/>
                                         </td>
@@ -3874,7 +3874,7 @@
                                         </td>
                                         <td>24/9/2012</td>
                                     </tr>
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Property_Key_Management/1.1.0.0/Property Key Management 1.1.0.0.zip">Property Key Management 1.1.0.0</a>
                                             <br/>
                                         </td>
@@ -4007,7 +4007,7 @@
                                     </tr>
                                 </thead>
                                 <tbody class="mCustomScrollbar" data-mcs-theme="dark">
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Web_Admin_Tool/1.0.0.0/Ezikey-Web Admin System 1.0.0.0.zip">EziKey_Web_Admin_Tool_1_0_0_0</a>
                                             <br/>
                                         </td>
@@ -4031,7 +4031,7 @@
                                         </td>
                                         <td>01/08/2013</td>
                                     </tr>
-                                    <tr style="background-color:White;">
+                                    <tr class="info">
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Web_Admin_Tool/1.0.0.1/EziKey_Web_Admin_Tool_1_0_0_1.zip">EziKey_Web_Admin_Tool_1_0_0_1</a>
                                             <br/>
                                         </td>
@@ -4046,7 +4046,7 @@
                                         </td>
                                         <td>12/08/2013</td>
                                     </tr>                                     
-                                    <tr style="background-color:#EFF3FB;">
+                                    <tr>
                                         <td><a href='EZIKEY TOOLS/EziKey/Ezikey_Web_Admin_Tool/1.0.0.2/WebEziKeyAdminTool_1.0.0.2.zip'>EziKey_Web_Admin_Tool_1_0_0_2</a>
                                             <br/>
                                         </td>
