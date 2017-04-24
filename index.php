@@ -18,6 +18,7 @@
 
     <!-- Theme CSS -->
     <link href="css/custom.css" rel="stylesheet">
+    <!-- <link href="css/jquery.mCustomScrollbar.css" rel="stylesheet"> -->
 
     <!-- Custom Fonts -->
     <!-- <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
@@ -798,7 +799,7 @@
                                         <th class="release_date">Release Date</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody class="mCustomScrollbar" data-mcs-theme="dark">
                                     <tr>
                                         <td><a href='http://localhost/EziKey TOOLS/EziKey/EziKey_Touchsystem/versions/1.2.3.0/EziKeyTouchAplication_1.2.3.0.zip'>EziKey_Touch_Application_1_2_3_0(For Windows 7 Professional SP1 32 bit)</a></td>
                                         <td>
@@ -1678,7 +1679,7 @@
                                         <th class="release_date">Release Date</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody class="mCustomScrollbar" data-mcs-theme="dark">
                                     <tr>
                                         <td><a href='/WebEzi Tools/EziKey/EziKey_Management/EziKey_Admin_Tool_1_1_2_0/App/EziKeyAdminTool_1.1.2.0.zip'>EziKey_Admin_Tool_1_1_2_0</a>
                                             <br/>
@@ -2072,7 +2073,7 @@
                                         <th class="release_date">Release Date</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody class="mCustomScrollbar" data-mcs-theme="dark">
 
                                     <tr>
                                         <td><a href='/WebEzi Tools/EziKey/EziKey_Report_Service/EziKey Report Service_1_0_4_0/App/KeyReportService_1.0.4.0.zip'>EziKey Report Service_1_0_4_0</a>
@@ -2284,7 +2285,7 @@
                                         <th class="release_date">Release Date</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody class="mCustomScrollbar" data-mcs-theme="dark">
 
                                     <tr>
                                         <td><a href='/WebEzi Tools/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_4/App/EziKeyScheduleService_1.0.1.4.zip'>EziKey_Schedule_Service_1_0_1_4</a>
@@ -2694,7 +2695,7 @@
                                         <th class="release_date">Release Date</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody class="mCustomScrollbar" data-mcs-theme="dark">
 
                                     <tr>
                                         <td><a href='/WebEzi Tools/Webfleet Key Box/fleetKeyBoxSync/WebfleetKeyBoxSync_1_2_6_2/App/WebfleetKeyBoxSync_1_2_6_2.zip'>WebfleetKeyBoxSync_1_2_6_2</a>
@@ -3375,7 +3376,7 @@
                                         <th class="release_date">Release Date</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody class="mCustomScrollbar" data-mcs-theme="dark">
                                     <tr>
                                         <td><a href='/WebEzi Tools/Webfleet Key Box/WebfleetKeyBox/WebfleetKeyBox_1_2_6_1/App/WebfleetKeyBox_1_2_6_1.zip'>WebfleetKeyBox_1_2_6_1</a>
                                             <br/>
@@ -3738,7 +3739,7 @@
                                         <th class="release_date">Release Date</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody class="mCustomScrollbar" data-mcs-theme="dark">
                                     <tr>
                                         <td><a href="/WebEzi Tools/Property Key/Property Key Admin Tool/Property Key Admin Tool 1.0.0.0/App/Property Key Admin Tool 1.0.0.0.zip">Property Key Admin Tool 1.0.0.0</a></td>
                                         <td>
@@ -3881,7 +3882,7 @@
                                         <th class="release_date">Release Date</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody class="mCustomScrollbar" data-mcs-theme="dark">
                                     <tr>
                                         <td><a href='/WebEzi Tools/Property Key/Property Key Management/Property Key Management 1.0.0.0/App/Property Key Management 1.0.0.0.zip'>Property Key Management 1.0.0.0</a>
                                             <br/>
@@ -4047,7 +4048,7 @@
                                         <th class="release_date">Release Date</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody class="mCustomScrollbar" data-mcs-theme="dark">
                                     <tr>
                                         <td><a href='/WebEzi Tools/EziKey/EziKey_Web_Admin_Tool/EziKey_Web_Admin_Tool_1_0_0_0/App/EziKey-Web Admin System 1.0.0.0.zip'>EziKey_Web_Admin_Tool_1_0_0_0</a>
                                             <br/>
@@ -4111,10 +4112,13 @@
             </div>
         </div>
     </section>
-</div>    
+</div>   
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+    <!-- <script src="js/jquery.mCustomScrollbar.concat.min.js" type="text/javascript"></script> -->
     <script src="js/jquery.shorten.js" type="text/javascript"></script>
+
     <script type="text/javascript">
     // var timoutWarning = 1800000 ; // Display warning in 14 Mins.
     var timoutEnd = 3600000; // Timeout in 1 hr.
@@ -4232,6 +4236,15 @@
         });
     
     });
+
+
+
+    // (function($){
+    //     $(window).on("load",function(){
+    //         $(".content").mCustomScrollbar();
+    //     });
+    // })(jQuery);
+
 
     </script>
 

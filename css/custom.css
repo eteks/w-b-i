@@ -458,15 +458,23 @@ table a{
 /* For table inner Scroll- Added by Akila */
 .release_notes{width: 10%;}
 .release_date{width: 10%;}
+table{
+    display: table;
+    width:100%;
+}
 tbody {
     min-height: 100px;
-    max-height:150px;
+    max-height: 230px;
     overflow-x: hidden;
     overflow-y: auto;
-}
-thead, tbody {
     display: block;
     width: 100%;
+}
+thead tr th {
+    display: block;
+}
+tbody tr td {    
+    display: block;
 }
 tbody tr td:nth-child(1){
     width: 35%;
@@ -484,26 +492,31 @@ tbody tr td:nth-child(5) {
 .table-striped > tbody > tr{
     display: flex;
     display: -webkit-flex; /* Safari */
+    display: -ms-flex;
 }
 .touch_system {
     margin: 80px 50px;
 }
-.last_section{
-    margin:0 50px;
-}
 .morelink, .less {
     color: #29aafe;
     float: right;
-    font-style: italic;
     font-weight: bold;
+    margin-right: 10px;
+    font-size: 16px;
 }
 .morelink:hover, .morelink:focus, .less:hover, .less:focus  {
     color: #29aafe;
 }
 .dropdown a:hover, .dropdown a:focus {
-    color: #e7560b;
+    color: #fff;
+    text-decoration: none;
 }
 .ellip{
     display: none;
+}
+
+/* mcustomScroll */
+.mCSB_inside > .mCSB_container{
+    margin-right: 0px !important;
 }
 /*Ended*/
