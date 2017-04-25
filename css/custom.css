@@ -519,4 +519,27 @@ tbody tr td:nth-child(5) {
 .mCSB_inside > .mCSB_container{
     margin-right: 0px !important;
 }
+.displ_inl{
+    display:inline-block;
+}
+.ezi_touch_option {
+    border: 2px solid #000;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+    margin: 10px 10px;
+}
+.ezi_mgmnt_option{
+    border: 2px solid #000;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+    margin: 10px 10px;
+
+}
+
+
+
 /*Ended*/
