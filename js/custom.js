@@ -1,16 +1,18 @@
 $(document).ready(function() {
 
+	/* For Auto and Manual Options */
+	
 	$('.ezi_touch_option').change(function(){
 		// alert('hi');
 		var val= $(this).val();
 		// alert(val);
 		if(val=='auto'){
-			$('.auto td').show();
-			$('.manual td').hide();
+			$('.ezi_touch_all').find('.auto td').show();
+			$('.ezi_touch_all').find('.manual td').hide();
 		}
 		else if(val=='manual'){
-			$('.manual td').show();
-			$('.auto td').hide();
+			$('.ezi_touch_all').find('.manual td').show();
+			$('.ezi_touch_all').find('.auto td').hide();
 		}
 		else{
 			$('.ezi_touch_all td').show();
@@ -23,16 +25,17 @@ $(document).ready(function() {
 		var val= $(this).val();
 		// alert(val);
 		if(val=='auto'){
-			$('.auto td').show();
-			$('.manual td').hide();
+			$('.ezi_mgmnt_all').find('.auto td').show();
+			$('.ezi_mgmnt_all').find('.manual td').hide();
 		}
 		else if(val=='manual'){
-			$('.manual td').show();
-			$('.auto td').hide();
+			$('.ezi_mgmnt_all').find('.manual td').show();
+			$('.ezi_mgmnt_all').find('.auto td').hide();
 		}
 		else{
 			$('.ezi_mgmnt_all td').show();
 		}
 	});
 
-});
+
+}); /* End of Document */

@@ -171,7 +171,7 @@
                         <div class="ezi-touch">
                             <div class="col-lg-6 col-md-6 col-sm-2 col-xs-12 no-padding-left displ_inl">
                                 <h4 class="pull-left">EziKey Touch System</h4>
-                                <select class="ezi_touch_option pull-left">
+                                <select id="" class="ezi_touch_option pull-left">
                                     <option value="" selected> Select </option>
                                     <option value="auto"> Auto </option>
                                     <option value="manual"> Manual </option>
@@ -1233,7 +1233,7 @@
                         <div class="ezi-touch">
                             <div class="col-lg-6 col-md-6 col-sm-2 col-xs-12 no-padding-left displ_inl">
                                 <h4 class="pull-left">EziKey Management Tools</h4>
-                                <select class="ezi_mgmnt_option pull-left">
+                                <select id="" class="ezi_mgmnt_option pull-left">
                                     <option value="select" selected> Select </option>
                                     <option value="auto"> Auto </option>
                                     <option value="manual"> Manual </option>
@@ -4127,7 +4127,7 @@
     
         $(".show_touchsystem").shorten({
 
-            "showChars" : 2060,
+            "showChars" : 2400,
             "moreText"  : "Show more",
             "lessText"  : "Show less",
 
@@ -4135,7 +4135,7 @@
         
         $(".show_mgmt_tools").shorten({
 
-            "showChars" : 2065,
+            "showChars" : 2400,
             "moreText"  : "Show more",
             "lessText"  : "Show less",
 
@@ -4159,7 +4159,7 @@
 
         $(".show_webfleet_keybox_sync").shorten({
 
-            "showChars" : 1500,
+            "showChars" : 1600,
             "moreText"  : "Show more",
             "lessText"  : "Show less",
 
@@ -4167,7 +4167,7 @@
 
         $(".show_webfleet_keybox").shorten({
 
-            "showChars" : 1500,
+            "showChars" : 1555,
             "moreText"  : "Show more",
             "lessText"  : "Show less",
 
@@ -4184,7 +4184,7 @@
 
         $(".show_property_key_mgmt").shorten({
 
-            "showChars" : 1550,
+            "showChars" : 2050,
             "moreText"  : "Show more",
             "lessText"  : "Show less",
 
@@ -4192,7 +4192,7 @@
 
         $(".show_web_admin_tool").shorten({
 
-            "showChars" : 2200,
+            "showChars" : 1900,
             "moreText"  : "Show more",
             "lessText"  : "Show less",
             

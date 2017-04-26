@@ -519,6 +519,7 @@ tbody tr td:nth-child(5) {
 .mCSB_inside > .mCSB_container{
     margin-right: 0px !important;
 }
+/* For Auto and Manual options */
 .displ_inl{
     display:inline-block;
 }
@@ -538,6 +539,9 @@ tbody tr td:nth-child(5) {
     border-radius: 4px;
     margin: 10px 10px;
 
+}
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+    background-color: #fff !important;
 }
 
 
