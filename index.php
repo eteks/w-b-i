@@ -842,7 +842,7 @@
                                         </td>
                                         <td>17/06/2015</td>
                                     </tr>
-                                    <tr class="info auto">
+                                    <tr class="auto">
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.9/Ezikey Touchscreen System V1.3.1.9.zip">EziKey_Touch_Application_1_3_1_9(For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
@@ -864,7 +864,7 @@
                                         </td>
                                         <td>03/04/2015</td>
                                     </tr>
-                                    <tr class="info manual">
+                                    <tr class="manual">
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.9/Ezikey Touchscreen System V1.2.3.9.zip">EziKey_Touch_Application_1_2_3_9(For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
@@ -930,7 +930,7 @@
                                         </td>
                                         <td>05/03/2015</td>
                                     </tr>
-                                    <tr class="info auto">
+                                    <tr class="auto">
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.7/Ezikey Touchscreen System 1.3.1.7.zip">EziKey_Touch_Application_1_3_1_8(For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
@@ -951,7 +951,7 @@
                                         </td>
                                         <td>02/12/2014</td>
                                     </tr>
-                                     <tr class="info manual">
+                                     <tr class="manual">
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.7/Ezikey Touchscreen System 1.2.3.7.zip">EziKey_Touch_Application_1_2_3_7(For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
@@ -1008,7 +1008,7 @@
                                         </td>
                                         <td>28/08/2014</td>
                                     </tr>
-                                    <tr class="info auto">
+                                    <tr class="auto">
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.5/Ezikey Touchscreen System 1.3.1.5.zip">EziKey_Touch_Application_1_3_1_5(For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
@@ -1023,7 +1023,7 @@
                                         </td>
                                         <td>23/06/2014</td>
                                     </tr>
-                                    <tr class="info manual">
+                                    <tr class="manual">
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.5/Ezikey Touchscreen System 1.2.3.5.zip">EziKey_Touch_Application_1_2_3_5(For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
@@ -1083,7 +1083,7 @@
                                         </td>
                                         <td>25/03/2014</td>
                                     </tr>
-                                    <tr class="info auto">
+                                    <tr class="auto">
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.3/EzikeyTouchApplication_1.3.1.3.zip">EziKey_Touch_Application_1_3_1_3(For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
@@ -1098,7 +1098,7 @@
                                         </td>
                                         <td>10/02/2014</td>
                                     </tr>
-                                    <tr class="info manual">
+                                    <tr class="manual">
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.3/EzikeyTouchApplication_1.2.3.3.zip">EziKey_Touch_Application_1_2_3_3(For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
@@ -1142,7 +1142,7 @@
                                         </td>
                                         <td>14/11/2013</td>
                                     </tr>
-                                    <tr class="info auto">
+                                    <tr class="auto">
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.1/EziKeyTouchApplication_1.3.1.1.zip">EziKey_Touch_Application_1_3_1_1(For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
@@ -1158,7 +1158,7 @@
                                         </td>
                                         <td>06/11/2013</td>
                                     </tr>
-                                     <tr class="info manual">
+                                     <tr class="manual">
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.1/EziKeyTouchApplication_1.2.3.1.zip">EziKey_Touch_Application_1_2_3_1(For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
@@ -1712,7 +1712,7 @@
                                         </td>
                                         <td>03/04/2015</td>
                                     </tr>
-                                    <tr class="info auto">
+                                    <tr class="auto">
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.6/Ezikey Admin Tool  1.2.1.6.zip">Ezikey_Admin_Tool_1_2_1_6</a>
                                             <br/>
                                         </td>
@@ -1733,7 +1733,7 @@
                                         </td>
                                         <td>05/03/2015</td>
                                     </tr>
-                                    <tr class="info manual">
+                                    <tr class="manual">
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.6/Ezikey Admin Tool  V1.1.2.6.zip">Ezikey_Admin_Tool_1_1_2_6</a>
                                             <br/>
                                         </td>
@@ -1792,7 +1792,7 @@
                                         </td>
                                         <td>23/06/2014</td>
                                     </tr>
-                                    <tr class="info auto">
+                                    <tr class="auto">
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.4/Ezikey Admin Tool 1.2.1.4.zip">Ezikey_Admin_Tool_1_2_1_4</a>
                                             <br/>
                                             <td>
@@ -1812,7 +1812,7 @@
                                         </td>
                                         <td>25/03/2014</td>
                                     </tr>
-                                    <tr class="info manual">
+                                    <tr class="manual">
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.4/Ezikey Admin Tool 1.1.2.4.zip">Ezikey_Admin_Tool_1_1_2_4</a>
                                             <br/>
                                         </td>
@@ -1864,7 +1864,7 @@
                                         </td>
                                         <td>14/11/2013</td>
                                     </tr>
-                                    <tr class="info auto">
+                                    <tr class="auto">
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.2/EziKeyAdminTool_1.2.1.2.zip">Ezikey_Admin_Tool_1_2_1_2</a>
                                             <br/>
                                         </td>
@@ -1880,7 +1880,7 @@
                                         </td>
                                         <td>07/11/2013</td>
                                     </tr>
-                                    <tr class='info manual'>
+                                    <tr class='manual'>
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.2/EziKeyAdminTool_1.1.2.2.zip">Ezikey_Admin_Tool_1_1_2_2</a>
                                             <br/>
                                         </td>
@@ -1928,7 +1928,7 @@
                                         </td>
                                         <td>24/10/2013</td>
                                     </tr>
-                                    <tr class="info auto">
+                                    <tr class="auto">
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.0/EziKeyAdminTool_1.2.1.0.zip">Ezikey_Admin_Tool_1_2_1_0</a>
                                             <br/>
                                         </td>
@@ -1949,7 +1949,7 @@
                                         </td>
                                         <td>14/10/2013</td>
                                     </tr>
-                                    <tr class="info manual">
+                                    <tr class="manual">
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.0/EziKeyAdminTool_1.1.2.0.zip">Ezikey_Admin_Tool_1_1_2_0</a>
                                             <br/>
                                         </td>

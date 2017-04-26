@@ -515,11 +515,11 @@ tbody tr td:nth-child(5) {
     display: none;
 }
 
-/* mcustomScroll */
+/* mcustomScroll- - Added by Akila */
 .mCSB_inside > .mCSB_container{
     margin-right: 0px !important;
 }
-/* For Auto and Manual options */
+/* For Auto and Manual options - Added by Akila */
 .displ_inl{
     display:inline-block;
 }
@@ -543,7 +543,14 @@ tbody tr td:nth-child(5) {
 .table-striped > tbody > tr:nth-of-type(2n+1) {
     background-color: #fff !important;
 }
+.ezi_touch_all > tr:nth-of-type(2n) {
 
+    background-color: #d9edf7 !important;
+}
+
+.ezi_mgmnt_all > tr:nth-of-type(2n) {
+    background-color: #d9edf7 !important;
+}
 
 
 /*Ended*/
