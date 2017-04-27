@@ -1,5 +1,5 @@
 <?php
-   include('session.php');
+  include('session.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -241,7 +241,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.1/Ezikey%20Touch%20Application%201.2.3.1.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.1/Ezikey_Touch_Application_1.2.3.1.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.1/Ezikey Touch Application 1.2.3.1.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -268,7 +268,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.10/Ezikey%20Touch%20Screen%201.2.3.10.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.10/Ezikey_Touch_Screen_1.2.3.10.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.10/Ezikey Touch Application 1.2.3.10.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -291,7 +291,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.2/Ezikey%20Touch%20Application%201.2.3.2.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.2/Ezikey_Touch_Application_1.2.3.2.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.2/Ezikey Touch Application 1.2.3.2.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -314,7 +314,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.3/Ezikey%20Touch%20Application%201.2.3.3.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.3/Ezikey_Touch_Application_1.2.3.3.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.3/Ezikey Touch Application 1.2.3.3.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -340,7 +340,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.4/Ezikey%20Touch%20Application%201.2.3.4.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.4/Ezikey_Touch_Application_1.2.3.4.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.4/Ezikey Touch Application 1.2.3.4.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -362,7 +362,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.5/Ezikey%20Touch%20Application%201.2.3.5.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.5/Ezikey_Touch_Application_1.2.3.5.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.5/Ezikey Touch Application 1.2.3.5.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -374,7 +374,7 @@
 
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.6/Ezikey Touchscreen System 1.2.3.6.zip">EziKey_Touch_Application_1_2_3_6(For Windows 7 Professional SP1 32 bit)</a></div>
+                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.6/Ezikey Touchscreen System 1.2.3.6.zip">EziKey_Touch_Application_1_2_3_6 <br/> (For Windows 7 Professional SP1 32 bit)</a></div>
                                         <div class="col-xs-3 text-right no-padding">28/08/2014</div>
                                     </div>
 
@@ -387,7 +387,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.6/Ezikey%20Touch%20Application%201.2.3.6.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.6/Ezikey_Touch_Application_1.2.3.6.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.6/Ezikey Touch Application 1.2.3.6.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -412,7 +412,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.7/Ezikey%20Touch%20Application%201.2.3.7.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.7/Ezikey_Touch_Application_1.2.3.7.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.7/Ezikey Touch Application 1.2.3.7.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -439,7 +439,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.8/Ezikey%20Touch%20Application%201.2.3.8.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.8/Ezikey_Touch_Application_1.2.3.8.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.8/Ezikey Touch Application 1.2.3.8.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -467,7 +467,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.9/Ezikey%20Touch%20Application%201.2.3.9.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.9/Ezikey_Touch_Application_1.2.3.9.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.9/Ezikey Touch Application 1.2.3.9.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -501,7 +501,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.0/Ezikey%20Touch%20Application%201.3.1.0.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.0/Ezikey_Touch_Application_1.3.1.0.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.0/Ezikey Touch Application 1.3.1.0.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -524,7 +524,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.1/Ezikey%20Touch%20Application%201.3.1.1.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.1/Ezikey_Touch_Application_1.3.1.1.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.1/Ezikey Touch Application 1.3.1.1.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -679,7 +679,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.6/Ezikey%20Touch%20Application%201.3.1.6.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.6/Ezikey_Touch_Application_1.3.1.6.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.6/Ezikey Touch Application 1.3.1.6.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -742,7 +742,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.8/Ezikey%20Touch%20Application%201.3.1.8.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.8/Ezikey_Touch_Application_1.3.1.8.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.8/Ezikey Touch Application 1.3.1.8.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -775,7 +775,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.9/Ezikey%20Touch%20Application%201.3.1.9.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.9/Ezikey_Touch_Application_1.3.1.9.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.9/Ezikey Touch Application 1.3.1.9.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -803,7 +803,7 @@
                                 </thead>
                                 <tbody class="ezi_touch_all mCustomScrollbar" data-mcs-theme="dark">
                                     <tr class="auto">
-                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.10/Ezikey Touchscreen System V1.3.1.10.zip">EziKey_Touch_Application_1_3_1_10(For Windows 7 Professional SP1 32 bit)</a>
+                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.10/Ezikey Touchscreen System V1.3.1.10.zip">EziKey_Touch_Application_1_3_1_10 <br/> (For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
 
@@ -824,7 +824,7 @@
                                         <td>17/06/2015</td>
                                     </tr>
                                     <tr class="manual">
-                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.10/Ezikey Touchscreen System V1.2.3.10.zip">EziKey_Touch_Application_1_2_3_10(For Windows 7 Professional SP1 32 bit)</a>
+                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.10/Ezikey Touchscreen System V1.2.3.10.zip">EziKey_Touch_Application_1_2_3_10 <br/> (For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
                                         <td>
@@ -834,7 +834,7 @@
                                             <br/>
                                         </td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.10/Ezikey%20Touch%20Screen%201.2.3.10.txt"><img src="images/notes.svg" alt="ezi" /></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.10/Ezikey_Touch_Screen_1.2.3.10.txt"><img src="images/notes.svg" alt="ezi" /></a>
                                             </i>
                                         </td>
                                         <td class="text-center">
@@ -843,7 +843,7 @@
                                         <td>17/06/2015</td>
                                     </tr>
                                     <tr class="auto">
-                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.9/Ezikey Touchscreen System V1.3.1.9.zip">EziKey_Touch_Application_1_3_1_9(For Windows 7 Professional SP1 32 bit)</a>
+                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.9/Ezikey Touchscreen System V1.3.1.9.zip">EziKey_Touch_Application_1_3_1_9 <br/> (For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
 
@@ -855,7 +855,7 @@
                                             <br/>
                                         </td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.9/Ezikey%20Touch%20Application%201.3.1.9.txt"><img src="images/notes.svg" alt="ezi" /></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.9/Ezikey_Touch_Application_1.3.1.9.txt"><img src="images/notes.svg" alt="ezi" /></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -865,7 +865,7 @@
                                         <td>03/04/2015</td>
                                     </tr>
                                     <tr class="manual">
-                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.9/Ezikey Touchscreen System V1.2.3.9.zip">EziKey_Touch_Application_1_2_3_9(For Windows 7 Professional SP1 32 bit)</a>
+                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.9/Ezikey Touchscreen System V1.2.3.9.zip">EziKey_Touch_Application_1_2_3_9 <br/> (For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
 
@@ -876,7 +876,7 @@
                                             <br/>
                                         </td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.9/Ezikey%20Touch%20Application%201.2.3.9.txt"><img src="images/notes.svg" alt="ezi" /></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.9/Ezikey_Touch_Application_1.2.3.9.txt"><img src="images/notes.svg" alt="ezi" /></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -886,7 +886,7 @@
                                         <td>03/04/2015</td>
                                     </tr>
                                     <tr class="auto">
-                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.8/Ezikey Touchscreen System  V1.3.1.8.zip">EziKey_Touch_Application_1_3_1_8(For Windows 7 Professional SP1 32 bit)</a>
+                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.8/Ezikey Touchscreen System  V1.3.1.8.zip">EziKey_Touch_Application_1_3_1_8 <br/> (For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
 
@@ -901,7 +901,7 @@
                                             <br/>
                                         </td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.8/Ezikey%20Touch%20Application%201.3.1.8.txt"><img src="images/notes.svg" alt="ezi" /></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.8/Ezikey_Touch_Application_1.3.1.8.txt"><img src="images/notes.svg" alt="ezi" /></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -911,7 +911,7 @@
                                         <td>05/03/2015</td>
                                     </tr>
                                     <tr class="manual">
-                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.8/Ezikey Touchscreen System V1.2.3.8.zip">EziKey_Touch_Application_1_2_3_8(For Windows 7 Professional SP1 32 bit)</a>
+                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.8/Ezikey Touchscreen System V1.2.3.8.zip">EziKey_Touch_Application_1_2_3_8 <br/> (For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
                                         <td>
@@ -921,7 +921,7 @@
                                             <br/>
                                         </td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.8/Ezikey%20Touch%20Application%201.2.3.8.txt"><img src="images/notes.svg" alt="ezi" /></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.8/Ezikey_Touch_Application_1.2.3.8.txt"><img src="images/notes.svg" alt="ezi" /></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -931,7 +931,7 @@
                                         <td>05/03/2015</td>
                                     </tr>
                                     <tr class="auto">
-                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.7/Ezikey Touchscreen System 1.3.1.7.zip">EziKey_Touch_Application_1_3_1_8(For Windows 7 Professional SP1 32 bit)</a>
+                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.7/Ezikey Touchscreen System 1.3.1.7.zip">EziKey_Touch_Application_1_3_1_7 <br/> (For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
 
@@ -952,7 +952,7 @@
                                         <td>02/12/2014</td>
                                     </tr>
                                      <tr class="manual">
-                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.7/Ezikey Touchscreen System 1.2.3.7.zip">EziKey_Touch_Application_1_2_3_7(For Windows 7 Professional SP1 32 bit)</a>
+                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.7/Ezikey Touchscreen System 1.2.3.7.zip">EziKey_Touch_Application_1_2_3_7 <br/> (For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
 
@@ -961,7 +961,7 @@
                                             <br/>
                                         </td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.7/Ezikey%20Touch%20Application%201.2.3.7.txt"><img src="images/notes.svg" alt="ezi" /></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.7/Ezikey_Touch_Application_1.2.3.7.txt"><img src="images/notes.svg" alt="ezi" /></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -980,7 +980,7 @@
                                             <br/>
                                         </td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.6/Ezikey%20Touch%20Application%201.3.1.6.txt"><img src="images/notes.svg" alt="ezi" /></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.6/Ezikey_Touch_Application_1.3.1.6.txt"><img src="images/notes.svg" alt="ezi" /></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -990,7 +990,7 @@
                                         <td>28/08/2014</td>
                                     </tr>
                                     <tr class="manual">
-                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.6/Ezikey Touchscreen System 1.2.3.6.zip">EziKey_Touch_Application_1_2_3_6(For Windows 7 Professional SP1 32 bit)</a>
+                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.6/Ezikey Touchscreen System 1.2.3.6.zip">EziKey_Touch_Application_1_2_3_6 <br/> (For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
 
@@ -999,7 +999,7 @@
                                             <br/>
                                         </td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.6/Ezikey%20Touch%20Application%201.2.3.6.txt"><img src="images/notes.svg" alt="ezi" /></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.6/Ezikey_Touch_Application_1.2.3.6.txt"><img src="images/notes.svg" alt="ezi" /></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -1009,7 +1009,7 @@
                                         <td>28/08/2014</td>
                                     </tr>
                                     <tr class="auto">
-                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.5/Ezikey Touchscreen System 1.3.1.5.zip">EziKey_Touch_Application_1_3_1_5(For Windows 7 Professional SP1 32 bit)</a>
+                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.5/Ezikey Touchscreen System 1.3.1.5.zip">EziKey_Touch_Application_1_3_1_5 <br/> (For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -1024,13 +1024,13 @@
                                         <td>23/06/2014</td>
                                     </tr>
                                     <tr class="manual">
-                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.5/Ezikey Touchscreen System 1.2.3.5.zip">EziKey_Touch_Application_1_2_3_5(For Windows 7 Professional SP1 32 bit)</a>
+                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.5/Ezikey Touchscreen System 1.2.3.5.zip">EziKey_Touch_Application_1_2_3_5 <br/> (For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.5/Ezikey%20Touch%20Application%201.2.3.5.txt"><img src="images/notes.svg" alt="ezi" /></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.5/Ezikey_Touch_Application_1.2.3.5.txt"><img src="images/notes.svg" alt="ezi" /></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -1040,7 +1040,7 @@
                                         <td>23/06/2014</td>
                                     </tr>
                                     <tr class="auto">
-                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.4/Ezikey Touchscreen System 1.3.1.4.zip">EziKey_Touch_Application_1_3_1_4(For Windows 7 Professional SP1 32 bit)</a>
+                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.4/Ezikey Touchscreen System 1.3.1.4.zip">EziKey_Touch_Application_1_3_1_4 <br/> (For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
                                         <td>
@@ -1064,7 +1064,7 @@
                                         <td>25/03/2014</td>
                                     </tr> 
                                     <tr class="manual">
-                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.4/Ezikey Touchscreen System  1.2.3.4.zip">EziKey_Touch_Application_1_2_3_4(For Windows 7 Professional SP1 32 bit)</a>
+                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.4/Ezikey Touchscreen System  1.2.3.4.zip">EziKey_Touch_Application_1_2_3_4 <br/> (For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
 
@@ -1074,7 +1074,7 @@
                                             <a href='https://onedrive.live.com/?cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216229#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%217997'><img alt="ezi" src="images/select.svg"> EziKey Admin Empty no 578 1.1.2.4</a>
                                             <br/>
                                         </td>
-                                        <td class="text-center"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.4/Ezikey%20Touch%20Application%201.2.3.4.txt"> <img src="images/notes.svg" alt="ezi" /></a>
+                                        <td class="text-center"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.4/Ezikey_Touch_Application_1.2.3.4.txt"> <img src="images/notes.svg" alt="ezi" /></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -1084,7 +1084,7 @@
                                         <td>25/03/2014</td>
                                     </tr>
                                     <tr class="auto">
-                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.3/EzikeyTouchApplication_1.3.1.3.zip">EziKey_Touch_Application_1_3_1_3(For Windows 7 Professional SP1 32 bit)</a>
+                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.3/EzikeyTouchApplication_1.3.1.3.zip">EziKey_Touch_Application_1_3_1_3 <br/> (For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -1099,13 +1099,13 @@
                                         <td>10/02/2014</td>
                                     </tr>
                                     <tr class="manual">
-                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.3/EzikeyTouchApplication_1.2.3.3.zip">EziKey_Touch_Application_1_2_3_3(For Windows 7 Professional SP1 32 bit)</a>
+                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.3/EzikeyTouchApplication_1.2.3.3.zip">EziKey_Touch_Application_1_2_3_3 <br/> (For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
                                         <td>
                                         </td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.3/Ezikey%20Touch%20Application%201.2.3.3.txt"><img src="images/notes.svg" alt="ezi" /></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.3/Ezikey_Touch_Application_1.2.3.3.txt"><img src="images/notes.svg" alt="ezi" /></a>
                                         </td>
                                         <td class="text-center">
                                             <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.3/Ezikey Touch Application 1.2.3.3.pdf"><img src="images/pdf.svg" alt="ezi" /></a>
@@ -1113,7 +1113,7 @@
                                         <td>10/02/2014</td>
                                     </tr>
                                     <tr class="auto">
-                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.2/EziKeyTouchApplication_1.3.1.2.zip">EziKey_Touch_Application_1_3_1_2(For Windows 7 Professional SP1 32 bit)</a>
+                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.2/EziKeyTouchApplication_1.3.1.2.zip">EziKey_Touch_Application_1_3_1_2 <br/> (For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
 
@@ -1129,12 +1129,12 @@
                                         <td>14/11/2013</td>
                                     </tr>
                                     <tr class="manual">
-                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.2/EziKeyTouchApplication_1.2.3.2.zip">EziKey_Touch_Application_1_2_3_2(For Windows 7 Professional SP1 32 bit)</a>
+                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.2/EziKeyTouchApplication_1.2.3.2.zip">EziKey_Touch_Application_1_2_3_2 <br/> (For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
                                         <td></td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.2/Ezikey%20Touch%20Application%201.2.3.2.txt"><img src="images/notes.svg" alt="ezi" /></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.2/Ezikey_Touch_Application_1.2.3.2.txt"><img src="images/notes.svg" alt="ezi" /></a>
                                             </i>
                                         </td>
                                         <td class="text-center">
@@ -1143,13 +1143,13 @@
                                         <td>14/11/2013</td>
                                     </tr>
                                     <tr class="auto">
-                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.1/EziKeyTouchApplication_1.3.1.1.zip">EziKey_Touch_Application_1_3_1_1(For Windows 7 Professional SP1 32 bit)</a>
+                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.1/EziKeyTouchApplication_1.3.1.1.zip">EziKey_Touch_Application_1_3_1_1 <br/> (For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.1/Ezikey%20Touch%20Application%201.3.1.1.txt"><img src="images/notes.svg" alt="ezi" /></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.1/Ezikey_Touch_Application_1.3.1.1.txt"><img src="images/notes.svg" alt="ezi" /></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -1159,14 +1159,14 @@
                                         <td>06/11/2013</td>
                                     </tr>
                                      <tr class="manual">
-                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.1/EziKeyTouchApplication_1.2.3.1.zip">EziKey_Touch_Application_1_2_3_1(For Windows 7 Professional SP1 32 bit)</a>
+                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.1/EziKeyTouchApplication_1.2.3.1.zip">EziKey_Touch_Application_1_2_3_1 <br/> (For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
                                         <td>
 
                                         </td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.1/Ezikey%20Touch%20Application%201.2.3.1.txt"><img src="images/notes.svg" alt="ezi" /></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.1/Ezikey_Touch_Application_1.2.3.1.txt"><img src="images/notes.svg" alt="ezi" /></a>
                                             </i>
                                         </td>
                                         <td class="text-center">
@@ -1175,7 +1175,7 @@
                                         <td>06/11/2013</td>
                                     </tr>
                                     <tr class="auto">
-                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.0/EziKeyTouchApplication_1.3.1.0.zip">EziKey_Touch_Application_1_3_1_0(For Windows 7 Professional SP1 32 bit)</a>
+                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.0/EziKeyTouchApplication_1.3.1.0.zip">EziKey_Touch_Application_1_3_1_0 <br/> (For Windows 7 Professional SP1 32 bit)</a>
                                             <br/>
                                         </td>
 
@@ -1190,7 +1190,7 @@
                                             <br/>
                                         </td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.0/Ezikey%20Touch%20Application%201.3.1.0.txt"><img src="images/notes.svg" alt="ezi" /></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.0/Ezikey_Touch_Application_1.3.1.0.txt"><img src="images/notes.svg" alt="ezi" /></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -1200,7 +1200,7 @@
                                         <td>14/10/2013</td>
                                     </tr>
                                     <tr class="manual">
-                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.0/EziKeyTouchAplication_1.2.3.0.zip">EziKey_Touch_Application_1_2_3_0(For Windows 7 Professional SP1 32 bit)</a></td>
+                                        <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.0/EziKeyTouchAplication_1.2.3.0.zip">EziKey_Touch_Application_1_2_3_0 <br/> (For Windows 7 Professional SP1 32 bit)</a></td>
                                         <td>
                                             <img src="images/select.svg" alt="ezi" />
                                             <a href='https://skydrive.live.com/?qt=shared#cid=7A50AB693C5268A9&id=7A50AB693C5268A9%216229'>EziKey_Empty_Admin_1.1.2.0</a>
@@ -1277,7 +1277,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.0/Ezikey%20Admin%20Tool%201.1.2.0.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.0/Ezikey_Admin_Tool_1.1.2.0.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.0/EziKey Admin Tool 1.1.2.0.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1299,7 +1299,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.1/Ezikey%20Admin%20Tool%201.1.2.1.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.1/Ezikey_Admin_Tool_1.1.2.1.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.1/EziKey Admin Tool 1.1.2.1.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1320,7 +1320,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.2/Ezikey%20Admin%20Tool%201.1.2.2.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.2/Ezikey_Admin_Tool_1.1.2.2.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.2/EziKey Admin Tool 1.1.2.2.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1342,7 +1342,7 @@
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
 
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.3/Ezikey%20Admin%20Tool%201.1.2.3.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.3/Ezikey_Admin_Tool_1.1.2.3.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.3/EziKey Admin Tool 1.1.2.3.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1369,7 +1369,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.4/Ezikey%20Admin%20Tool%201.1.2.4.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.4/Ezikey_Admin_Tool_1.1.2.4.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.4/EziKey Admin Tool 1.1.2.4.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1394,7 +1394,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.5/Ezikey%20Admin%20Tool%201.1.2.5.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.5/Ezikey_Admin_Tool_1.1.2.5.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.5/EziKey Admin Tool 1.1.2.5.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1421,7 +1421,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.6/Ezikey%20Admin%20Tool%201.1.2.6.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.6/Ezikey_Admin_Tool_1.1.2.6.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.6/EziKey Admin Tool 1.1.2.6.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1448,7 +1448,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.7/Ezikey%20Admin%20Tool%201.1.2.7.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.7/Ezikey_Admin_Tool_1.1.2.7.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.7/EziKey Admin Tool 1.1.2.7.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1475,7 +1475,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.0/Ezikey%20Admin%20Tool%201.2.1.0.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.0/Ezikey_Admin_Tool_1.2.1.0.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.0/EziKey Admin Tool 1.2.1.0.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1497,7 +1497,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.1/Ezikey%20Admin%20Tool%201.2.1.1.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.1/Ezikey_Admin_Tool_1.2.1.1.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.1/EziKey Admin Tool 1.2.1.1.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1518,7 +1518,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.2/Ezikey%20Admin%20Tool%201.2.1.2.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.2/Ezikey_Admin_Tool_1.2.1.2.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.2/EziKey Admin Tool 1.2.1.2.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1539,7 +1539,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.3/Ezikey%20Admin%20Tool%201.2.1.3.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.3/Ezikey_Admin_Tool_1.2.1.3.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.3/EziKey Admin Tool 1.2.1.3.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1564,7 +1564,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.4/Ezikey%20Admin%20Tool%201.2.1.4.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.4/Ezikey_Admin_Tool_1.2.1.4.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.4/EziKey Admin Tool 1.2.1.4.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1591,7 +1591,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.5/Ezikey%20Admin%20Tool%201.2.1.5.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.5/Ezikey_Admin_Tool_1.2.1.5.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.5/EziKey Admin Tool 1.2.1.5.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -1703,7 +1703,7 @@
                                             <br/>
                                         </td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.7/Ezikey%20Admin%20Tool%201.1.2.7.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.7/Ezikey_Admin_Tool_1.1.2.7.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -1745,7 +1745,7 @@
                                             <br/>
                                         </td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.6/Ezikey%20Admin%20Tool%201.1.2.6.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.6/Ezikey_Admin_Tool_1.1.2.6.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -1764,7 +1764,7 @@
                                             <br/>
                                         </td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.5/Ezikey%20Admin%20Tool%201.2.1.5.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.5/Ezikey_Admin_Tool_1.2.1.5.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -1783,7 +1783,7 @@
                                             <br/>
                                         </td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.5/Ezikey%20Admin%20Tool%201.1.2.5.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.5/Ezikey_Admin_Tool_1.1.2.5.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -1803,7 +1803,7 @@
                                             </td>
                                         </td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.4/Ezikey%20Admin%20Tool%201.2.1.4.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.4/Ezikey_Admin_Tool_1.2.1.4.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -1823,7 +1823,7 @@
                                             <br/>
                                         </td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.4/Ezikey%20Admin%20Tool%201.1.2.4.txt"> <img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.4/Ezikey_Admin_Tool_1.1.2.4.txt"> <img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -1839,7 +1839,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.3/Ezikey%20Admin%20Tool%201.2.1.3.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.3/Ezikey_Admin_Tool_1.2.1.3.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -1855,7 +1855,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.3/Ezikey%20Admin%20Tool%201.1.2.3.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.3/Ezikey_Admin_Tool_1.1.2.3.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -1871,7 +1871,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.2/Ezikey%20Admin%20Tool%201.2.1.2.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.2/Ezikey_Admin_Tool_1.2.1.2.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -1887,7 +1887,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.2/Ezikey%20Admin%20Tool%201.1.2.2.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.2/Ezikey_Admin_Tool_1.1.2.2.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -1903,7 +1903,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.1/Ezikey%20Admin%20Tool%201.2.1.1.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.1/Ezikey_Admin_Tool_1.2.1.1.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -1919,7 +1919,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.1/Ezikey%20Admin%20Tool%201.1.2.1.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.1/Ezikey_Admin_Tool_1.1.2.1.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -1940,7 +1940,7 @@
                                             <br/>
                                         </td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.0/Ezikey%20Admin%20Tool%201.2.1.0.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.0/Ezikey_Admin_Tool_1.2.1.0.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -1963,7 +1963,7 @@
                                             <br/>
                                         </td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.0/Ezikey%20Admin%20Tool%201.1.2.0.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.0/Ezikey_Admin_Tool_1.1.2.0.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -2013,7 +2013,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/ReportService/Version/1.0.4.0/Ezikey%20Report%20Service%201.0.4.0.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/ReportService/Version/1.0.4.0/Ezikey_Report_Service_1.0.4.0.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/ReportService/Version/1.0.4.0/Report Service.docx"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2035,7 +2035,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/ReportService/Version/1.0.5.0/Ezikey%20Report%20Service%201.0.5.0.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/ReportService/Version/1.0.5.0/Ezikey_Report_Service_1.0.5.0.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/ReportService/Version/1.0.5.0/Report Service.docx"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2068,7 +2068,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/ReportService/Version/1.0.5.0/Ezikey%20Report%20Service%201.0.5.0.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/ReportService/Version/1.0.5.0/Ezikey_Report_Service_1.0.5.0.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -2087,7 +2087,7 @@
                                             </a>
                                         </td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/ReportService/Version/1.0.4.0/Ezikey%20Report%20Service%201.0.4.0.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/ReportService/Version/1.0.4.0/Ezikey_Report_Service_1.0.4.0.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -2135,7 +2135,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.9/Ezikey%20Schedul%20Service%201.0.1.9.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.9/Ezikey_Schedul_Service_1.0.1.9.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href=""><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2157,7 +2157,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.8/Ezikey%20Schedul%20Service%201.0.1.8.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.8/Ezikey_Schedul_Service_1.0.1.8.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2179,7 +2179,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.7/Ezikey%20Schedul%20Service%201.0.1.7.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.7/Ezikey_Schedul_Service_1.0.1.7.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2201,7 +2201,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.6/Ezikey%20Schedul%20Service%201.0.1.6.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.6/Ezikey_Schedul_Service_1.0.1.6.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2223,7 +2223,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.5/Ezikey%20Schedul%20Service%201.0.1.5.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.5/Ezikey_Schedul_Service_1.0.1.5.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2245,7 +2245,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.4/Ezikey%20Schedule%20Service%201.0.1.4.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.4/Ezikey_Schedule_Service_1.0.1.4.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2279,7 +2279,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.9/Ezikey%20Schedul%20Service%201.0.1.9.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.9/Ezikey_Schedul_Service_1.0.1.9.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -2292,7 +2292,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.8/Ezikey%20Schedul%20Service%201.0.1.8.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.8/Ezikey_Schedul_Service_1.0.1.8.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -2305,7 +2305,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.7/Ezikey%20Schedul%20Service%201.0.1.7.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.7/Ezikey_Schedul_Service_1.0.1.7.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -2318,7 +2318,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.6/Ezikey%20Schedul%20Service%201.0.1.6.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.6/Ezikey_Schedul_Service_1.0.1.6.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -2331,7 +2331,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.5/Ezikey%20Schedul%20Service%201.0.1.5.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.5/Ezikey_Schedul_Service_1.0.1.5.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -2344,7 +2344,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.4/Ezikey%20Schedule%20Service%201.0.1.4.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.4/Ezikey_Schedule_Service_1.0.1.4.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -2390,7 +2390,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.5/release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.5/release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_9/Release Notes/Ezikey Schedul Service 1.0.1.9.txt"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2412,7 +2412,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.4/release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.4/release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_9/Release Notes/Ezikey Schedul Service 1.0.1.9.txt"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2434,7 +2434,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.3/release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.3/release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_9/Release Notes/Ezikey Schedul Service 1.0.1.9.txt"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2456,7 +2456,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.1/release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.1/release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_9/Release Notes/Ezikey Schedul Service 1.0.1.9.txt"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2478,7 +2478,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.0/release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.0/release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_9/Release Notes/Ezikey Schedul Service 1.0.1.9.txt"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2500,7 +2500,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.6.0.0/release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.6.0.0/release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_9/Release Notes/Ezikey Schedul Service 1.0.1.9.txt"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2521,7 +2521,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.5.0.0/release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.5.0.0/release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_9/Release Notes/Ezikey Schedul Service 1.0.1.9.txt"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2543,7 +2543,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.4.0.1/release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.4.0.1/release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_9/Release Notes/Ezikey Schedul Service 1.0.1.9.txt"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2565,7 +2565,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.3.1.0/release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.3.1.0/release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="/EZIKEY TOOLS/EziKey/EziKey_Schedule_Service/EziKey_Schedule_Service_1_0_1_9/Release Notes/Ezikey Schedul Service 1.0.1.9.txt"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2587,7 +2587,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.3.0.0/release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.3.0.0/release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href=""><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2609,7 +2609,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.2.7.1/release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.2.7.1/release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href=""><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2631,7 +2631,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.2.7.0/Release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.2.7.0/Release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href=""><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2653,7 +2653,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.2.6.2/Release%20Note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.2.6.2/Release_Note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href=""><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2686,7 +2686,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.5/release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.5/release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -2699,7 +2699,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.4/release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.4/release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -2712,7 +2712,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.3/release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.3/release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -2725,7 +2725,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.1/release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.1/release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -2738,7 +2738,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.0/release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.0/release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -2751,7 +2751,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.6.0.0/release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.6.0.0/release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -2764,7 +2764,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.5.0.0/release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.5.0.0/release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -2777,7 +2777,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.4.0.1/release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.4.0.1/release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -2790,7 +2790,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.3.1.0/release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.3.1.0/release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -2803,7 +2803,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.3.0.0/release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.3.0.0/release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -2816,7 +2816,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.2.7.1/release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.2.7.1/release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -2829,7 +2829,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.2.7.0/Release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.2.7.0/Release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -2842,7 +2842,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.2.6.2/Release%20Note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.2.6.2/Release_Note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -2892,7 +2892,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.6.1/Release%20Note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.6.1/Release_Note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href=""><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2914,7 +2914,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.3/release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.3/release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2936,7 +2936,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.2/Release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.2/Release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2958,7 +2958,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.1/release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.1/release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -2980,7 +2980,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.0/release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.0/release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3002,7 +3002,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.7.0.0/Release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.7.0.0/Release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3024,7 +3024,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.6.0.1/Release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.6.0.1/Release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3046,7 +3046,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.6.0.0/release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.6.0.0/release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3068,7 +3068,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.5.0.0/release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.5.0.0/release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3090,7 +3090,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.4.0.1/release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.4.0.1/release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3112,7 +3112,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.1.0/release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.1.0/release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3134,7 +3134,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.3/Release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.3/Release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3156,7 +3156,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.2/Release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.2/Release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3178,7 +3178,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.1/Release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.1/Release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3200,7 +3200,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.0/release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.0/release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3222,7 +3222,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.8.0/Release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.8.0/Release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3244,7 +3244,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.4/release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.4/release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3266,7 +3266,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.3/Release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.3/Release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3288,7 +3288,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.1/release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.1/release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3310,7 +3310,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.0/Release%20note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.0/Release_note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3332,7 +3332,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.6.2Beta/Release%20Note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.6.2Beta/Release_Note.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <!-- <li class="box" role="">
                                                 <a href="#"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3365,7 +3365,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.3/release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.3/release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -3378,7 +3378,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.2/Release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.2/Release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -3391,7 +3391,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.1/release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.1/release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -3404,7 +3404,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.0/release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.0/release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -3417,7 +3417,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.7.0.0/Release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.7.0.0/Release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -3430,7 +3430,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.6.0.1/Release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.6.0.1/Release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -3443,7 +3443,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.6.0.0/release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.6.0.0/release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -3456,7 +3456,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.5.0.0/release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.5.0.0/release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -3469,7 +3469,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.4.0.1/release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.4.0.1/release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -3482,7 +3482,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.1.0/release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.1.0/release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -3495,7 +3495,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.3/Release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.3/Release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -3508,7 +3508,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.2/Release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.2/Release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -3521,7 +3521,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.1/Release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.1/Release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -3534,7 +3534,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.0/release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.0/release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -3547,7 +3547,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.8.0/Release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.8.0/Release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -3560,7 +3560,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.4/release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.4/release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -3573,7 +3573,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.3/Release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.3/Release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -3588,7 +3588,7 @@
                                         </td>
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.1/release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.1/release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <td>&nbsp;</td>
                                             <td>10/08/2012</td>
                                     </tr>
@@ -3599,7 +3599,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.0/Release%20note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.0/Release_note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -3612,7 +3612,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.6.2Beta/Release%20Note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.6.2Beta/Release_Note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -3625,7 +3625,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.6.1/Release%20Note.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.6.1/Release_Note.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td>&nbsp;</td>
@@ -3772,7 +3772,7 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Property_Key_Management/1.1.0.0/Property Key Management 1.1.0.0.zip">Property Key Management 1.1.0.0(For Windows 7 Professional SP1 32 bit)</a></div>
+                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Property_Key_Management/1.1.0.0/Property Key Management 1.1.0.0.zip">Property Key Management 1.1.0.0 <br/> (For Windows 7 Professional SP1 32 bit)</a></div>
                                         <div class="col-xs-3 text-right no-padding">13/03/2014</div>
                                     </div>
 
@@ -3783,7 +3783,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Property_Key_Management/1.1.0.0/Property%20Key%20Management%201.1.0.0.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Property_Key_Management/1.1.0.0/Property_Key_Management_1.1.0.0.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Property_Key_Management/1.1.0.0/Property Key Management 1.1.0.0.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3862,7 +3862,7 @@
 
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Property_Key_Management/1.1.0.0/Property%20Key%20Management%201.1.0.0.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Property_Key_Management/1.1.0.0/Property_Key_Management_1.1.0.0.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -3942,7 +3942,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Web_Admin_Tool/1.0.0.2/EziKey%20Admin%20Tool_1.0.0.2%20.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Web_Admin_Tool/1.0.0.2/EziKey_Admin_Tool_1.0.0.2.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_Web_Admin_Tool/1.0.0.2/Ezikey-Web Admin Tool_1.0.0.2.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3965,7 +3965,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Web_Admin_Tool/1.0.0.1/EziKey%20Admin%20Tool_1.0.0.1%20.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Web_Admin_Tool/1.0.0.1/EziKey_Admin_Tool_1.0.0.1.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_Web_Admin_Tool/1.0.0.1/Ezikey-Web Admin Tool_1.0.0.1.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3995,7 +3995,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Web_Admin_Tool/1.0.0.0/EziKey%20Admin%20Tool%20.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Ezikey_Web_Admin_Tool/1.0.0.0/EziKey_Admin_Tool.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Ezikey_Web_Admin_Tool/1.0.0.0/Ezikey-Web Admin Tool_1.0.0.0.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -4027,7 +4027,7 @@
                                         </td>
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Web_Admin_Tool/1.0.0.2/EziKey%20Admin%20Tool_1.0.0.2%20.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Web_Admin_Tool/1.0.0.2/EziKey_Admin_Tool_1.0.0.2.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -4042,7 +4042,7 @@
                                         </td>
                                         <td>&nbsp;</td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Web_Admin_Tool/1.0.0.1/EziKey%20Admin%20Tool_1.0.0.1%20.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Web_Admin_Tool/1.0.0.1/EziKey_Admin_Tool_1.0.0.1.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -4066,7 +4066,7 @@
                                             <br/>
                                         </td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Web_Admin_Tool/1.0.0.0/EziKey%20Admin%20Tool%20.txt"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Ezikey_Web_Admin_Tool/1.0.0.0/EziKey_Admin_Tool.txt"><img alt="ezi" src="images/notes.svg"></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
