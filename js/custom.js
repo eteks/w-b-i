@@ -9,13 +9,17 @@ $(document).ready(function() {
 		if(val=='auto'){
 			$('.ezi_touch_all').find('.auto td').show();
 			$('.ezi_touch_all').find('.manual td').hide();
+			evenrowsColor();
 		}
 		else if(val=='manual'){
 			$('.ezi_touch_all').find('.manual td').show();
 			$('.ezi_touch_all').find('.auto td').hide();
+			oddrowsColor();
 		}
 		else{
 			$('.ezi_touch_all td').show();
+			oddrowsColor();
+			evenrowsColor();
 		}
 	});
 
@@ -37,5 +41,25 @@ $(document).ready(function() {
 		}
 	});
 
+	function oddrowsColor(){
+ 		// $("tr:even", table).removeClass("odd");
+ 		 // alert('hi');
+		 $('tr:odd').css('background-color','#fff !important');
+		 $('tr:even').css('background-color', '#d9edf7 !important');
+
+		 
+
+ 	}	
+ 	function evenrowsColor(){
+ 		// alert('hi');
+ 		$('tr:even').css('background-color', '#d9edf7 !important');
+ 		$('tr:odd').css('background-color','#fff !important');
+ 	}
+
 
 }); /* End of Document */
+
+// window.jQuery(document).ready(function(){
+   //     window.jQuery("tr:odd" ).css("background-color","#fff !important" );
+   //     window.jQuery("tr:even").css("background-color","#d9edf7 !important");
+    // });

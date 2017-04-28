@@ -171,7 +171,7 @@
                         <div class="ezi-touch">
                             <div class="col-lg-6 col-md-6 col-sm-2 col-xs-12 no-padding-left displ_inl">
                                 <h4 class="pull-left">EziKey Touch System</h4>
-                                <select id="" class="ezi_touch_option pull-left">
+                                <select id="" class="ezi_touch_option pull-left hidden-xs">
                                     <option value="" selected> Select </option>
                                     <option value="auto"> Auto </option>
                                     <option value="manual"> Manual </option>
@@ -203,8 +203,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.0/EziKeyTouchAplication_1.2.3.0.zip">EziKey_Touch_Application_1_2_3_0(For Windows 7 Professional SP1 32 bit)</a></div>
-                                        <div class="col-xs-3 text-right no-padding">14/10/2013</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.0/EziKeyTouchAplication_1.2.3.0.zip">EziKey_Touch_Application_1_2_3_0(For Windows 7 Professional SP1 32 bit)</a></div>
+                                        <div class="col-xs-12 text-right no-padding">14/10/2013</div>
                                     </div>
 
                                     <div class="sql">
@@ -230,8 +230,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.1/EziKeyTouchApplication_1.2.3.1.zip">EziKey_Touch_Application_1_2_3_1(For Windows 7 Professional SP1 32 bit)</a></div>
-                                        <div class="col-xs-3 text-right no-padding">06/11/2013</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.1/EziKeyTouchApplication_1.2.3.1.zip">EziKey_Touch_Application_1_2_3_1(For Windows 7 Professional SP1 32 bit)</a></div>
+                                        <div class="col-xs-12 text-right no-padding">06/11/2013</div>
                                     </div>
 
                                     <div class="sql">
@@ -252,8 +252,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.10/Ezikey Touchscreen System V1.2.3.10.zip">EziKey_Touch_Application_1_2_3_10(For Windows 7 Professional SP1 32 bit)</a></div>
-                                        <div class="col-xs-3 text-right no-padding">17/06/2015</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.10/Ezikey Touchscreen System V1.2.3.10.zip">EziKey_Touch_Application_1_2_3_10(For Windows 7 Professional SP1 32 bit)</a></div>
+                                        <div class="col-xs-12 text-right no-padding">17/06/2015</div>
                                     </div>
 
                                     <div class="sql">
@@ -280,8 +280,8 @@
 
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.2/EziKeyTouchApplication_1.2.3.2.zip">EziKey_Touch_Application_1_2_3_2(For Windows 7 Professional SP1 32 bit)</a></div>
-                                        <div class="col-xs-3 text-right no-padding">14/11/2013</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.2/EziKeyTouchApplication_1.2.3.2.zip">EziKey_Touch_Application_1_2_3_2(For Windows 7 Professional SP1 32 bit)</a></div>
+                                        <div class="col-xs-12 text-right no-padding">14/11/2013</div>
                                     </div>
 
                                     <div class="sql">
@@ -303,8 +303,8 @@
 
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.3/EzikeyTouchApplication_1.2.3.3.zip">EziKey_Touch_Application_1_2_3_3(For Windows 7 Professional SP1 32 bit)</a></div>
-                                        <div class="col-xs-3 text-right no-padding">10/02/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.3/EzikeyTouchApplication_1.2.3.3.zip">EziKey_Touch_Application_1_2_3_3(For Windows 7 Professional SP1 32 bit)</a></div>
+                                        <div class="col-xs-12 text-right no-padding">10/02/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -325,7 +325,7 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.4/Ezikey Touchscreen System  1.2.3.4.zip">EziKey_Touch_Application_1_2_3_4(For Windows 7 Professional SP1 32 bit)</a></div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.4/Ezikey Touchscreen System  1.2.3.4.zip">EziKey_Touch_Application_1_2_3_4(For Windows 7 Professional SP1 32 bit)</a></div>
                                     </div>
 
                                     <div class="sql">
@@ -351,8 +351,8 @@
 
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.5/Ezikey Touchscreen System 1.2.3.5.zip">EziKey_Touch_Application_1_2_3_5(For Windows 7 Professional SP1 32 bit)</a></div>
-                                        <div class="col-xs-3 text-right no-padding">23/06/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.5/Ezikey Touchscreen System 1.2.3.5.zip">EziKey_Touch_Application_1_2_3_5(For Windows 7 Professional SP1 32 bit)</a></div>
+                                        <div class="col-xs-12 text-right no-padding">23/06/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -374,8 +374,8 @@
 
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.6/Ezikey Touchscreen System 1.2.3.6.zip">EziKey_Touch_Application_1_2_3_6 <br/> (For Windows 7 Professional SP1 32 bit)</a></div>
-                                        <div class="col-xs-3 text-right no-padding">28/08/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.6/Ezikey Touchscreen System 1.2.3.6.zip">EziKey_Touch_Application_1_2_3_6 <br/> (For Windows 7 Professional SP1 32 bit)</a></div>
+                                        <div class="col-xs-12 text-right no-padding">28/08/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -399,8 +399,8 @@
 
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.7/Ezikey Touchscreen System 1.2.3.7.zip">EziKey_Touch_Application_1_2_3_7(For Windows 7 Professional SP1 32 bit)</a></div>
-                                        <div class="col-xs-3 text-right no-padding">02/12/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.7/Ezikey Touchscreen System 1.2.3.7.zip">EziKey_Touch_Application_1_2_3_7(For Windows 7 Professional SP1 32 bit)</a></div>
+                                        <div class="col-xs-12 text-right no-padding">02/12/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -423,8 +423,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.8/Ezikey Touchscreen System V1.2.3.8.zip">EziKey_Touch_Application_1_2_3_8(For Windows 7 Professional SP1 32 bit)</a></div>
-                                        <div class="col-xs-3 text-right no-padding">05/03/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.8/Ezikey Touchscreen System V1.2.3.8.zip">EziKey_Touch_Application_1_2_3_8(For Windows 7 Professional SP1 32 bit)</a></div>
+                                        <div class="col-xs-12 text-right no-padding">05/03/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -451,8 +451,8 @@
 
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.9/Ezikey Touchscreen System V1.2.3.9.zip">EziKey_Touch_Application_1_2_3_9(For Windows 7 Professional SP1 32 bit)</a></div>
-                                        <div class="col-xs-3 text-right no-padding">03/04/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.2.3.9/Ezikey Touchscreen System V1.2.3.9.zip">EziKey_Touch_Application_1_2_3_9(For Windows 7 Professional SP1 32 bit)</a></div>
+                                        <div class="col-xs-12 text-right no-padding">03/04/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -479,8 +479,8 @@
 
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.0/EziKeyTouchApplication_1.3.1.0.zip">EziKey_Touch_Application_1_3_1_0(For Windows 7 Professional SP1 32 bit)</a></div>
-                                        <div class="col-xs-3 text-right no-padding">14/10/2013</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.0/EziKeyTouchApplication_1.3.1.0.zip">EziKey_Touch_Application_1_3_1_0(For Windows 7 Professional SP1 32 bit)</a></div>
+                                        <div class="col-xs-12 text-right no-padding">14/10/2013</div>
                                     </div>
 
                                     <div class="sql">
@@ -513,8 +513,8 @@
 
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.1/EziKeyTouchApplication_1.3.1.1.zip">EziKey_Touch_Application_1_3_1_1(For Windows 7 Professional SP1 32 bit)</a></div>
-                                        <div class="col-xs-3 text-right no-padding">06/11/2013</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.1/EziKeyTouchApplication_1.3.1.1.zip">EziKey_Touch_Application_1_3_1_1(For Windows 7 Professional SP1 32 bit)</a></div>
+                                        <div class="col-xs-12 text-right no-padding">06/11/2013</div>
                                     </div>
 
                                     <div class="sql">
@@ -536,8 +536,8 @@
 
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.10/Ezikey Touchscreen System V1.3.1.10.zip">EziKey_Touch_Application_1_3_1_10(For Windows 7 Professional SP1 32 bit)</a></div>
-                                        <div class="col-xs-3 text-right no-padding">17/06/2015</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.10/Ezikey Touchscreen System V1.3.1.10.zip">EziKey_Touch_Application_1_3_1_10(For Windows 7 Professional SP1 32 bit)</a></div>
+                                        <div class="col-xs-12 text-right no-padding">17/06/2015</div>
                                     </div>
 
                                     <div class="sql">
@@ -564,8 +564,8 @@
 
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.2/EziKeyTouchApplication_1.3.1.2.zip">EziKey_Touch_Application_1_3_1_2(For Windows 7 Professional SP1 32 bit)</a></div>
-                                        <div class="col-xs-3 text-right no-padding">14/11/2013</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.2/EziKeyTouchApplication_1.3.1.2.zip">EziKey_Touch_Application_1_3_1_2(For Windows 7 Professional SP1 32 bit)</a></div>
+                                        <div class="col-xs-12 text-right no-padding">14/11/2013</div>
                                     </div>
 
                                     <div class="sql">
@@ -587,8 +587,8 @@
 
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.3/EzikeyTouchApplication_1.3.1.3.zip">EziKey_Touch_Application_1_3_1_3(For Windows 7 Professional SP1 32 bit)</a></div>
-                                        <div class="col-xs-3 text-right no-padding">10/02/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.3/EzikeyTouchApplication_1.3.1.3.zip">EziKey_Touch_Application_1_3_1_3(For Windows 7 Professional SP1 32 bit)</a></div>
+                                        <div class="col-xs-12 text-right no-padding">10/02/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -609,8 +609,8 @@
 
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.4/Ezikey Touchscreen System 1.3.1.4.zip">EziKey_Touch_Application_1_3_1_4(For Windows 7 Professional SP1 32 bit)</a></div>
-                                        <div class="col-xs-3 text-right no-padding">25/03/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.4/Ezikey Touchscreen System 1.3.1.4.zip">EziKey_Touch_Application_1_3_1_4(For Windows 7 Professional SP1 32 bit)</a></div>
+                                        <div class="col-xs-12 text-right no-padding">25/03/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -643,8 +643,8 @@
 
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.5/Ezikey Touchscreen System 1.3.1.5.zip">EziKey_Touch_Application_1_3_1_5(For Windows 7 Professional SP1 32 bit)</a></div>
-                                        <div class="col-xs-3 text-right no-padding">23/06/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.5/Ezikey Touchscreen System 1.3.1.5.zip">EziKey_Touch_Application_1_3_1_5(For Windows 7 Professional SP1 32 bit)</a></div>
+                                        <div class="col-xs-12 text-right no-padding">23/06/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -665,8 +665,8 @@
 
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.6/Ezikey Touchscreen System 1.3.1.6.zip">EziKey_Touch_Application_1_3_1_6(For Windows 7 Professional SP1 32 bit)</a></div>
-                                        <div class="col-xs-3 text-right no-padding">28/08/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.6/Ezikey Touchscreen System 1.3.1.6.zip">EziKey_Touch_Application_1_3_1_6(For Windows 7 Professional SP1 32 bit)</a></div>
+                                        <div class="col-xs-12 text-right no-padding">28/08/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -691,8 +691,8 @@
 
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.7/Ezikey Touchscreen System 1.3.1.7.zip">EziKey_Touch_Application_1_3_1_7(For Windows 7 Professional SP1 32 bit)</a></div>
-                                        <div class="col-xs-3 text-right no-padding">02/12/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.7/Ezikey Touchscreen System 1.3.1.7.zip">EziKey_Touch_Application_1_3_1_7(For Windows 7 Professional SP1 32 bit)</a></div>
+                                        <div class="col-xs-12 text-right no-padding">02/12/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -720,8 +720,8 @@
 
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.8/Ezikey Touchscreen System  V1.3.1.8.zip">EziKey_Touch_Application_1_3_1_8(For Windows 7 Professional SP1 32 bit)</a></div>
-                                        <div class="col-xs-3 text-right no-padding">05/03/2015</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.8/Ezikey Touchscreen System  V1.3.1.8.zip">EziKey_Touch_Application_1_3_1_8(For Windows 7 Professional SP1 32 bit)</a></div>
+                                        <div class="col-xs-12 text-right no-padding">05/03/2015</div>
                                     </div>
 
                                     <div class="sql">
@@ -753,8 +753,8 @@
 
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.9/Ezikey Touchscreen System V1.3.1.9.zip">EziKey_Touch_Application_1_3_1_9(For Windows 7 Professional SP1 32 bit)</a></div>
-                                        <div class="col-xs-3 text-right no-padding">03/04/2015</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Touchsystem/versions/1.3.1.9/Ezikey Touchscreen System V1.3.1.9.zip">EziKey_Touch_Application_1_3_1_9(For Windows 7 Professional SP1 32 bit)</a></div>
+                                        <div class="col-xs-12 text-right no-padding">03/04/2015</div>
                                     </div>
 
                                     <div class="sql">
@@ -791,7 +791,7 @@
 
                         <!--For DESKTOP view-->
                         <div class="show_touchsystem">
-                            <table class="table table-striped">
+                            <table class="table table-striped ezi_touch_sys">
                                 <thead>
                                     <tr>
                                         <th style="width:35%">Version</th>
@@ -1233,7 +1233,7 @@
                         <div class="ezi-touch">
                             <div class="col-lg-6 col-md-6 col-sm-2 col-xs-12 no-padding-left displ_inl">
                                 <h4 class="pull-left">EziKey Management Tools</h4>
-                                <select id="" class="ezi_mgmnt_option pull-left">
+                                <select id="" class="ezi_mgmnt_option pull-left hidden-xs">
                                     <option value="select" selected> Select </option>
                                     <option value="auto"> Auto </option>
                                     <option value="manual"> Manual </option>
@@ -1261,8 +1261,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.0/EziKeyAdminTool_1.1.2.0.zip">Ezikey_Admin_Tool_1_1_2_0</a></div>
-                                        <div class="col-xs-3 text-right no-padding">14/10/2013</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.0/EziKeyAdminTool_1.1.2.0.zip">Ezikey_Admin_Tool_1_1_2_0</a></div>
+                                        <div class="col-xs-12 text-right no-padding">14/10/2013</div>
                                     </div>
 
                                     <div class="sql">
@@ -1288,8 +1288,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.1/EziKeyAdminTool_1.1.2.1.zip">Ezikey_Admin_Tool_1_1_2_1</a></div>
-                                        <div class="col-xs-3 text-right no-padding">24/10/2013</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.1/EziKeyAdminTool_1.1.2.1.zip">Ezikey_Admin_Tool_1_1_2_1</a></div>
+                                        <div class="col-xs-12 text-right no-padding">24/10/2013</div>
                                     </div>
 
                                     <div class="sql">
@@ -1309,8 +1309,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.2/EziKeyAdminTool_1.1.2.2.zip">Ezikey_Admin_Tool_1_1_2_2</a></div>
-                                        <div class="col-xs-3 text-right no-padding">07/11/2013</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.2/EziKeyAdminTool_1.1.2.2.zip">Ezikey_Admin_Tool_1_1_2_2</a></div>
+                                        <div class="col-xs-12 text-right no-padding">07/11/2013</div>
                                     </div>
 
                                     <div class="sql">
@@ -1330,8 +1330,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.3/EziKeyAdminTool_1.1.2.3.zip">Ezikey_Admin_Tool_1_1_2_3</a></div>
-                                        <div class="col-xs-3 text-right no-padding">14/11/2013</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.3/EziKeyAdminTool_1.1.2.3.zip">Ezikey_Admin_Tool_1_1_2_3</a></div>
+                                        <div class="col-xs-12 text-right no-padding">14/11/2013</div>
                                     </div>
 
                                     <div class="sql">
@@ -1353,8 +1353,8 @@
 
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.4/Ezikey Admin Tool 1.1.2.4.zip">Ezikey_Admin_Tool_1_1_2_4</a></div>
-                                        <div class="col-xs-3 text-right no-padding">25/03/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.4/Ezikey Admin Tool 1.1.2.4.zip">Ezikey_Admin_Tool_1_1_2_4</a></div>
+                                        <div class="col-xs-12 text-right no-padding">25/03/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -1381,8 +1381,8 @@
 
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.5/Ezikey Admin Tool 1.1.2.5.zip">Ezikey_Admin_Tool_1_1_2_5</a></div>
-                                        <div class="col-xs-3 text-right no-padding">23/06/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.5/Ezikey Admin Tool 1.1.2.5.zip">Ezikey_Admin_Tool_1_1_2_5</a></div>
+                                        <div class="col-xs-12 text-right no-padding">23/06/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -1405,8 +1405,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.6/Ezikey Admin Tool  V1.1.2.6.zip">Ezikey_Admin_Tool_1_1_2_6</a></div>
-                                        <div class="col-xs-3 text-right no-padding">05/03/2015</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.6/Ezikey Admin Tool  V1.1.2.6.zip">Ezikey_Admin_Tool_1_1_2_6</a></div>
+                                        <div class="col-xs-12 text-right no-padding">05/03/2015</div>
                                     </div>
 
                                     <div class="sql">
@@ -1432,8 +1432,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.7/Ezikey Admin Tool V1.1.2.7.zip">Ezikey_Admin_Tool_1_1_2_7</a></div>
-                                        <div class="col-xs-3 text-right no-padding">03/04/2015</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.1.2.7/Ezikey Admin Tool V1.1.2.7.zip">Ezikey_Admin_Tool_1_1_2_7</a></div>
+                                        <div class="col-xs-12 text-right no-padding">03/04/2015</div>
                                     </div>
 
                                     <div class="sql">
@@ -1459,8 +1459,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.0/EziKeyAdminTool_1.2.1.0.zip">Ezikey Admin Tool 1.2.1.0.txt</a></div>
-                                        <div class="col-xs-3 text-right no-padding">14/10/2013</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.0/EziKeyAdminTool_1.2.1.0.zip">Ezikey Admin Tool 1.2.1.0.txt</a></div>
+                                        <div class="col-xs-12 text-right no-padding">14/10/2013</div>
                                     </div>
 
                                     <div class="sql">
@@ -1486,8 +1486,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.1/EziKeyAdminTool_1.2.1.1.zip">Ezikey_Admin_Tool_1_2_1_1</a></div>
-                                        <div class="col-xs-3 text-right no-padding">24/10/2013</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.1/EziKeyAdminTool_1.2.1.1.zip">Ezikey_Admin_Tool_1_2_1_1</a></div>
+                                        <div class="col-xs-12 text-right no-padding">24/10/2013</div>
                                     </div>
 
                                     <div class="sql">
@@ -1507,8 +1507,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.2/EziKeyAdminTool_1.2.1.2.zip">Ezikey_Admin_Tool_1_2_1_2</a></div>
-                                        <div class="col-xs-3 text-right no-padding">07/11/2013</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.2/EziKeyAdminTool_1.2.1.2.zip">Ezikey_Admin_Tool_1_2_1_2</a></div>
+                                        <div class="col-xs-12 text-right no-padding">07/11/2013</div>
                                     </div>
 
                                     <div class="sql">
@@ -1528,8 +1528,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.3/EziKeyAdminTool_1.2.1.3.zip">Ezikey_Admin_Tool_1_2_1_3</a></div>
-                                        <div class="col-xs-3 text-right no-padding">14/11/2013</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.3/EziKeyAdminTool_1.2.1.3.zip">Ezikey_Admin_Tool_1_2_1_3</a></div>
+                                        <div class="col-xs-12 text-right no-padding">14/11/2013</div>
                                     </div>
 
                                     <div class="sql">
@@ -1549,8 +1549,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.4/Ezikey Admin Tool 1.2.1.4.zip">Ezikey_Admin_Tool_1_2_1_4</a></div>
-                                        <div class="col-xs-3 text-right no-padding">25/03/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.4/Ezikey Admin Tool 1.2.1.4.zip">Ezikey_Admin_Tool_1_2_1_4</a></div>
+                                        <div class="col-xs-12 text-right no-padding">25/03/2014</div>
                                     </div>
                                     <div class="sql">
                                         <h4>Sql</h4>
@@ -1575,8 +1575,8 @@
 
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.5/Ezikey Admin Tool 1.2.1.5.zip">Ezikey_Admin_Tool_1_2_1_5</a></div>
-                                        <div class="col-xs-3 text-right no-padding">23/06/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.5/Ezikey Admin Tool 1.2.1.5.zip">Ezikey_Admin_Tool_1_2_1_5</a></div>
+                                        <div class="col-xs-12 text-right no-padding">23/06/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -1602,8 +1602,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.6/Ezikey Admin Tool  1.2.1.6.zip">Ezikey_Admin_Tool_1_2_1_6</a></div>
-                                        <div class="col-xs-3 text-right no-padding">05/03/2015</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.6/Ezikey Admin Tool  1.2.1.6.zip">Ezikey_Admin_Tool_1_2_1_6</a></div>
+                                        <div class="col-xs-12 text-right no-padding">05/03/2015</div>
                                     </div>
 
                                     <div class="sql">
@@ -1628,8 +1628,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.7/Ezikey Admin Tool V1.2.1.7.zip">Ezikey_Admin_Tool_1_2_1_7</a></div>
-                                        <div class="col-xs-3 text-right no-padding">03/04/2015</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_ManagementTools/1.2.1.7/Ezikey Admin Tool V1.2.1.7.zip">Ezikey_Admin_Tool_1_2_1_7</a></div>
+                                        <div class="col-xs-12 text-right no-padding">03/04/2015</div>
                                     </div>
 
                                     <div class="sql">
@@ -2000,8 +2000,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/ReportService/Version/1.0.4.0/KeyReportService_1.0.4.0.zip">EziKey Report Service_1_0_4_0</a></div>
-                                        <div class="col-xs-3 text-right no-padding">14/10/2013</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/ReportService/Version/1.0.4.0/KeyReportService_1.0.4.0.zip">EziKey Report Service_1_0_4_0</a></div>
+                                        <div class="col-xs-12 text-right no-padding">14/10/2013</div>
                                     </div>
 
                                     <div class="sql">
@@ -2024,8 +2024,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/ReportService/Version/1.0.5.0/EziKeyReportService_1.0.5.0.zip">EziKey Report Service_1_0_5_0</a></div>
-                                        <div class="col-xs-3 text-right no-padding">15/11/2013</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/ReportService/Version/1.0.5.0/EziKeyReportService_1.0.5.0.zip">EziKey Report Service_1_0_5_0</a></div>
+                                        <div class="col-xs-12 text-right no-padding">15/11/2013</div>
                                     </div>
 
                                     <div class="sql">
@@ -2124,8 +2124,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.9/Ezikey Schedule Service Test V1.0.1.9.zip">EziKey_Schedule_Service_1_0_1_9</a></div>
-                                        <div class="col-xs-3 text-right no-padding">28/08/2015</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.9/Ezikey Schedule Service Test V1.0.1.9.zip">EziKey_Schedule_Service_1_0_1_9</a></div>
+                                        <div class="col-xs-12 text-right no-padding">28/08/2015</div>
                                     </div>
 
                                     <div class="sql">
@@ -2146,8 +2146,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.8/Ezikey Schedule Service Test V1.0.1.8.zip">EziKey_Schedule_Service_1_0_1_8</a></div>
-                                        <div class="col-xs-3 text-right no-padding">28/08/2015</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.8/Ezikey Schedule Service Test V1.0.1.8.zip">EziKey_Schedule_Service_1_0_1_8</a></div>
+                                        <div class="col-xs-12 text-right no-padding">28/08/2015</div>
                                     </div>
 
                                     <div class="sql">
@@ -2168,8 +2168,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.7/Ezikey Schedule Service V1.0.1.7.zip">EziKey_Schedule_Service_1_0_1_7</a></div>
-                                        <div class="col-xs-3 text-right no-padding">08/06/2015</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.7/Ezikey Schedule Service V1.0.1.7.zip">EziKey_Schedule_Service_1_0_1_7</a></div>
+                                        <div class="col-xs-12 text-right no-padding">08/06/2015</div>
                                     </div>
 
                                     <div class="sql">
@@ -2190,8 +2190,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.6/Ezikey Schedule Service  V1.0.1.6.zip">EziKey_Schedule_Service_1_0_1_6</a></div>
-                                        <div class="col-xs-3 text-right no-padding">05/03/2015</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.6/Ezikey Schedule Service  V1.0.1.6.zip">EziKey_Schedule_Service_1_0_1_6</a></div>
+                                        <div class="col-xs-12 text-right no-padding">05/03/2015</div>
                                     </div>
 
                                     <div class="sql">
@@ -2212,8 +2212,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.5/Ezikey Schedule Service 1.0.1.5.zip">EziKey_Schedule_Service_1_0_1_5</a></div>
-                                        <div class="col-xs-3 text-right no-padding">23/06/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.5/Ezikey Schedule Service 1.0.1.5.zip">EziKey_Schedule_Service_1_0_1_5</a></div>
+                                        <div class="col-xs-12 text-right no-padding">23/06/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -2234,8 +2234,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.4/EziKeyScheduleService_1.0.1.4.zip">EziKey_Schedule_Service_1_0_1_4</a></div>
-                                        <div class="col-xs-3 text-right no-padding">25/09/2013</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.4/EziKeyScheduleService_1.0.1.4.zip">EziKey_Schedule_Service_1_0_1_4</a></div>
+                                        <div class="col-xs-12 text-right no-padding">25/09/2013</div>
                                     </div>
 
                                     <div class="sql">
@@ -2260,6 +2260,7 @@
                         </div>    
                         <!---end mob-res-table-->
 
+                        <!--Desktop view-->
                         <div class="show_schedule_service">
                             <table class="table table-striped">
                                 <thead>
@@ -2379,8 +2380,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.5/WebfleetKeyBoxSync V1.8.0.5-05051115.zip">WebfleetKeyBoxSync_1_8_0_5</a></div>
-                                        <div class="col-xs-3 text-right no-padding">11/05/2015</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.5/WebfleetKeyBoxSync V1.8.0.5-05051115.zip">WebfleetKeyBoxSync_1_8_0_5</a></div>
+                                        <div class="col-xs-12 text-right no-padding">11/05/2015</div>
                                     </div>
 
                                     <div class="sql">
@@ -2401,8 +2402,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.4/WebfleetKeyBoxSync V1.8.0.4-03311541.zip">WebfleetKeyBoxSync_1_8_0_4</a></div>
-                                        <div class="col-xs-3 text-right no-padding">01/04/2015</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.4/WebfleetKeyBoxSync V1.8.0.4-03311541.zip">WebfleetKeyBoxSync_1_8_0_4</a></div>
+                                        <div class="col-xs-12 text-right no-padding">01/04/2015</div>
                                     </div>
 
                                     <div class="sql">
@@ -2423,8 +2424,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.3/WebfleetKeyBoxSync V1.8.0.3-03201237.zip">WebfleetKeyBoxSync_1_8_0_3</a></div>
-                                        <div class="col-xs-3 text-right no-padding">20/03/2015</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.3/WebfleetKeyBoxSync V1.8.0.3-03201237.zip">WebfleetKeyBoxSync_1_8_0_3</a></div>
+                                        <div class="col-xs-12 text-right no-padding">20/03/2015</div>
                                     </div>
 
                                     <div class="sql">
@@ -2445,8 +2446,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.1/WebfleetKeyBoxSync V1.8.0.1-11191334.zip">WebfleetKeyBoxSync_1_8_0_1</a></div>
-                                        <div class="col-xs-3 text-right no-padding">19/11/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.1/WebfleetKeyBoxSync V1.8.0.1-11191334.zip">WebfleetKeyBoxSync_1_8_0_1</a></div>
+                                        <div class="col-xs-12 text-right no-padding">19/11/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -2467,8 +2468,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.0/WebfleetKeyBoxSync V1.8.0.0-10291551.zip">WebfleetKeyBoxSync_1_8_0_0</a></div>
-                                        <div class="col-xs-3 text-right no-padding">07/11/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.0/WebfleetKeyBoxSync V1.8.0.0-10291551.zip">WebfleetKeyBoxSync_1_8_0_0</a></div>
+                                        <div class="col-xs-12 text-right no-padding">07/11/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -2489,8 +2490,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.6.0.0/WebfleetKeyBoxSync TestV1.6.0.0-07241049.zip">WebfleetKeyBoxSync_1_6_0_0</a></div>
-                                        <div class="col-xs-3 text-right no-padding">29/07/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.6.0.0/WebfleetKeyBoxSync TestV1.6.0.0-07241049.zip">WebfleetKeyBoxSync_1_6_0_0</a></div>
+                                        <div class="col-xs-12 text-right no-padding">29/07/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -2510,8 +2511,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.5.0.0/WebfleetKeyBoxSync TestV1.5.0.0-06131422.zip">WebfleetKeyBoxSync_1_5_0_0</a></div>
-                                        <div class="col-xs-3 text-right no-padding">20/06/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.5.0.0/WebfleetKeyBoxSync TestV1.5.0.0-06131422.zip">WebfleetKeyBoxSync_1_5_0_0</a></div>
+                                        <div class="col-xs-12 text-right no-padding">20/06/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -2532,8 +2533,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.4.0.1/WebfleetKeyBoxSync Release V1.4.0.1.zip">WebfleetKeyBoxSync_1_4_0_1</a></div>
-                                        <div class="col-xs-3 text-right no-padding">18/04/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.4.0.1/WebfleetKeyBoxSync Release V1.4.0.1.zip">WebfleetKeyBoxSync_1_4_0_1</a></div>
+                                        <div class="col-xs-12 text-right no-padding">18/04/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -2554,8 +2555,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.3.1.0/WebfleetKeyBoxSync Release V1.3.1.0.zip">WebfleetKeyBoxSync_1_3_1_0</a></div>
-                                        <div class="col-xs-3 text-right no-padding">03/03/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.3.1.0/WebfleetKeyBoxSync Release V1.3.1.0.zip">WebfleetKeyBoxSync_1_3_1_0</a></div>
+                                        <div class="col-xs-12 text-right no-padding">03/03/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -2576,8 +2577,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.3.0.0/WebfleetKeyBoxSync_1.3.0.0.zip">WebfleetKeyBoxSync_1_3_0_0</a></div>
-                                        <div class="col-xs-3 text-right no-padding">00/00/0000</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.3.0.0/WebfleetKeyBoxSync_1.3.0.0.zip">WebfleetKeyBoxSync_1_3_0_0</a></div>
+                                        <div class="col-xs-12 text-right no-padding">00/00/0000</div>
                                     </div>
 
                                     <div class="sql">
@@ -2598,8 +2599,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.2.7.1/WebfleetKeyBoxSync_1_2_7_1.zip">WebfleetKeyBoxSync_1_2_7_1</a></div>
-                                        <div class="col-xs-3 text-right no-padding">00/00/0000</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.2.7.1/WebfleetKeyBoxSync_1_2_7_1.zip">WebfleetKeyBoxSync_1_2_7_1</a></div>
+                                        <div class="col-xs-12 text-right no-padding">00/00/0000</div>
                                     </div>
 
                                     <div class="sql">
@@ -2620,8 +2621,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.2.7.0/Webfleet Key Box Sync 1.2.7.0.zip">WebfleetKeyBoxSync_1_2_7_0</a></div>
-                                        <div class="col-xs-3 text-right no-padding">28/06/2013</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.2.7.0/Webfleet Key Box Sync 1.2.7.0.zip">WebfleetKeyBoxSync_1_2_7_0</a></div>
+                                        <div class="col-xs-12 text-right no-padding">28/06/2013</div>
                                     </div>
 
                                     <div class="sql">
@@ -2642,8 +2643,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.2.6.2/WebfleetKeyBoxSync_1_2_6_2.zip">WebfleetKeyBoxSync_1_2_6_2</a></div>
-                                        <div class="col-xs-3 text-right no-padding">00/00/0000</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.2.6.2/WebfleetKeyBoxSync_1_2_6_2.zip">WebfleetKeyBoxSync_1_2_6_2</a></div>
+                                        <div class="col-xs-12 text-right no-padding">00/00/0000</div>
                                     </div>
 
                                     <div class="sql">
@@ -2876,8 +2877,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.6.1/WebfleetKeyBox_1_2_6_1.zip">WebfleetKeyBox_1_2_6_1</a></div>
-                                        <div class="col-xs-3 text-right no-padding">00/00/0000</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.6.1/WebfleetKeyBox_1_2_6_1.zip">WebfleetKeyBox_1_2_6_1</a></div>
+                                        <div class="col-xs-12 text-right no-padding">00/00/0000</div>
                                     </div>
 
                                     <div class="sql">
@@ -2903,8 +2904,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.3/Smartfleet Keybox V1.8.0.3-20160509.zip">Webfleetkeybox_1_8_0_3</a></div>
-                                        <div class="col-xs-3 text-right no-padding">09/05/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.3/Smartfleet Keybox V1.8.0.3-20160509.zip">Webfleetkeybox_1_8_0_3</a></div>
+                                        <div class="col-xs-12 text-right no-padding">09/05/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -2925,8 +2926,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.2/Smartfleet Keybox V1.8.0.2-12181541.zip">Webfleetkeybox_1_8_0_2</a></div>
-                                        <div class="col-xs-3 text-right no-padding">19/12/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.2/Smartfleet Keybox V1.8.0.2-12181541.zip">Webfleetkeybox_1_8_0_2</a></div>
+                                        <div class="col-xs-12 text-right no-padding">19/12/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -2947,8 +2948,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.1/Smartfleet Keybox V1.8.0.1-11191334.zip">Webfleetkeybox_1_8_0_1</a></div>
-                                        <div class="col-xs-3 text-right no-padding">19/11/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.1/Smartfleet Keybox V1.8.0.1-11191334.zip">Webfleetkeybox_1_8_0_1</a></div>
+                                        <div class="col-xs-12 text-right no-padding">19/11/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -2969,8 +2970,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.0/Smartfleet Keybox V1.8.0.0-10291552.zip">Webfleetkeybox_1_8_0_0</a></div>
-                                        <div class="col-xs-3 text-right no-padding">07/11/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.0/Smartfleet Keybox V1.8.0.0-10291552.zip">Webfleetkeybox_1_8_0_0</a></div>
+                                        <div class="col-xs-12 text-right no-padding">07/11/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -2991,8 +2992,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.7.0.0/Smartfleet Keybox TestV1.7.0.0-09091714.zip">Webfleetkeybox_1_7_0_0</a></div>
-                                        <div class="col-xs-3 text-right no-padding">09/09/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.7.0.0/Smartfleet Keybox TestV1.7.0.0-09091714.zip">Webfleetkeybox_1_7_0_0</a></div>
+                                        <div class="col-xs-12 text-right no-padding">09/09/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -3013,8 +3014,8 @@
                                 </div>
                                  <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.6.0.1/Smartfleet Keybox V1.6.0.1-08051247.zip">Webfleetkeybox_1_6_0_1</a></div>
-                                        <div class="col-xs-3 text-right no-padding">21/08/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.6.0.1/Smartfleet Keybox V1.6.0.1-08051247.zip">Webfleetkeybox_1_6_0_1</a></div>
+                                        <div class="col-xs-12 text-right no-padding">21/08/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -3035,8 +3036,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.6.0.0/Smartfleet Keybox TestV1.6.0.0-07290946.zip">Webfleetkeybox_1_6_0_0</a></div>
-                                        <div class="col-xs-3 text-right no-padding">29/07/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.6.0.0/Smartfleet Keybox TestV1.6.0.0-07290946.zip">Webfleetkeybox_1_6_0_0</a></div>
+                                        <div class="col-xs-12 text-right no-padding">29/07/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -3057,8 +3058,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.5.0.0/Smartfleet Keybox TestV1.5.0.0-06161444.zip">Webfleetkeybox_1_5_0_0</a></div>
-                                        <div class="col-xs-3 text-right no-padding">20/06/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.5.0.0/Smartfleet Keybox TestV1.5.0.0-06161444.zip">Webfleetkeybox_1_5_0_0</a></div>
+                                        <div class="col-xs-12 text-right no-padding">20/06/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -3079,8 +3080,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.4.0.1/Smartfleet Keybox Release V1.4.0.1.zip">Webfleetkeybox_1_4_0_1</a></div>
-                                        <div class="col-xs-3 text-right no-padding">18/04/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.4.0.1/Smartfleet Keybox Release V1.4.0.1.zip">Webfleetkeybox_1_4_0_1</a></div>
+                                        <div class="col-xs-12 text-right no-padding">18/04/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -3101,8 +3102,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.1.0/Smartfleet Keybox Release V1.3.1.0.zip">Webfleetkeybox_1_3_1_0</a></div>
-                                        <div class="col-xs-3 text-right no-padding">03/03/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.1.0/Smartfleet Keybox Release V1.3.1.0.zip">Webfleetkeybox_1_3_1_0</a></div>
+                                        <div class="col-xs-12 text-right no-padding">03/03/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -3123,8 +3124,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.3/Smartfleet Keybox V1.3.0.3.zip">Webfleetkeybox_1_3_0_3</a></div>
-                                        <div class="col-xs-3 text-right no-padding">00/00/0000</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.3/Smartfleet Keybox V1.3.0.3.zip">Webfleetkeybox_1_3_0_3</a></div>
+                                        <div class="col-xs-12 text-right no-padding">00/00/0000</div>
                                     </div>
 
                                     <div class="sql">
@@ -3145,8 +3146,8 @@
                                 </div>
                                  <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.2/Smartfleet Keybox V1.3.0.2.zip">Webfleetkeybox_1_3_0_2</a></div>
-                                        <div class="col-xs-3 text-right no-padding">00/00/0000</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.2/Smartfleet Keybox V1.3.0.2.zip">Webfleetkeybox_1_3_0_2</a></div>
+                                        <div class="col-xs-12 text-right no-padding">00/00/0000</div>
                                     </div>
 
                                     <div class="sql">
@@ -3167,8 +3168,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.1/SmartFleetKeyBox_1.3.0.1.zip">Webfleetkeybox_1_3_0_1</a></div>
-                                        <div class="col-xs-3 text-right no-padding">00/00/0000</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.1/SmartFleetKeyBox_1.3.0.1.zip">Webfleetkeybox_1_3_0_1</a></div>
+                                        <div class="col-xs-12 text-right no-padding">00/00/0000</div>
                                     </div>
 
                                     <div class="sql">
@@ -3189,8 +3190,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.0/SmartFleetKeyBox_1.3.0.0.zip">Webfleetkeybox_1_3_0_0</a></div>
-                                        <div class="col-xs-3 text-right no-padding">00/00/0000</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.0/SmartFleetKeyBox_1.3.0.0.zip">Webfleetkeybox_1_3_0_0</a></div>
+                                        <div class="col-xs-12 text-right no-padding">00/00/0000</div>
                                     </div>
 
                                     <div class="sql">
@@ -3211,8 +3212,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.8.0/Smart Fleet Key Box 1.2.8.0.zip">Webfleetkeybox_1_2_8_0</a></div>
-                                        <div class="col-xs-3 text-right no-padding">00/00/0000</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.8.0/Smart Fleet Key Box 1.2.8.0.zip">Webfleetkeybox_1_2_8_0</a></div>
+                                        <div class="col-xs-12 text-right no-padding">00/00/0000</div>
                                     </div>
 
                                     <div class="sql">
@@ -3233,8 +3234,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.4/WebfleetKeyBox_1_2_7_4.zip">WebfleetKeyBox_1_2_7_4</a></div>
-                                        <div class="col-xs-3 text-right no-padding">00/00/0000</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.4/WebfleetKeyBox_1_2_7_4.zip">WebfleetKeyBox_1_2_7_4</a></div>
+                                        <div class="col-xs-12 text-right no-padding">00/00/0000</div>
                                     </div>
 
                                     <div class="sql">
@@ -3255,8 +3256,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.3/WebfleetKeyBox 1.2.7.3.zip">WebfleetKeyBox_1_2_7_3</a></div>
-                                        <div class="col-xs-3 text-right no-padding">27/09/2013</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.3/WebfleetKeyBox 1.2.7.3.zip">WebfleetKeyBox_1_2_7_3</a></div>
+                                        <div class="col-xs-12 text-right no-padding">27/09/2013</div>
                                     </div>
 
                                     <div class="sql">
@@ -3277,8 +3278,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.1/Webfleet Keybox 1.2.7.1.zip">WebfleetKeyBox_1_2_7_1</a></div>
-                                        <div class="col-xs-3 text-right no-padding">10/08/2012</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.1/Webfleet Keybox 1.2.7.1.zip">WebfleetKeyBox_1_2_7_1</a></div>
+                                        <div class="col-xs-12 text-right no-padding">10/08/2012</div>
                                     </div>
 
                                     <div class="sql">
@@ -3299,8 +3300,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.0/Webfleet Key Box 1.2.7.0.zip">WebfleetKeyBox_1_2_7_0</a></div>
-                                        <div class="col-xs-3 text-right no-padding">26/07/2012</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.0/Webfleet Key Box 1.2.7.0.zip">WebfleetKeyBox_1_2_7_0</a></div>
+                                        <div class="col-xs-12 text-right no-padding">26/07/2012</div>
                                     </div>
 
                                     <div class="sql">
@@ -3321,8 +3322,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.6.2Beta/WebfleetKeyBox 1.2.6.2 BETA.zip">WebfleetKeyBox_1_2_6_2 BETA</a></div>
-                                        <div class="col-xs-3 text-right no-padding">08/02/2012</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.6.2Beta/WebfleetKeyBox 1.2.6.2 BETA.zip">WebfleetKeyBox_1_2_6_2 BETA</a></div>
+                                        <div class="col-xs-12 text-right no-padding">08/02/2012</div>
                                     </div>
 
                                     <div class="sql">
@@ -3659,8 +3660,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Property_Key_Admin_Tool/1.0.0.0/Property Key Admin Tool 1.0.0.0.zip">Property Key Admin Tool 1.0.0.0</a></div>
-                                        <div class="col-xs-3 text-right no-padding">00/00/0000</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Property_Key_Admin_Tool/1.0.0.0/Property Key Admin Tool 1.0.0.0.zip">Property Key Admin Tool 1.0.0.0</a></div>
+                                        <!-- <div class="col-xs-12 text-right no-padding">00/00/0000</div> -->
                                     </div>
 
                                     <div class="sql">
@@ -3681,8 +3682,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Property_Key_Admin_Tool/1.0.1.0/PropertyAdminTool 1.0.1.0 (1).zip">Property Key Admin Tool 1.0.1.0</a></div>
-                                        <div class="col-xs-3 text-right no-padding">24/09/2012</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Property_Key_Admin_Tool/1.0.1.0/PropertyAdminTool 1.0.1.0 (1).zip">Property Key Admin Tool 1.0.1.0</a></div>
+                                        <div class="col-xs-12 text-right no-padding">24/09/2012</div>
                                     </div>
 
                                     <div class="sql">
@@ -3772,8 +3773,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Property_Key_Management/1.1.0.0/Property Key Management 1.1.0.0.zip">Property Key Management 1.1.0.0 <br/> (For Windows 7 Professional SP1 32 bit)</a></div>
-                                        <div class="col-xs-3 text-right no-padding">13/03/2014</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Property_Key_Management/1.1.0.0/Property Key Management 1.1.0.0.zip">Property Key Management 1.1.0.0 <br/> (For Windows 7 Professional SP1 32 bit)</a></div>
+                                        <div class="col-xs-12 text-right no-padding">13/03/2014</div>
                                     </div>
 
                                     <div class="sql">
@@ -3794,8 +3795,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Property_Key_Management/1.0.1.0/Property Key Management 1.0.1.0.zip">Property Key Management 1.0.1.0</a></div>
-                                        <div class="col-xs-3 text-right no-padding">24/09/2012</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Property_Key_Management/1.0.1.0/Property Key Management 1.0.1.0.zip">Property Key Management 1.0.1.0</a></div>
+                                        <div class="col-xs-12 text-right no-padding">24/09/2012</div>
                                     </div>
 
                                     <div class="sql">
@@ -3818,8 +3819,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Property_Key_Management/1.0.0.0/Property Key Management 1.0.0.0.zip">Property Key Management 1.0.0.0</a></div>
-                                        <div class="col-xs-3 text-right no-padding">00/00/0000</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Property_Key_Management/1.0.0.0/Property Key Management 1.0.0.0.zip">Property Key Management 1.0.0.0</a></div>
+                                        <div class="col-xs-12 text-right no-padding">00/00/0000</div>
                                     </div>
 
                                     <div class="sql">
@@ -3931,8 +3932,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Web_Admin_Tool/1.0.0.2/WebEziKeyAdminTool_1.0.0.2.zip">EziKey_Web_Admin_Tool_1_0_0_2</a></div>
-                                        <div class="col-xs-3 text-right no-padding">15/11/2013</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Web_Admin_Tool/1.0.0.2/WebEziKeyAdminTool_1.0.0.2.zip">EziKey_Web_Admin_Tool_1_0_0_2</a></div>
+                                        <div class="col-xs-12 text-right no-padding">15/11/2013</div>
                                     </div>
 
                                     <div class="sql">
@@ -3954,8 +3955,8 @@
                                 
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Web_Admin_Tool/1.0.0.1/EziKey_Web_Admin_Tool_1_0_0_1.zip">EziKey_Web_Admin_Tool_1_0_0_1</a></div>
-                                        <div class="col-xs-3 text-right no-padding">12/08/2013</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Web_Admin_Tool/1.0.0.1/EziKey_Web_Admin_Tool_1_0_0_1.zip">EziKey_Web_Admin_Tool_1_0_0_1</a></div>
+                                        <div class="col-xs-12 text-right no-padding">12/08/2013</div>
                                     </div>
 
                                     <div class="sql">
@@ -3976,8 +3977,8 @@
                                 </div>
                                 <div class="ezi-touch">
                                     <div class="row">
-                                        <div class="col-xs-8 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Web_Admin_Tool/1.0.0.0/Ezikey-Web Admin System 1.0.0.0.zip">EziKey_Web_Admin_Tool_1_0_0_0</a></div>
-                                        <div class="col-xs-3 text-right no-padding">01/08/2013</div>
+                                        <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Ezikey_Web_Admin_Tool/1.0.0.0/Ezikey-Web Admin System 1.0.0.0.zip">EziKey_Web_Admin_Tool_1_0_0_0</a></div>
+                                        <div class="col-xs-12 text-right no-padding">01/08/2013</div>
                                     </div>
 
                                     <div class="sql">

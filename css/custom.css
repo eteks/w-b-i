@@ -1,4 +1,4 @@
-/*Added by Thangam*/
+Added by Thangam*/
 body {
     font-family: 'Lato', sans-serif;
     /*padding-bottom: 200px;*/
@@ -70,7 +70,7 @@ thead tr {
     text-decoration: none;
 }
 .container_table {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .dwnld_svg {
     float: right;
@@ -188,6 +188,7 @@ li {
     -webkit-border-radius: 4px;
     -khtml-border-radius: 4px;
     border-radius: 4px;
+    margin: 5px 0;
 }
 .sub-log-title a {
     text-decoration: none;
@@ -447,6 +448,18 @@ table a{
     .table-responsive .comment{
         display: none !important;
     }
+    /* Akila Added */
+    .show_touchsystem .morelink, .show_mgmt_tools .morelink, .show_report_service .morelink, .show_schedule_service .morelink, 
+    .show_webfleet_keybox_sync .morelink, .show_webfleet_keybox .morelink, .show_property_key_admin_tool .morelink, 
+    .show_property_key_mgmt .morelink, .show_web_admin_tool .morelink{
+        display:none;
+    }
+    .ezi-touch{
+        padding:0;
+    }
+    .nav-pills .box{
+        font-size: 8px;
+    }
 }
 
 @media(min-width:767px){
@@ -456,6 +469,10 @@ table a{
 }
 
 /* For table inner Scroll- Added by Akila */
+.table > tbody > tr > td {
+    padding-top: 6px !important;
+    padding-bottom: 5px !important;
+}
 .release_notes{width: 10%;}
 .release_date{width: 10%;}
 table{
@@ -464,7 +481,7 @@ table{
 }
 tbody {
     min-height: 100px;
-    max-height: 230px;
+    max-height: 250px;
     overflow-x: hidden;
     overflow-y: auto;
     display: block;
@@ -553,4 +570,4 @@ tbody tr td:nth-child(5) {
 }
 
 
-/*Ended*/
+/*Ended
