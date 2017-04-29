@@ -1,4 +1,5 @@
-Added by Thangam*/
+/* Added by Thangam*/
+
 body {
     font-family: 'Lato', sans-serif;
     /*padding-bottom: 200px;*/
@@ -116,9 +117,7 @@ margin:30px 30px;
 .btn-social{text-align: center !important;border-radius: 0 !important;height: 40px;margin-top: 20px}
 .forgot-password{color: #616161;margin-left: -15px;}
 .row .social_icon{height: 39px;}
-.info {
-    background-color: #d9edf7 !important;
-}
+
 tr td {
     border-top: 1px solid #ddd;
     line-height: 1.42857;
@@ -126,6 +125,9 @@ tr td {
     vertical-align: top;
     /*text-align: center;*/
     color: #333333 !important;
+}
+.info{
+    background-color: #f2f2f2;
 }
 ul {
     list-style-type: none;
@@ -474,10 +476,13 @@ table a{
     padding-bottom: 5px !important;
 }
 .release_notes{width: 10%;}
+
 .release_date{width: 10%;}
+
 table{
     display: table;
     width:100%;
+    margin-bottom: 0px;
 }
 tbody {
     min-height: 100px;
@@ -558,16 +563,17 @@ tbody tr td:nth-child(5) {
 
 }
 .table-striped > tbody > tr:nth-of-type(2n+1) {
-    background-color: #fff !important;
+    background-color: #fff;
 }
-.ezi_touch_all > tr:nth-of-type(2n) {
+.table-striped > tbody > tr:nth-of-type(2n) {
 
-    background-color: #d9edf7 !important;
+    background-color: #f2f2f2;
+}
+.odd {
+    background-color:#FFF !important;
 }
 
-.ezi_mgmnt_all > tr:nth-of-type(2n) {
-    background-color: #d9edf7 !important;
+.even {
+    background-color: #f2f2f2 !important;
 }
 
-
-/*Ended

@@ -9,17 +9,17 @@ $(document).ready(function() {
 		if(val=='auto'){
 			$('.ezi_touch_all').find('.auto td').show();
 			$('.ezi_touch_all').find('.manual td').hide();
-			evenrowsColor();
+			rowsauto();
 		}
 		else if(val=='manual'){
 			$('.ezi_touch_all').find('.manual td').show();
 			$('.ezi_touch_all').find('.auto td').hide();
-			oddrowsColor();
+			rowsColor();
 		}
 		else{
 			$('.ezi_touch_all td').show();
-			oddrowsColor();
-			evenrowsColor();
+			rowsColor();
+			
 		}
 	});
 
@@ -41,25 +41,15 @@ $(document).ready(function() {
 		}
 	});
 
-	function oddrowsColor(){
- 		// $("tr:even", table).removeClass("odd");
- 		 // alert('hi');
-		 $('tr:odd').css('background-color','#fff !important');
-		 $('tr:even').css('background-color', '#d9edf7 !important');
-
-		 
-
- 	}	
- 	function evenrowsColor(){
- 		// alert('hi');
- 		$('tr:even').css('background-color', '#d9edf7 !important');
- 		$('tr:odd').css('background-color','#fff !important');
- 	}
-
+	function rowsColor(){
+ 		alert('hi');
+		 // $('tr:odd').css('background-color','#fff !important');
+		 // $('tr:even').css('background-color', '#d9edf7 !important');
+		$(".ezi_touch_all").find("tr:visible:odd").addClass("even").removeClass("odd");
+		$(".ezi_touch_all").find("tr:visible:even").addClass("odd").removeClass("even");
+    }	
+ 	
 
 }); /* End of Document */
 
-// window.jQuery(document).ready(function(){
-   //     window.jQuery("tr:odd" ).css("background-color","#fff !important" );
-   //     window.jQuery("tr:even").css("background-color","#d9edf7 !important");
-    // });
+

@@ -21,11 +21,12 @@
     <!-- <link href="css/jquery.mCustomScrollbar.css" rel="stylesheet"> -->
 
     <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
     <!-- <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
     <!-- <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> -->
     <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
     <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"> -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    
 
 </head>
 
@@ -2016,7 +2017,7 @@
                                                 <a href="EZIKEY TOOLS/EziKey/ReportService/Version/1.0.4.0/Ezikey_Report_Service_1.0.4.0.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/ReportService/Version/1.0.4.0/Report Service.docx"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
+                                                <a href="EZIKEY TOOLS/EziKey/ReportService/Version/1.0.4.0/Report Service.docx"><img alt="ezi" src="images/docx.png" width="40px" height="30px"> User Manual</a>
                                             </li>
 
                                         </ul>
@@ -2038,7 +2039,7 @@
                                                 <a href="EZIKEY TOOLS/EziKey/ReportService/Version/1.0.5.0/Ezikey_Report_Service_1.0.5.0.txt"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/ReportService/Version/1.0.5.0/Report Service.docx"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
+                                                <a href="EZIKEY TOOLS/EziKey/ReportService/Version/1.0.5.0/Report Service.docx"><img alt="ezi" src="images/docx.png" width="40px" height="30px"> User Manual</a>
                                             </li>
 
                                         </ul>
@@ -2072,12 +2073,12 @@
                                             <br/>
                                         </td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/ReportService/Version/1.0.5.0/Report Service.docx"><img alt="ezi" src="images/pdf.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/ReportService/Version/1.0.5.0/Report Service.docx"><img alt="ezi" src="images/docx.png" width="40px" height="30px"></a>
                                             <br/>
                                         </td>
                                         <td>15/11/2013</td>
                                     </tr>
-                                    <tr class="info">
+                                    <tr class="">
                                         <td><a href="EZIKEY TOOLS/EziKey/ReportService/Version/1.0.4.0/KeyReportService_1.0.4.0.zip">EziKey Report Service 1_0_4_0</a>
                                             <br/>
                                         </td>
@@ -2091,7 +2092,7 @@
                                             <br/>
                                         </td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/ReportService/Version/1.0.4.0/Report Service.docx"><img alt="ezi" src="images/pdf.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/ReportService/Version/1.0.4.0/Report Service.docx"><img alt="ezi" src="images/docx.png" width="40px" height="30px"></a>
                                             <br/>
                                         </td>
                                         <td>14/10/2013</td>
@@ -2286,7 +2287,7 @@
                                         <td>&nbsp;</td>
                                         <td>28/08/2015</td>
                                     </tr>
-                                    <tr class="info">
+                                    <tr class="">
                                         <td><a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.8/Ezikey Schedule Service Test V1.0.1.8.zip">EziKey Schedule Service 1_0_1_8</a>
                                             <br/>
                                         </td>
@@ -2312,7 +2313,7 @@
                                         <td>&nbsp;</td>
                                         <td>08/06/2015</td>
                                     </tr>
-                                    <tr class="info">
+                                    <tr class="">
                                         <td><a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.6/Ezikey Schedule Service  V1.0.1.6.zip">EziKey Schedule Service 1_0_1_6</a>
                                             <br/>
                                         </td>
@@ -2338,7 +2339,7 @@
                                         <td>&nbsp;</td>
                                         <td>23/06/2014</td>
                                     </tr>
-                                    <tr class="info">
+                                    <tr class="">
                                         <td><a href="EZIKEY TOOLS/EziKey/SchduleService/1.0.1.4/EziKeyScheduleService_1.0.1.4.zip">EziKey Schedule Service 1_0_1_4</a>
                                             <br/>
                                         </td>
@@ -2691,7 +2692,7 @@
                                         <td>&nbsp;</td>
                                         <td>11/05/2015</td>
                                     </tr>
-                                    <tr class="info">
+                                    <tr class="">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.4/WebfleetKeyBoxSync V1.8.0.4-03311541.zip">Webfleet Key Box Sync 1_8_0_4</a>
                                             <br/>
                                         </td>
@@ -2717,7 +2718,7 @@
                                         <td>&nbsp;</td>
                                         <td>20/03/2015</td>
                                     </tr>  
-                                    <tr class="info">
+                                    <tr class="">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.8.0.1/WebfleetKeyBoxSync V1.8.0.1-11191334.zip">Webfleet Key Box Sync 1_8_0_1</a>
                                             <br/>
                                         </td>
@@ -2743,7 +2744,7 @@
                                         <td>&nbsp;</td>
                                         <td>07/11/2014</td>
                                     </tr>
-                                    <tr class="info">
+                                    <tr class="">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.6.0.0/WebfleetKeyBoxSync TestV1.6.0.0-07241049.zip">Webfleet Key Box Sync 1_6_0_0</a>
                                             <br/>
                                         </td>
@@ -2769,7 +2770,7 @@
                                         <td>&nbsp;</td>
                                         <td>20/06/2014</td>
                                     </tr>
-                                    <tr class="info">
+                                    <tr class="">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.4.0.1/WebfleetKeyBoxSync Release V1.4.0.1.zip">Webfleet Key Box Sync 1_4_0_1</a>
                                             <br/>
                                         </td>
@@ -2795,7 +2796,7 @@
                                         <td>&nbsp;</td>
                                         <td>03/03/2014</td>
                                     </tr>
-                                    <tr class="info">
+                                    <tr class="">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.3.0.0/WebfleetKeyBoxSync_1.3.0.0.zip">Webfleet Key Box Sync 1_3_0_0</a>
                                             <br/>
                                         </td>
@@ -2821,7 +2822,7 @@
                                         <td>&nbsp;</td>
                                         <td>&nbsp;</td>
                                     </tr>
-                                     <tr class="info">
+                                     <tr class="">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.2.7.0/Webfleet Key Box Sync 1.2.7.0.zip">Webfleet Key Box Sync 1_2_7_0</a>
                                            <br/>
                                         </td>
@@ -2835,7 +2836,7 @@
                                         <td>28/06/2013</td>
                                     </tr>
                                     <tr>
-                                        <td><a href"EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.2.6.2/WebfleetKeyBoxSync_1_2_6_2.zip">Webfleet Key Box Sync 1_2_6_2</a>
+                                        <td><a href="EZIKEY TOOLS/EziKey/Webfleet_KeyboxSync/1.2.6.2/WebfleetKeyBoxSync_1_2_6_2.zip">Webfleet Key Box Sync 1_2_6_2</a>
                                             <br/>
                                         </td>
 
@@ -3370,7 +3371,7 @@
                                         <td>&nbsp;</td>
                                         <td>09/05/2016</td>
                                     </tr>
-                                    <tr class="info">
+                                    <tr class="">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.2/Smartfleet Keybox V1.8.0.2-12181541.zip">Webfleet Key Box 1_8_0_2</a>
                                             <br/>
                                         </td>
@@ -3396,7 +3397,7 @@
                                         <td>&nbsp;</td>
                                         <td>19/11/2014</td>
                                     </tr>
-                                    <tr class="info">
+                                    <tr class="">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.8.0.0/Smartfleet Keybox V1.8.0.0-10291552.zip">Webfleet Key Box 1_8_0_0</a>
                                             <br/>
                                         </td>
@@ -3422,7 +3423,7 @@
                                         <td>&nbsp;</td>
                                         <td>09/09/2014</td>
                                     </tr>
-                                    <tr class="info">
+                                    <tr class="">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.6.0.1/Smartfleet Keybox V1.6.0.1-08051247.zip">Webfleet Key Box 1_6_0_1</a>
                                             <br/>
                                         </td>
@@ -3448,7 +3449,7 @@
                                         <td>&nbsp;</td>
                                         <td>29/07/2014</td>
                                     </tr>
-                                    <tr class="info">
+                                    <tr class="">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.5.0.0/Smartfleet Keybox TestV1.5.0.0-06161444.zip">Webfleet Key Box 1_5_0_0</a>
                                             <br/>
                                         </td>
@@ -3474,7 +3475,7 @@
                                         <td>&nbsp;</td>
                                         <td>18/04/2014</td>
                                     </tr>
-                                    <tr class="info">
+                                    <tr class="">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.1.0/Smartfleet Keybox Release V1.3.1.0.zip">Webfleet Key Box 1_3_1_0</a>
                                             <br/>
                                         </td>
@@ -3500,7 +3501,7 @@
                                         <td>&nbsp;</td>
                                         <td>&nbsp;</td>
                                     </tr>
-                                    <tr class="info">
+                                    <tr class="">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.2/Smartfleet Keybox V1.3.0.2.zip">Webfleet Key Box 1_3_0_2</a>
                                             <br/>
                                         </td>
@@ -3526,7 +3527,7 @@
                                         <td>&nbsp;</td>
                                         <td>&nbsp;</td>
                                     </tr>
-                                    <tr class="info">
+                                    <tr class="">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.3.0.0/SmartFleetKeyBox_1.3.0.0.zip">Webfleet Key Box 1_3_0_0</a>
                                             <br/>
                                         </td>
@@ -3552,7 +3553,7 @@
                                         <td>&nbsp;</td>
                                         <td>&nbsp;</td>
                                     </tr>
-                                    <tr class="info">
+                                    <tr class="">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.4/WebfleetKeyBox_1_2_7_4.zip">Webfleet Key Box 1_2_7_4</a>
                                             <br/>
                                         </td>
@@ -3578,7 +3579,7 @@
                                         <td>&nbsp;</td>
                                         <td>27/09/2013</td>
                                     </tr>
-                                    <tr class="info">
+                                    <tr class="">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.7.1/Webfleet Keybox 1.2.7.1.zip">Webfleet Key Box 1_2_7_1</a>
                                             <br/>
                                         </td>
@@ -3604,7 +3605,7 @@
                                         <td>&nbsp;</td>
                                         <td>26/07/2012</td>
                                     </tr>
-                                    <tr class="info">
+                                    <tr class="">
                                         <td><a href="EZIKEY TOOLS/EziKey/Webfleet_Keybox/1.2.6.2Beta/WebfleetKeyBox 1.2.6.2 BETA.zip">Webfleet Key Box 1_2_6_2 BETA</a>
                                             <br/>
                                         </td>
@@ -3659,7 +3660,7 @@
                                 <div class="ezi-touch">
                                     <div class="row">
                                         <div class="col-xs-12 link-ver no-padding"><a href="EZIKEY TOOLS/EziKey/Property_Key_Admin_Tool/1_0_0_0/Property Key Admin Tool 1.0.0.0.zip">Property Key Admin Tool 1_0_0_0</a></div>
-                                        <div class="col-xs-12 text-right no-padding">00/00/0000</div>
+                                        <!-- <div class="col-xs-12 text-right no-padding">00/00/0000</div> -->
                                     </div>
 
                                     <div class="sql">
@@ -3693,7 +3694,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Property_Key_Admin_Tool/1.0.1.0/Property Key Admin Tool1.0.1.0-note.xlsx"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Property_Key_Admin_Tool/1.0.1.0/Property Key Admin Tool1.0.1.0-note.xlsx"><img alt="ezi" src="images/xls.png" width="40px" height="30px"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Property_Key_Admin_Tool/1.0.1.0/Property Key Admin Tool 1.0.1.0.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3728,7 +3729,7 @@
                                             <br/>
                                         </td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Property_Key_Admin_Tool/1.0.1.0/Property Key Admin Tool1.0.1.0-note.xlsx"><img src="images/notes.svg" alt="ezi" /></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Property_Key_Admin_Tool/1.0.1.0/Property Key Admin Tool1.0.1.0-note.xlsx"><img src="images/xls.png" width="40px" height="30px" alt="ezi" /></a>
                                             </i>
                                         </td>
                                         <td class="text-center">
@@ -3736,12 +3737,12 @@
                                         </td>
                                         <td>06/11/2013</td>
                                     </tr>
-                                    <tr class="info">
+                                    <tr class="">
                                         <td><a href="EZIKEY TOOLS/EziKey/Property_Key_Admin_Tool/1.0.0.0/Property Key Admin Tool 1.0.0.0.zip">Property Key Admin Tool 1_0_0_0</a></td>
                                         <td> &nbsp; </td>
                                         <td class="text-center"> &nbsp; </td>
                                         <td class="text-center"> &nbsp; </td>
-                                        <td>00/00/0000</td>
+                                        <td></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -3806,7 +3807,7 @@
                                         </ul>
                                         <ul role="tablist" class="nav nav-pills">
                                             <li class="box" role="">
-                                                <a href="EZIKEY TOOLS/EziKey/Property_Key_Management/1.0.1.0/Property Key Management1.0.1.0-note.xlsx"><img alt="ezi" src="images/notes.svg"> Release Notes</a>
+                                                <a href="EZIKEY TOOLS/EziKey/Property_Key_Management/1.0.1.0/Property Key Management1.0.1.0-note.xlsx"><img alt="ezi" src="images/xls.png" width="40px" height="30px"> Release Notes</a>
                                             </li>
                                             <li class="box" role="">
                                                 <a href="EZIKEY TOOLS/EziKey/Property_Key_Management/1.0.1.0/Property Key Management 1.0.1.0.pdf"><img alt="ezi" src="images/pdf.svg"> User Manual</a>
@@ -3870,7 +3871,7 @@
                                         </td>
                                         <td>13/03/2014</td>
                                     </tr>
-                                    <tr class="info">
+                                    <tr class="">
                                         <td><a href="EZIKEY TOOLS/EziKey/Property_Key_Management/1.0.1.0/Property Key Management 1.0.1.0.zip">Property Key Management 1_0_1_0</a>
                                             <br/>
                                         </td>
@@ -3880,7 +3881,8 @@
                                             <br/>
                                         </td>
                                         <td class="text-center">
-                                            <a href="EZIKEY TOOLS/EziKey/Property_Key_Management/1.0.1.0/Property Key Management1.0.1.0-note.xlsx"><img alt="ezi" src="images/notes.svg"></a>
+                                            <a href="EZIKEY TOOLS/EziKey/Property_Key_Management/1.0.1.0/Property Key Management1.0.1.0-note.xlsx"><img alt="ezi" src="images/xls.png" width="40px" 
+                                            height="30px"></a>
                                             <br/>
                                         </td>
                                         <td class="text-center">
@@ -4035,7 +4037,7 @@
                                         </td>
                                         <td>15/11/2013</td>
                                     </tr>
-                                    <tr class="info">
+                                    <tr class="">
                                         <td><a href="EZIKEY TOOLS/EziKey/Ezikey_Web_Admin_Tool/1.0.0.1/EziKey_Web_Admin_Tool_1_0_0_1.zip">EziKey Web Admin Tool 1_0_0_1</a>
                                             <br/>
                                         </td>
