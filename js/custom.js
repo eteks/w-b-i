@@ -9,12 +9,12 @@ $(document).ready(function() {
 		if(val=='auto'){
 			$('.ezi_touch_all').find('.auto td').show();
 			$('.ezi_touch_all').find('.manual td').hide();
-			rowsauto();
+			rowsAuto();
 		}
 		else if(val=='manual'){
 			$('.ezi_touch_all').find('.manual td').show();
 			$('.ezi_touch_all').find('.auto td').hide();
-			rowsColor();
+			rowsManual();
 		}
 		else{
 			$('.ezi_touch_all td').show();
@@ -25,9 +25,7 @@ $(document).ready(function() {
 
 	
 	$('.ezi_mgmnt_option').change(function(){
-		// alert('hi');
 		var val= $(this).val();
-		// alert(val);
 		if(val=='auto'){
 			$('.ezi_mgmnt_all').find('.auto td').show();
 			$('.ezi_mgmnt_all').find('.manual td').hide();
@@ -42,10 +40,7 @@ $(document).ready(function() {
 	});
 
 	function rowsColor(){
- 		alert('hi');
-		 // $('tr:odd').css('background-color','#fff !important');
-		 // $('tr:even').css('background-color', '#d9edf7 !important');
-		$(".ezi_touch_all").find("tr:visible:odd").addClass("even").removeClass("odd");
+ 		$(".ezi_touch_all").find("tr:visible:odd").addClass("even").removeClass("odd");
 		$(".ezi_touch_all").find("tr:visible:even").addClass("odd").removeClass("even");
     }	
  	
